@@ -44,8 +44,7 @@
   -%}
   {%- if section.blocks.size > 0
     or section.settings.newsletter_enable
-    or section.settings.show_social
-    and has_social_icons == true
+    or section.settings.show_social and has_social_icons == true
     or section.settings.enable_follow_on_shop
   -%}
     {%- unless only_empty_brand -%}
@@ -247,10 +246,6 @@
     {%- endunless -%}
   {%- endif -%}
 
-
-{% comment %}
-
-
   <div
     class="footer__content-bottom{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
     {% if settings.animations_reveal_on_scroll %}
@@ -353,7 +348,6 @@
         {%- endif -%}
       </div>
     </div>
-
     <div class="footer__content-bottom-wrapper page-width{% if section.settings.enable_country_selector == false and section.settings.enable_language_selector == false %} footer__content-bottom-wrapper--center{% endif %}">
       <div class="footer__copyright caption">
         <small class="copyright__content"
@@ -376,11 +370,6 @@
       </div>
     </div>
   </div>
-
-
-{% endcomment %}
-
-
 </footer>
 
 {% schema %}
