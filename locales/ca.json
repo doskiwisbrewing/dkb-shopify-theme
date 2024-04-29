@@ -44,7 +44,15 @@
         "tooltip_accessibility_label": "Més informació",
         "errors": {
           "session_identifier_not_unique_error": "S'ha produït un error amb la comanda. Intenta tornar a processar el pagament.",
-          "line_item_limit_reached": "S'ha arribat a la quantitat màxima de línies d'article."
+          "line_item_limit_reached": "S'ha arribat a la quantitat màxima de línies d'article.",
+          "only_empty_terms_accepted": "Aquesta política només accepta termes buits.",
+          "session_is_already_finished": "Aquesta sessió de compra ja ha finalitzat",
+          "merchandise": {
+            "only_value_constraint": "Només valors exactes permesos.",
+            "merchandise_not_found": "Producte no trobat",
+            "merchandise_variant_not_found": "No s'ha trobat la variant",
+            "merchandise_not_applicable": "Aquesta variant no està disponible."
+          }
         },
         "full_price": "Preu regular:",
         "title": "Pantalla de pagament - {{shopName}}",
@@ -104,7 +112,11 @@
         },
         "continue_button_label": "Continua",
         "autocomplete_selection": "{{number}} de {{total}}",
-        "display_name": "{{firstName}} {{lastName}}"
+        "display_name": "{{firstName}} {{lastName}}",
+        "print_policies_link_label": "Imprimeix",
+        "submit": "Envía",
+        "remove_item": "Elimina {{ label }}",
+        "remove_tag": "Elimina etiqueta"
       },
       "contact": {
         "title": "Contacte",
@@ -1533,7 +1545,10 @@
         "retail_method_definition": "Enviament al detall",
         "none_method_definition": "Sense enviament",
         "subscription_pickup_information": "Aquesta forma de lliurament s'aplicarà a tots els articles d'aquesta comanda ia totes les comandes futures que es facin usant aquesta subscripció.",
-        "ship": "Enviar"
+        "ship": "Enviar",
+        "free_total_label": "Gratuït",
+        "ship_to_address": "Envía a l'adreça",
+        "pick_up_from_store": "Recollida a la fàbrica"
       },
       "customer_account": {
         "not_user_label": "No ets %{first_name}?",
@@ -1544,7 +1559,13 @@
         "incomplete_address": "L'adreça seleccionada és incompleta. %{update_address_link} o seleccioneu una adreça diferent.",
         "invalid_address": "L'adreça seleccionada no és vàlida. %{update_address_link} o seleccioneu una adreça diferent.",
         "rollup_label": "Compte",
-        "invalid_shipping_method_summary": "Seleccioneu una adreça d'enviament vàlida per veure els mètodes d'enviament disponibles."
+        "invalid_shipping_method_summary": "Seleccioneu una adreça d'enviament vàlida per veure els mètodes d'enviament disponibles.",
+        "saved_address_option_description": {
+          "one": "Tens {{count}} adreces guardades",
+          "other": "Tens {{count}} adreces guardades"
+        },
+        "saved_address_option_link": "Fes servir una adreça desada",
+        "saved_address_modal_title": "Fes servir la meva adreça"
       },
       "stock": {
         "page_title": "Problemes d'inventari",
@@ -1572,7 +1593,11 @@
         },
         "continue_shopping_button_label": "Continua",
         "return_to_store_label": "Torna a la botiga",
-        "continue_cta_label": "Continua "
+        "continue_cta_label": "Continua ",
+        "item_label": {
+          "one": "{{count}} element",
+          "other": "{{count}} elements"
+        }
       }
     },
     "email_marketing": {
