@@ -39,7 +39,7 @@
         "text_XbTyMr": {
           "type": "text",
           "settings": {
-            "text": "La nostra Hazy IPA per excel·lència, Sometimes Always és sedosa, intensa, dolça i a la vegada molt accessible. Les aromes de fruita tropical i cítrics donen pas a sabors de préssec, meló i taronja confitada. Presenta un toc d’amargor final que persisteix lleugerament sense ser excessiu.",
+            "text": "The Red Dot és una Hazy IPA amb dryhop de 100% Cashmere, una varietat que és filla de Cascade i té un amargor persistent però suau i una lleugera aroma a cítrics.El nom d'aquesta cervesa està inspirat en l'episodi <a href=\"https:\/\/www.youtube.com\/watch?v=xteXgurD-DM\">The Red Dot<\/a> de Seinfeld on George compra a Elaine un jersei 100% caixmir.",
             "text_style": "body"
           }
         },
@@ -69,7 +69,7 @@
         ".grid__item {max-height: 500px;}"
       ],
       "settings": {
-        "product": "sometimesalways-ipa",
+        "product": "the-red-dot",
         "color_scheme": "",
         "secondary_background": false,
         "media_size": "small",
