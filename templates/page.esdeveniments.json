@@ -1,1 +1,63 @@
-{"sections":{"main":{"type":"main-page","custom_css":[],"settings":{"padding_top":36,"padding_bottom":0}},"5ab0d96a-1e54-4d35-9e31-d7fc6b6db095":{"type":"rich-text","blocks":{"424f32ce-9862-4c60-abf7-5db44175c7e5":{"type":"heading","settings":{"heading":"Celebra amb nosaltres","heading_size":"h1"}},"template--20113423270227__5ab0d96a-1e54-4d35-9e31-d7fc6b6db095-text-1":{"type":"text","settings":{"text":"<p>Si t’agradaria celebrar o realitzar algun esdeveniment a Doskiwis <a href=\"mailto:doskiwis@doskiwisbrewing.com\" title=\"mailto:doskiwis@doskiwisbrewing.com\">posa’t en contacte amb nosaltres<\/a>! Podem albergar diversos tipus d’esdeveniments, des de llançament d’àlbums fins a casaments o festes d’aniversari, tú decideixes. També podem organitzar visites privades a la fàbrica i tasts per tú i als teus convidats.<\/p><p>Celebres també en algun lloc en concret? Oferim lloguer de tiradors + barrils i llaunes per tal de que puguis endur-te les teves cerveses preferides de Doskiwis amb tú a la teva cel·lebració.<\/p><p>Envia’ns un email a doskiwis@doskiwisbrewing per sol·licitar el teu barril o la teva consulta sobre el nostre servei de lloguer de tiradors<\/p>"}}},"block_order":["424f32ce-9862-4c60-abf7-5db44175c7e5","template--20113423270227__5ab0d96a-1e54-4d35-9e31-d7fc6b6db095-text-1"],"custom_css":[],"settings":{"desktop_content_position":"center","content_alignment":"left","color_scheme":"","full_width":true,"padding_top":24,"padding_bottom":52}},"11a17f57-7c52-478a-8af1-40329256d795":{"type":"contact-form","settings":{"heading":"Contacta amb nosaltres","heading_size":"h1","color_scheme":"","padding_top":36,"padding_bottom":36}}},"order":["main","5ab0d96a-1e54-4d35-9e31-d7fc6b6db095","11a17f57-7c52-478a-8af1-40329256d795"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "5ab0d96a-1e54-4d35-9e31-d7fc6b6db095": {
+      "type": "rich-text",
+      "blocks": {
+        "424f32ce-9862-4c60-abf7-5db44175c7e5": {
+          "type": "heading",
+          "settings": {
+            "heading": "Celebra amb nosaltres",
+            "heading_size": "h1"
+          }
+        },
+        "template--20113423270227__5ab0d96a-1e54-4d35-9e31-d7fc6b6db095-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Si t’agradaria celebrar o realitzar algun esdeveniment a Doskiwis <a href=\"mailto:doskiwis@doskiwisbrewing.com\" title=\"mailto:doskiwis@doskiwisbrewing.com\">posa’t en contacte amb nosaltres<\/a>! Podem albergar diversos tipus d’esdeveniments, des de llançament d’àlbums fins a casaments o festes d’aniversari, tú decideixes. També podem organitzar visites privades a la fàbrica i tasts per tú i als teus convidats.<\/p><p>Celebres també en algun lloc en concret? Oferim lloguer de tiradors + barrils i llaunes per tal de que puguis endur-te les teves cerveses preferides de Doskiwis amb tú a la teva cel·lebració.<\/p><p>Envia’ns un email a doskiwis@doskiwisbrewing per sol·licitar el teu barril o la teva consulta sobre el nostre servei de lloguer de tiradors<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "424f32ce-9862-4c60-abf7-5db44175c7e5",
+        "template--20113423270227__5ab0d96a-1e54-4d35-9e31-d7fc6b6db095-text-1"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 24,
+        "padding_bottom": 52
+      }
+    },
+    "11a17f57-7c52-478a-8af1-40329256d795": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Contacta amb nosaltres",
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "5ab0d96a-1e54-4d35-9e31-d7fc6b6db095",
+    "11a17f57-7c52-478a-8af1-40329256d795"
+  ]
+}
