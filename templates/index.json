@@ -51,7 +51,7 @@
         "button_hnggch"
       ],
       "custom_css": [
-        "img {object-fit: contain;}"
+        "img {object-fit: contain; max-height: 90%}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/intoit.jpg",
