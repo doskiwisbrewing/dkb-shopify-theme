@@ -41,8 +41,8 @@
         "link_list_CMienx"
       ],
       "custom_css": [
-        ".gradient {background: var(--gradient-background); background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0779\/8118\/8435\/files\/FOOTER_2.svg?v=1718314735) !important; background-position: top left !important; background-size: 800px; background-repeat: no-repeat; background-color: #fffde9 !important;}",
-        ".footer {padding-top: 180px;}",
+        ".gradient {background: var(--gradient-background); background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0779\/8118\/8435\/files\/FOOTER_1366_x_768_px.svg?v=1718314603) !important; background-position: top left !important; background-size: 800px; background-repeat: no-repeat; background-color: #fffde9 !important;}",
+        ".footer {padding-top: 210px;}",
         ".footer__quicklinks ul {line-height: 20;}",
         "a {text-decoration: underline;}",
         ".footer-block__details-content .list-menu__item--link {padding-top: 4px;}"
