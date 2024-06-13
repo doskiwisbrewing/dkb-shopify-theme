@@ -19,31 +19,33 @@
             "subtext": "<h3><strong>TAPROOM<\/strong><\/h3><h5><a href=\"https:\/\/www.google.com\/maps\/place\/DOSKIWIS+BREWING\/@42.0225367,3.003692,17z\/data=!3m1!4b1!4m6!3m5!1s0x12bafa171344c665:0xa92eec59e452f07d!8m2!3d42.0225367!4d3.0062669!16s%2Fg%2F11hd22j_yb?entry=ttu\" target=\"_blank\" title=\"https:\/\/www.google.com\/maps\/place\/DOSKIWIS+BREWING\/@42.0225367,3.003692,17z\/data=!3m1!4b1!4m6!3m5!1s0x12bafa171344c665:0xa92eec59e452f07d!8m2!3d42.0225367!4d3.0062669!16s%2Fg%2F11hd22j_yb?entry=ttu\"><em>Els nostres horaris<\/em><\/a><em> varien segons l'època de l'any.<\/em><\/h5><h5><strong>Estiu<\/strong> - cada vespre de 18h a 00h<\/h5><h5><strong>Primavera i tardor <\/strong>- divendres de 18h a 00h, dissabtes de 12h a 00h i diumenges de 12h a 18h<\/h5><h5><strong>Hivern<\/strong> - dissabtes i diumenges de 12h a 18h<\/h5><h3><strong>BOTIGA<\/strong><\/h3><h5>Oberta <a href=\"https:\/\/www.google.com\/maps\/place\/DOSKIWIS+BREWING\/@42.0225367,3.003692,17z\/data=!3m1!4b1!4m6!3m5!1s0x12bafa171344c665:0xa92eec59e452f07d!8m2!3d42.0225367!4d3.0062669!16s%2Fg%2F11hd22j_yb?entry=ttu\" target=\"_blank\" title=\"https:\/\/www.google.com\/maps\/place\/DOSKIWIS+BREWING\/@42.0225367,3.003692,17z\/data=!3m1!4b1!4m6!3m5!1s0x12bafa171344c665:0xa92eec59e452f07d!8m2!3d42.0225367!4d3.0062669!16s%2Fg%2F11hd22j_yb?entry=ttu\">durant els horaris del taproom<\/a> i de dimarts a divendres de 10h a 18h<\/h5><h5><\/h5><p><\/p>"
           }
         },
-        "link_list_CMienx": {
-          "type": "link_list",
-          "settings": {
-            "heading": "<strong>Links<\/strong>",
-            "menu": "links-footer-menu"
-          }
-        },
         "link_list_PDRB48": {
           "type": "link_list",
           "settings": {
             "heading": "<strong>Connect<\/strong>",
             "menu": "footer"
           }
+        },
+        "link_list_CMienx": {
+          "type": "link_list",
+          "settings": {
+            "heading": "<strong>Links<\/strong>",
+            "menu": "links-footer-menu"
+          }
         }
       },
       "block_order": [
         "5a7ac4a9-5224-4851-8bf1-2d5670ebb357",
         "text_iUNX3i",
-        "link_list_CMienx",
-        "link_list_PDRB48"
+        "link_list_PDRB48",
+        "link_list_CMienx"
       ],
       "custom_css": [
         ".rte {margin-bottom: rem;}",
         ".gradient {background: var(--gradient-background); background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0779\/8118\/8435\/files\/FOOTER_2.svg?v=1718314735) !important; background-position: top left !important; background-size: 800px; background-repeat: no-repeat; background-color: #fffde9 !important;}",
-        ".footer {padding-top: 180px;}"
+        ".footer {padding-top: 180px;}",
+        ".footer__quicklinks ul {line-height: 20;}",
+        "a {text-decoration: underline;}"
       ],
       "settings": {
         "color_scheme": "scheme-9641a114-95db-4b5a-b6d4-dd518e525051",
