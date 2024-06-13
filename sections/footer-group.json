@@ -41,7 +41,9 @@
         "text_iUNX3i"
       ],
       "custom_css": [
-        ".rte {margin-bottom: rem;}"
+        ".rte {margin-bottom: rem;}",
+        ".gradient {background: var(--gradient-background); background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0779\/8118\/8435\/files\/FOOTER_2.svg?v=1718313912) !important; background-position: top left !important; background-size: 800px; background-repeat: no-repeat; background-color: #fffde9 !important;}",
+        ".footer {padding-top: 180px }"
       ],
       "settings": {
         "color_scheme": "scheme-9641a114-95db-4b5a-b6d4-dd518e525051",
@@ -53,9 +55,9 @@
         "enable_language_selector": false,
         "payment_enable": false,
         "show_policy": false,
-        "margin_top": 0,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "margin_top": 36,
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     }
   },
