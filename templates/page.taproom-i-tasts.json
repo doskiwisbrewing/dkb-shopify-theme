@@ -186,13 +186,20 @@
         "padding_bottom": 0
       }
     },
-    "e692c9a1-3419-4af6-b240-d673e8ab3107": {
-      "type": "custom-liquid",
+    "image_banner_ThrxWa": {
+      "type": "image-banner",
       "settings": {
-        "custom_liquid": "<style>\n.container {\n    margin-left: 43vh;\n    position: relative;\n    padding-bottom: 58.25%;\n    padding-top: 25px;\n    height: 0;\n    margin-right: 40vh\n}\n\n.container iframe {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n}\n<\/style>\n\n<div class=\"container\">\n    <iframe src=\"https:\/\/docs.google.com\/spreadsheets\/d\/e\/2PACX-1vQi6PcMcJTqxP1NgjklvoDNBDkDIV8tEBLX8DyR4wzkZbbDL9aLOX1o8bjyaQjCh6IwhaedKbkeIpBN\/pubhtml?widget=true&amp;headers=false\"><\/iframe>\n<\/div>",
+        "image": "shopify:\/\/shop_images\/Monthly_Calendar.svg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
         "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     }
   },
@@ -203,6 +210,6 @@
     "6a439f21-8554-4a4f-b322-0b28d5a03541",
     "71971597-3352-40a2-a64c-bc931f1d7838",
     "75dd660c-f305-4a96-8f18-3a227bdd2560",
-    "e692c9a1-3419-4af6-b240-d673e8ab3107"
+    "image_banner_ThrxWa"
   ]
 }
