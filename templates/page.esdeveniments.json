@@ -1,54 +1,5 @@
 {
   "sections": {
-    "main": {
-      "type": "main-page",
-      "disabled": true,
-      "custom_css": [
-
-      ],
-      "settings": {
-        "padding_top": 36,
-        "padding_bottom": 0
-      }
-    },
-    "image_with_text_ya6Unr": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_LQ8HB3": {
-          "type": "heading",
-          "settings": {
-            "heading": "26\/04\/2024",
-            "heading_size": "h2"
-          }
-        },
-        "text_AMHrKh": {
-          "type": "text",
-          "settings": {
-            "text": "<h2>MERCAT DE ROBA DE SEGONA MÀ<\/h2><p>Necessites fer canvi d'armari? Sovint no és necessari comprar noves peces de roba! <br\/><br\/>El diumenge 26 de maig, vine a conèixer persones de la teva comunitat i troba allò que necessites. De 11:30 a 16:00.<\/p><p><em>T'esperem a DOSKIWIS, Carretera de Parlavà, 22, 171312 Rupià (Girona)<\/em><\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_LQ8HB3",
-        "text_AMHrKh"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/mercat_roba_de_segona_m_1.png",
-        "height": "adapt",
-        "desktop_image_width": "small",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "5ab0d96a-1e54-4d35-9e31-d7fc6b6db095": {
       "type": "rich-text",
       "blocks": {
@@ -62,7 +13,7 @@
         "template--20113423270227__5ab0d96a-1e54-4d35-9e31-d7fc6b6db095-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Si t’agradaria celebrar o realitzar algun esdeveniment a Doskiwis <a href=\"mailto:doskiwis@doskiwisbrewing.com\" title=\"mailto:doskiwis@doskiwisbrewing.com\">posa’t en contacte amb nosaltres<\/a>! Podem albergar diversos tipus d’esdeveniments, des de llançament d’àlbums fins a casaments o festes d’aniversari, tú decideixes. També podem organitzar visites privades a la fàbrica i tasts per tú i als teus convidats.<\/p><p>Celebres també en algun lloc en concret? Oferim lloguer de tiradors + barrils i llaunes per tal de que puguis endur-te les teves cerveses preferides de Doskiwis amb tú a la teva cel·lebració.<\/p><p>Envia’ns un email a doskiwis@doskiwisbrewing per sol·licitar el teu barril o la teva consulta sobre el nostre servei de lloguer de tiradors<\/p>"
+            "text": "<p>Si t’agradaria celebrar o organitzar algun esdeveniment a Doskiwis, <a href=\"mailto:doskiwis@doskiwisbrewing.com\" title=\"mailto:doskiwis@doskiwisbrewing.com\">posa’t en contacte amb nosaltres<\/a>! <br\/><br\/>Celebres en un altre espai? Oferim lloguer de tiradors + barrils i llaunes per tal de que puguis comptar amb les teves cerveses preferides de Doskiwis durant la teva celebració.<\/p><p>Envia’ns un email a doskiwis@doskiwisbrewing per sol·licitar el teu barril o fer la teva consulta sobre el nostre servei de lloguer.<\/p>"
           }
         }
       },
@@ -82,6 +33,64 @@
         "padding_bottom": 52
       }
     },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_ya6Unr": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_PjP7dU": {
+          "type": "caption",
+          "settings": {
+            "caption": "ESDEVENIMENTS PASSATS",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "large"
+          }
+        },
+        "heading_LQ8HB3": {
+          "type": "heading",
+          "settings": {
+            "heading": "26\/04\/2024",
+            "heading_size": "h2"
+          }
+        },
+        "text_AMHrKh": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>MERCAT DE ROBA DE SEGONA MÀ<\/h2><p>Necessites fer canvi d'armari? Sovint no és necessari comprar noves peces de roba! <br\/><br\/>El diumenge 26 de maig, vine a conèixer persones de la teva comunitat i troba allò que necessites. De 11:30 a 16:00.<\/p><p><em>T'esperem a DOSKIWIS, Carretera de Parlavà, 22, 171312 Rupià (Girona)<\/em><\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "caption_PjP7dU",
+        "heading_LQ8HB3",
+        "text_AMHrKh"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/mercat_roba_de_segona_m_1.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "11a17f57-7c52-478a-8af1-40329256d795": {
       "type": "contact-form",
       "settings": {
@@ -94,9 +103,9 @@
     }
   },
   "order": [
+    "5ab0d96a-1e54-4d35-9e31-d7fc6b6db095",
     "main",
     "image_with_text_ya6Unr",
-    "5ab0d96a-1e54-4d35-9e31-d7fc6b6db095",
     "11a17f57-7c52-478a-8af1-40329256d795"
   ]
 }
