@@ -235,7 +235,7 @@
         "template--19735877615955__a84e0931-8f51-46dd-8c7f-cf103348b5ac-button-1": {
           "type": "button",
           "settings": {
-            "button_label": "Més",
+            "button_label": "MÉS",
             "button_link": "shopify:\/\/pages\/taproom",
             "button_style_secondary": false
           }
