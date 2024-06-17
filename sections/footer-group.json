@@ -37,7 +37,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Untitled_design_1.svg",
-            "image_width": 295,
+            "image_width": 150,
             "alignment": "right"
           }
         }
