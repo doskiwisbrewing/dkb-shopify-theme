@@ -3510,4 +3510,15 @@ details-disclosure > details {
   .animate--hover-vertical-lift .button:not([disabled]).button--secondary:hover:after {
     --border-offset: 0px; /* Prevent the border from growing on buttons when this effect is on. */
   }
+  #shopify-section-footer > footer > div:nth-child(2){
+    background: #ef3167 !important;
+    padding: 4% 10% 1% 10%;
+    max-width: 100%;
+}
+
+#shopify-section-footer > footer > div:nth-child(3) {
+    background: white;
+    max-width: 100%;
+    padding: 1% 10%;
+}
 }
