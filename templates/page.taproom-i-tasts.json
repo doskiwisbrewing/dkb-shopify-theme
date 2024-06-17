@@ -250,7 +250,7 @@
         "slide_8nN9Xz"
       ],
       "custom_css": [
-        "slideshow-component {padding: 20px 30px;}"
+        "slideshow-component {padding: 20px 20px;}"
       ],
       "settings": {
         "layout": "full_bleed",
