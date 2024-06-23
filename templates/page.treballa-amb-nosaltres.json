@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -14,9 +23,9 @@
           "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/Resize-Doskiwis-Container.jpg",
-            "caption": "Temps parcial",
+            "caption": "Temps complet",
             "heading": "Cuiner\/a",
-            "text": "<p>A Doskiwis Brewing ens centrem a crear cerveses artesanes modernes i accessibles. Una part clau del nostre projecte és el nostre espai de tast amb cuina. Incorporació immediata.<\/p>",
+            "text": "<p>A Doskiwis Brewing ens centrem en crear cerveses artesanes modernes i accessibles. Una part clau del nostre projecte és el nostre espai de tast amb cuina. Incorporació immediata.<\/p>",
             "button_label": "M'interessa!",
             "button_link": "shopify:\/\/pages\/cuinera"
           }
