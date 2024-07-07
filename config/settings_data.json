@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "current": {
     "logo": "shopify:\/\/shop_images\/DOSKIWISBREWING_LOGO_BLACK-01.png",
@@ -217,11 +226,11 @@
       },
       "scheme-aaafaf35-5b06-4754-9e59-742aa5dbed71": {
         "settings": {
-          "background": "#fffde9",
+          "background": "#ffffff",
           "background_gradient": "",
           "text": "#1c2444",
           "button": "#5c939b",
-          "button_label": "#fffde9",
+          "button_label": "#ffffff",
           "secondary_button_label": "#9c1c7c",
           "shadow": "#9c1c7c"
         }
