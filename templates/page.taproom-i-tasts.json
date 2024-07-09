@@ -200,6 +200,7 @@
       "blocks": {
         "slide_4Bt3Tr": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Juny2024.svg",
             "heading": "",
