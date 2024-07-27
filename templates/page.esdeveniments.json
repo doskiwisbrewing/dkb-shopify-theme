@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "5ab0d96a-1e54-4d35-9e31-d7fc6b6db095": {
@@ -44,6 +53,53 @@
         "padding_bottom": 0
       }
     },
+    "image_with_text_aHphen": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_NUdUaT": {
+          "type": "heading",
+          "settings": {
+            "heading": "Del  26\/07\/2024 al 29\/07\/2024",
+            "heading_size": "h2"
+          }
+        },
+        "text_U43GyN": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>SESSIÓ DJ CHALSZ<\/h2><p>Sessió de música a càrrec del nostre DJ preferit, <strong>Chalsz<\/strong><\/p><p><em>T'esperem a DOSKIWIS, Carretera de Parlavà, 22, 17131 Rupià (Girona)<\/em><\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_izaLtR": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_NUdUaT",
+        "text_U43GyN",
+        "button_izaLtR"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/f380379586d44c09a0dfd2946a408b61_320_320.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_with_text_ya6Unr": {
       "type": "image-with-text",
       "blocks": {
@@ -65,7 +121,7 @@
         "text_AMHrKh": {
           "type": "text",
           "settings": {
-            "text": "<h2>MERCAT DE ROBA DE SEGONA MÀ<\/h2><p>Necessites fer canvi d'armari? Sovint no és necessari comprar noves peces de roba! <br\/><br\/>El diumenge 26 de maig, vine a conèixer persones de la teva comunitat i troba allò que necessites. De 11:30 a 16:00.<\/p><p><em>T'esperem a DOSKIWIS, Carretera de Parlavà, 22, 171312 Rupià (Girona)<\/em><\/p>",
+            "text": "<h2>MERCAT DE ROBA DE SEGONA MÀ<\/h2><p>Necessites fer canvi d'armari? Sovint no és necessari comprar noves peces de roba! <br\/><br\/>El diumenge 26 de maig, vine a conèixer persones de la teva comunitat i troba allò que necessites. De 11:30 a 16:00.<\/p><p><em>T'esperem a DOSKIWIS, Carretera de Parlavà, 22, 17131 Rupià (Girona)<\/em><\/p>",
             "text_style": "body"
           }
         }
@@ -105,6 +161,7 @@
   "order": [
     "5ab0d96a-1e54-4d35-9e31-d7fc6b6db095",
     "main",
+    "image_with_text_aHphen",
     "image_with_text_ya6Unr",
     "11a17f57-7c52-478a-8af1-40329256d795"
   ]
