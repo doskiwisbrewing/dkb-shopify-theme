@@ -153,6 +153,7 @@
         "template--20113407967571__71971597-3352-40a2-a64c-bc931f1d7838-heading-1",
         "template--20113407967571__71971597-3352-40a2-a64c-bc931f1d7838-button-1"
       ],
+      "disabled": true,
       "custom_css": [
         "div {border-radius: 2%;}"
       ],
@@ -238,6 +239,7 @@
         },
         "slide_8nN9Xz": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Agost2024.svg",
             "heading": "",
