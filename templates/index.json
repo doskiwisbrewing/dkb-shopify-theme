@@ -272,7 +272,7 @@
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 4,
-        "padding_bottom": 4
+        "padding_bottom": 12
       }
     },
     "ad688dc9-f3fb-4d08-b21a-722fd3afc0a6": {
@@ -321,7 +321,7 @@
         "color_scheme": "scheme-aaafaf35-5b06-4754-9e59-742aa5dbed71",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 4,
+        "padding_top": 12,
         "padding_bottom": 0
       }
     },
