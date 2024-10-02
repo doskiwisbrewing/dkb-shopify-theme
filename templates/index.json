@@ -15,7 +15,7 @@
 
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/DOSKIWIS-BREWING-Cervesa-Artesana-Cerveza-Artesanal.jpg",
+        "image": "shopify://shop_images/DOSKIWIS-BREWING-Cervesa-Artesana-Cerveza-Artesanal.jpg",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "middle-center",
@@ -34,14 +34,14 @@
         "heading_9bWkgN": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>FIRECRACKER <\/strong>",
+            "heading": "<strong>JIGSAW</strong>",
             "heading_size": "h1"
           }
         },
         "text_E8my4R": {
           "type": "text",
           "settings": {
-            "text": "<p>Una NZ IPA de 5,8% extremadament bebible i plena de sabor; la companya perfecte pels últims dies d'estiu.<\/p>",
+            "text": "<p>Aromes de mel de farigola, notes herbàcies intenses al primer glop, combinades amb una dolçor que incrementa encara més la sensació de mel de flors silvestres en boca. Sense un final amarg intens; és delicada i molt bebible.</p>",
             "text_style": "body"
           }
         },
@@ -49,7 +49,7 @@
           "type": "button",
           "settings": {
             "button_label": "MÉS INFORMACIÓ",
-            "button_link": "shopify:\/\/products\/firecracker",
+            "button_link": "shopify://products/jigsaw",
             "button_style_secondary": false
           }
         }
@@ -63,7 +63,7 @@
         "img {object-fit: contain; max-height: 90%;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Cans_from_Doskiwis.png",
+        "image": "shopify://shop_images/jigsaw.png",
         "height": "medium",
         "desktop_image_width": "small",
         "layout": "image_first",
@@ -84,14 +84,14 @@
         "heading_RW89MN": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>HAPPY FARMHOUSE<\/strong>",
+            "heading": "<strong>BIG WEEK</strong>",
             "heading_size": "h1"
           }
         },
         "text_rptbDJ": {
           "type": "text",
           "settings": {
-            "text": "<p>Inspirada en algunes de les nostres saison preferides, Happy Farmhouse està elaborada amb flors de saüc que vam collir amb els amics de <a href=\"https:\/\/cyclicbeerfarm.com\/\" title=\"https:\/\/cyclicbeerfarm.com\/\">Cyclic<\/a> el mateix dia d’elaboració, a pocs metres de la nostra fàbrica. <\/p>",
+            "text": "<p>Fortes aromes de fruita madura com el mango i la pinya, es beu suau i plena però sense ser pesada, amb un primer glop dolç que evoluciona cap a notes finals intenses de pell de llima i herba de llimona.</p>",
             "text_style": "body"
           }
         },
@@ -99,7 +99,7 @@
           "type": "button",
           "settings": {
             "button_label": "MÉS INFORMACIÓ",
-            "button_link": "shopify:\/\/products\/happy-farmhouse",
+            "button_link": "shopify://products/big-week",
             "button_style_secondary": false
           }
         }
@@ -109,12 +109,11 @@
         "text_rptbDJ",
         "button_VbRNUR"
       ],
-      "disabled": true,
       "custom_css": [
         "img {object-fit: contain; max-height: 90%;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/happy_farmhouse.png",
+        "image": "shopify://shop_images/cans.png",
         "height": "medium",
         "desktop_image_width": "small",
         "layout": "text_first",
@@ -136,7 +135,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<strong>VENDA ANTICIPADA<\/strong>",
+            "text": "<strong>VENDA ANTICIPADA</strong>",
             "text_style": "body"
           }
         },
@@ -149,7 +148,7 @@
         "text_XbTyMr": {
           "type": "text",
           "settings": {
-            "text": "The Red Dot és una Hazy IPA amb dryhop de 100% Cashmere, una varietat que és filla de Cascade i té un amargor persistent però suau i una lleugera aroma a cítrics. El nom d'aquesta cervesa està inspirat en l'episodi <a href=\"https:\/\/www.youtube.com\/watch?v=xteXgurD-DM\">The Red Dot<\/a> de Seinfeld on en George li compra un jersei de caixmir a l'Elaine.",
+            "text": "The Red Dot és una Hazy IPA amb dryhop de 100% Cashmere, una varietat que és filla de Cascade i té un amargor persistent però suau i una lleugera aroma a cítrics. El nom d'aquesta cervesa està inspirat en l'episodi <a href=\"https://www.youtube.com/watch?v=xteXgurD-DM\">The Red Dot</a> de Seinfeld on en George li compra un jersei de caixmir a l'Elaine.",
             "text_style": "body"
           }
         },
@@ -200,7 +199,7 @@
         "img {object-fit: contain;}"
       ],
       "settings": {
-        "title": "<a href=\"https:\/\/www.doskiwisbrewing.com\/collections\" title=\"https:\/\/www.doskiwisbrewing.com\/collections\"><strong>CERVESES FRESQUES, APUNT PER ENVIAR<\/strong><\/a>",
+        "title": "<a href=\"https://www.doskiwisbrewing.com/collections\" title=\"https://www.doskiwisbrewing.com/collections\"><strong>CERVESES FRESQUES, APUNT PER ENVIAR</strong></a>",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -231,14 +230,14 @@
         "template--19735877615955__a84e0931-8f51-46dd-8c7f-cf103348b5ac-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>TASTA'NS<\/strong>",
+            "heading": "<strong>TASTA'NS</strong>",
             "heading_size": "h2"
           }
         },
         "template--19735877615955__a84e0931-8f51-46dd-8c7f-cf103348b5ac-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Prova la nostra cervesa acabada de fer a la mateixa fàbrica o emporta-te-la per gaudir-la a casa.<\/p>",
+            "text": "<p>Prova la nostra cervesa acabada de fer a la mateixa fàbrica o emporta-te-la per gaudir-la a casa.</p>",
             "text_style": "body"
           }
         },
@@ -246,7 +245,7 @@
           "type": "button",
           "settings": {
             "button_label": "MÉS",
-            "button_link": "shopify:\/\/pages\/taproom",
+            "button_link": "shopify://pages/taproom",
             "button_style_secondary": false
           }
         }
@@ -260,7 +259,7 @@
         ".button {font-weight: bold;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/custom_resized_e3015f41-c959-412c-8048-66021a7517a9.jpg",
+        "image": "shopify://shop_images/custom_resized_e3015f41-c959-412c-8048-66021a7517a9.jpg",
         "height": "medium",
         "desktop_image_width": "large",
         "layout": "text_first",
@@ -281,14 +280,14 @@
         "template--20069978014035__ad688dc9-f3fb-4d08-b21a-722fd3afc0a6-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>SOBRE NOSALTRES<\/strong>",
+            "heading": "<strong>SOBRE NOSALTRES</strong>",
             "heading_size": "h2"
           }
         },
         "template--20069978014035__ad688dc9-f3fb-4d08-b21a-722fd3afc0a6-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Elaborem cervesa al cor de l’Empordà, entre els Pirineus, la Costa Brava i les Gavarres.<\/p>",
+            "text": "<p>Elaborem cervesa al cor de l’Empordà, entre els Pirineus, la Costa Brava i les Gavarres.</p>",
             "text_style": "body"
           }
         },
@@ -296,7 +295,7 @@
           "type": "button",
           "settings": {
             "button_label": "MÉS",
-            "button_link": "shopify:\/\/pages\/aboutus",
+            "button_link": "shopify://pages/aboutus",
             "button_style_secondary": false
           }
         }
@@ -310,7 +309,7 @@
         ".button {font-weight: bold;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/DSC04622-2.jpg",
+        "image": "shopify://shop_images/DSC04622-2.jpg",
         "height": "adapt",
         "desktop_image_width": "large",
         "layout": "image_first",
@@ -331,7 +330,7 @@
         "template--20377464144211__b9b4250d-59d7-4198-b535-99170c56f2e7-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>WHAT GOES ON<\/strong>",
+            "heading": "<strong>WHAT GOES ON</strong>",
             "heading_size": "h2"
           }
         }
@@ -352,7 +351,7 @@
       "type": "apps",
       "blocks": {
         "88d4ca6c-013e-4939-b6c0-3b449a43de22": {
-          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
             "title": "",
             "title_color": "",
