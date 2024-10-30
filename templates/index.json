@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "c227bd9b-4cf2-481c-b9a6-4bfcb6a8f075": {
@@ -34,14 +34,14 @@
         "heading_9bWkgN": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>JIGSAW</strong>",
+            "heading": "<strong>SOLID SILK</strong>",
             "heading_size": "h1"
           }
         },
         "text_E8my4R": {
           "type": "text",
           "settings": {
-            "text": "<p>Aromes de mel de farigola, notes herbàcies intenses al primer glop, combinades amb una dolçor que incrementa encara més la sensació de mel de flors silvestres en boca. Sense un final amarg intens; és delicada i molt bebible.</p>",
+            "text": "<p>Aromes de fusta, terrosos, cos sedós però lleuger; un primer glop dolç i sucós, amb notes de raïm blanc, pera i pinya que es transformen en un final més sec i herbal que convida a un altre glop.</p>",
             "text_style": "body"
           }
         },
@@ -49,7 +49,7 @@
           "type": "button",
           "settings": {
             "button_label": "MÉS INFORMACIÓ",
-            "button_link": "shopify://products/jigsaw",
+            "button_link": "shopify://products/solid-silk",
             "button_style_secondary": false
           }
         }
@@ -63,7 +63,7 @@
         "img {object-fit: contain; max-height: 90%;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/jigsaw.png",
+        "image": "shopify://shop_images/solid_silk_can.png",
         "height": "medium",
         "desktop_image_width": "small",
         "layout": "image_first",
@@ -84,14 +84,14 @@
         "heading_RW89MN": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>BIG WEEK</strong>",
+            "heading": "<strong>PEACHARINE</strong>",
             "heading_size": "h1"
           }
         },
         "text_rptbDJ": {
           "type": "text",
           "settings": {
-            "text": "<p>Fortes aromes de fruita madura com el mango i la pinya, es beu suau i plena però sense ser pesada, amb un primer glop dolç que evoluciona cap a notes finals intenses de pell de llima i herba de llimona.</p>",
+            "text": "<p>Peacharine és una Hazy IPA amb un dry hop monovarietal de Peacharine de la collita del març de 2023. Peacharine és un llúpol experimental desenvolupat recentment i cultivat al Sunrise Valley de Nova Zelanda. Aquesta les notes destaquen les aroma de préssec, nectarina i pell de cítrics. En boca hi trobem un cos mitjà i una explosió de fruites com ara el préssec, pruna i taronja confitada amb un final d’herbes aromàtiques com la farigola o l’alfàbrega.</p>",
             "text_style": "body"
           }
         },
@@ -113,7 +113,7 @@
         "img {object-fit: contain; max-height: 90%;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/cans.png",
+        "image": "shopify://shop_images/Peacherine.png",
         "height": "medium",
         "desktop_image_width": "small",
         "layout": "text_first",
