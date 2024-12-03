@@ -30,7 +30,7 @@
         "text_U43GyN": {
           "type": "text",
           "settings": {
-            "text": "<h2>5è MERCAT D'ARTESANES LOCALS</h2><p>PER NADAL, REGALA LOCAL!<br/><br/>El diumenge 15 de desembre de 2024, vine a conèixer artesanes del territori i les seves creacions, segur que trobaràs un regal ideal per aquestes festes mentre dones suport a les persones de la teva comunitat. <br/>🎁De 12:00 a 17:00 🎁</p><p>Hi trobaràs: ceràmica, cosmètica natural, moda i textils, il.lustració, bisuteria...i per suposat, cervesa fresca per gaudir al moment i per emportar i regalar!</p><p>Food Truck Convidat</p><p><em>T'esperem a DOSKIWIS, Carretera de Parlavà, 22, 17131 Rupià (Girona)</em></p>",
+            "text": "<h2>5è MERCAT D'ARTESANES LOCALS</h2><p>PER NADAL, REGALA LOCAL!<br/><br/>El diumenge 15 de desembre de 2024, vine a conèixer artesanes del territori i les seves creacions, segur que trobaràs un regal ideal per aquestes festes mentre dones suport a les persones de la teva comunitat. <br/>🎁De 12:00 a 17:00 🎁</p><p>Hi trobaràs: ceràmica, cosmètica natural, moda i textils, il.lustració, bisuteria...i per suposat, cervesa fresca per gaudir al moment i per emportar i regalar!</p><p>Food Truck Convidat: <a href=\"https://www.fockviu.com/fock-viu-food-truck\" target=\"_blank\" title=\"https://www.fockviu.com/fock-viu-food-truck\">Fockviu</a></p><p><em>T'esperem a DOSKIWIS, Carretera de Parlavà, 22, 17131 Rupià (Girona)</em></p>",
             "text_style": "body"
           }
         }
@@ -53,6 +53,44 @@
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collage_LLniDF": {
+      "type": "collage",
+      "blocks": {
+        "image_QQcKKB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/mercat_de_nadal_1080_x_1350_px.png"
+          }
+        },
+        "image_f9rQxX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2.png"
+          }
+        },
+        "image_6EPLJt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_QQcKKB",
+        "image_f9rQxX",
+        "image_6EPLJt"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "none",
+        "color_scheme": "",
+        "padding_top": 0,
         "padding_bottom": 36
       }
     },
@@ -212,6 +250,7 @@
   },
   "order": [
     "image_with_text_aHphen",
+    "collage_LLniDF",
     "5ab0d96a-1e54-4d35-9e31-d7fc6b6db095",
     "main",
     "image_with_text_RNYwjw",

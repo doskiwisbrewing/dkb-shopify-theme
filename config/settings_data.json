@@ -1,24 +1,24 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/DOSKIWISBREWING_LOGO_BLACK-01.png",
+    "logo": "shopify://shop_images/DOSKIWISBREWING_LOGO_BLACK-01.png",
     "logo_width": 250,
-    "favicon": "shopify:\/\/shop_images\/dkbfavicon.png",
+    "favicon": "shopify://shop_images/dkbfavicon.png",
     "type_header_font": "din_neuzeit_grotesk_n7",
     "heading_scale": 100,
     "type_body_font": "din_neuzeit_grotesk_n3",
     "body_scale": 100,
     "page_width": 1200,
     "spacing_sections": 0,
-    "spacing_grid_horizontal": 12,
+    "spacing_grid_horizontal": 8,
     "spacing_grid_vertical": 12,
     "animations_reveal_on_scroll": true,
     "animations_hover_elements": "vertical-lift",
@@ -107,19 +107,19 @@
     "badge_corner_radius": 6,
     "sale_badge_color_scheme": "accent-2",
     "sold_out_badge_color_scheme": "accent-1",
-    "brand_headline": "<strong>DOSKIWIS BREWING<\/strong>",
-    "brand_description": "<h5>CERVESERA EMPORDÀ<\/h5>",
-    "brand_image": "shopify:\/\/shop_images\/DKB_BOTTLE_LABEL_MONTGRI_BLACK-01_70806482-9839-4a30-9e8a-f5e601470a00.png",
+    "brand_headline": "<strong>DOSKIWIS BREWING</strong>",
+    "brand_description": "<h5>CERVESERA EMPORDÀ</h5>",
+    "brand_image": "shopify://shop_images/DKB_BOTTLE_LABEL_MONTGRI_BLACK-01_70806482-9839-4a30-9e8a-f5e601470a00.png",
     "brand_image_width": 225,
-    "social_facebook_link": "https:\/\/facebook.com\/doskiwisbrewing",
-    "social_spotify_link": "https:\/\/open.spotify.com\/user\/doskiwisbrewing?si=c2230a4cc7e34943",
-    "social_instagram_link": "https:\/\/instagram.com\/doskiwisbrewing",
-    "social_youtube_link": "https:\/\/www.youtube.com\/channel\/UCO2UbIdNIN3qp0TaNi60OVg",
+    "social_facebook_link": "https://facebook.com/doskiwisbrewing",
+    "social_spotify_link": "https://open.spotify.com/user/doskiwisbrewing?si=c2230a4cc7e34943",
+    "social_instagram_link": "https://instagram.com/doskiwisbrewing",
+    "social_youtube_link": "https://www.youtube.com/channel/UCO2UbIdNIN3qp0TaNi60OVg",
     "social_tiktok_link": "",
     "social_twitter_link": "",
     "social_snapchat_link": "",
     "social_pinterest_link": "",
-    "social_tumblr_link": "https:\/\/www.tumblr.com\/doskiwis",
+    "social_tumblr_link": "https://www.tumblr.com/doskiwis",
     "social_vimeo_link": "",
     "predictive_search_enabled": false,
     "predictive_search_show_vendor": false,
@@ -146,15 +146,12 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "4015264832934714879": {
-        "type": "shopify:\/\/apps\/ecomsend-popups\/blocks\/app\/a5670cf8-5705-4b01-ad9e-447033feae26",
+        "type": "shopify://apps/ecomsend-popups/blocks/app/a5670cf8-5705-4b01-ad9e-447033feae26",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       }
     },
     "color_schemes": {
