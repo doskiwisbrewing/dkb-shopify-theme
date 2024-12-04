@@ -11,9 +11,7 @@
   "sections": {
     "c227bd9b-4cf2-481c-b9a6-4bfcb6a8f075": {
       "type": "image-banner",
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "image": "shopify://shop_images/DOSKIWIS-BREWING-Cervesa-Artesana-Cerveza-Artesanal.jpg",
         "image_overlay_opacity": 0,
@@ -34,14 +32,14 @@
         "heading_9bWkgN": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>SOLID SILK</strong>",
+            "heading": "<strong>GLEAM ON</strong>",
             "heading_size": "h1"
           }
         },
         "text_E8my4R": {
           "type": "text",
           "settings": {
-            "text": "<p>Aromes de fusta, terrosos, cos sedós però lleuger; un primer glop dolç i sucós, amb notes de raïm blanc, pera i pinya que es transformen en un final més sec i herbal que convida a un altre glop.</p>",
+            "text": "<p>Aquesta IPA de color groc brillant l’hem elaborat amb Citra Cryo, Nelson Sauvin i Moutere; una combinació que augmenta les característiques resinoses i la bebilitat. Tot i això pots comptar que hi trobaràs notes de fruita madura i suc de taronja i una sensació en boca suau i sedosa que acaba amb una agradable amargor persistent final.</p>",
             "text_style": "body"
           }
         },
@@ -49,7 +47,7 @@
           "type": "button",
           "settings": {
             "button_label": "MÉS INFORMACIÓ",
-            "button_link": "shopify://products/solid-silk",
+            "button_link": "shopify://products/gleam-on",
             "button_style_secondary": false
           }
         }
@@ -63,7 +61,7 @@
         "img {object-fit: contain; max-height: 90%;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/solid_silk_can.png",
+        "image": "shopify://shop_images/gleam_on_can.png",
         "height": "medium",
         "desktop_image_width": "small",
         "layout": "image_first",
@@ -84,14 +82,14 @@
         "heading_RW89MN": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>PEACHARINE</strong>",
+            "heading": "<strong>NIGHTLITE</strong>",
             "heading_size": "h1"
           }
         },
         "text_rptbDJ": {
           "type": "text",
           "settings": {
-            "text": "<p>Peacharine és una Hazy IPA amb un dry hop monovarietal de Peacharine de la collita del març de 2023. Peacharine és un llúpol experimental desenvolupat recentment i cultivat al Sunrise Valley de Nova Zelanda. Aquesta les notes destaquen les aroma de préssec, nectarina i pell de cítrics. En boca hi trobem un cos mitjà i una explosió de fruites com ara el préssec, pruna i taronja confitada amb un final d’herbes aromàtiques com la farigola o l’alfàbrega.</p>",
+            "text": "<p>Amb Nectaron i Citra a parts iguals, aquesta cervesa petita és, com és d'esperar, lleugera i fàcil de beure; refrescant i repleta de notes de cítrics i herba de llimona que combinades amb un acabat sec i net, fan d’aquest un glop adictiu.</p>",
             "text_style": "body"
           }
         },
@@ -99,7 +97,7 @@
           "type": "button",
           "settings": {
             "button_label": "MÉS INFORMACIÓ",
-            "button_link": "shopify://products/peacharine",
+            "button_link": "shopify://products/nightlite",
             "button_style_secondary": false
           }
         }
@@ -113,7 +111,7 @@
         "img {object-fit: contain; max-height: 90%;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/Peacherine.png",
+        "image": "shopify://shop_images/nightlite_can.png",
         "height": "medium",
         "desktop_image_width": "small",
         "layout": "text_first",
