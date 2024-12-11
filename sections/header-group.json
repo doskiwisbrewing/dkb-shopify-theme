@@ -33,16 +33,16 @@
     "announcement_bar_4bxNMC": {
       "type": "announcement-bar",
       "blocks": {
-        "announcement_WTfm89": {
+        "announcement_aCfWtE": {
           "type": "announcement",
           "settings": {
-            "text": "🎁 15/12/2024 Mercat artesanes / Artisan Holiday Market / Mercado artesanos 🎁 + INFO",
-            "link": "https://www.doskiwisbrewing.com/pages/events"
+            "text": "🎁🎄PACKS DE NADAL JA DISPONIBLES!!🎄🎁",
+            "link": "shopify://collections/packs-de-nadal-2024"
           }
         }
       },
       "block_order": [
-        "announcement_WTfm89"
+        "announcement_aCfWtE"
       ],
       "settings": {
         "color_scheme": "",
