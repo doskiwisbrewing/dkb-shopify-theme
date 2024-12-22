@@ -53,10 +53,35 @@
         "enable_country_selector": false,
         "enable_language_selector": false
       }
+    },
+    "announcement_bar_b4Mx6B": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement_8nbXcB": {
+          "type": "announcement",
+          "settings": {
+            "text": "Et falta un regal? Clica aquí per regalar una experiència!",
+            "link": "https://giftup.app/place-order/1203d1ec-1b1a-4243-9541-2740b5e83041?platform=hosted"
+          }
+        }
+      },
+      "block_order": [
+        "announcement_8nbXcB"
+      ],
+      "settings": {
+        "color_scheme": "scheme-9641a114-95db-4b5a-b6d4-dd518e525051",
+        "show_line_separator": true,
+        "show_social": false,
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
     }
   },
   "order": [
     "header",
-    "announcement_bar_4bxNMC"
+    "announcement_bar_4bxNMC",
+    "announcement_bar_b4Mx6B"
   ]
 }
