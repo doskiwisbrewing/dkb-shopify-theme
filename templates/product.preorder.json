@@ -1,87 +1,74 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "main-product",
       "blocks": {
+        "custom_liquid_DKa6Xh": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n.anouncement {\nbackground-color: black;\npadding-left: 1em;\npadding-right: 1em;\ndisplay: inline-block}\n\nb {\ncolor: white;\nfont-size: 1.5em;}\n</style>\n\n<div class=\"anouncement\">\n<b>VENDA ANTICIPADA</b>\n</div>"
+          }
+        },
         "text_T9yfMK": {
           "type": "text",
           "settings": {
-            "text": "<strong>VENDA ANTICIPADA<\/strong>",
+            "text": "<strong>VENDA ANTICIPADA</strong>",
             "text_style": "body"
           }
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "cdb9b624-ec7b-475a-a023-78a502e36c3c": {
           "type": "icon-with-text",
           "settings": {
             "layout": "horizontal",
             "icon_1": "heart",
-            "image_1": "shopify:\/\/shop_images\/style.svg",
+            "image_1": "shopify://shop_images/style.svg",
             "heading_1": "{{ product.metafields.custom.style.value }}",
             "icon_2": "leaf",
-            "image_2": "shopify:\/\/shop_images\/svg_3.svg",
+            "image_2": "shopify://shop_images/svg_3.svg",
             "heading_2": "{{ product.metafields.custom.hops | metafield_text }}",
             "icon_3": "truck",
-            "image_3": "shopify:\/\/shop_images\/ethanol.svg",
+            "image_3": "shopify://shop_images/ethanol.svg",
             "heading_3": "{{ product.metafields.custom.abv.value }}%"
-          }
-        },
-        "b9e5901a-d0c5-4340-8d43-ae8cc17bb03d": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<strong>Graduació<\/strong> {{ product.metafields.custom.abv.value }}%",
-            "text_style": "uppercase"
-          }
-        },
-        "396f7ae0-97e7-4d92-b2d5-d34ee5d79504": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<strong>Estil<\/strong> {{ product.metafields.custom.style.value }}",
-            "text_style": "uppercase"
-          }
-        },
-        "0ddfa716-3b42-448c-a3dd-7179b12f025c": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<strong>Llupols<\/strong> {{ product.metafields.custom.hops | metafield_text }}",
-            "text_style": "uppercase"
           }
         },
         "13252fe7-cfc8-4902-8a79-ee74f7d66b67": {
           "type": "text",
           "settings": {
-            "text": "<strong>volum<\/strong> 440ml",
+            "text": "<strong>volum</strong> 440ml",
             "text_style": "uppercase"
           }
         },
         "6e8070ef-addf-4915-ae25-3f4979c715b7": {
           "type": "text",
           "settings": {
-            "text": "<strong>PACK DE 6 LLAUNES<\/strong>",
+            "text": "<strong>PACK DE 6 LLAUNES</strong>",
             "text_style": "body"
           }
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -92,13 +79,11 @@
         }
       },
       "block_order": [
+        "custom_liquid_DKa6Xh",
         "text_T9yfMK",
         "title",
         "description",
         "cdb9b624-ec7b-475a-a023-78a502e36c3c",
-        "b9e5901a-d0c5-4340-8d43-ae8cc17bb03d",
-        "396f7ae0-97e7-4d92-b2d5-d34ee5d79504",
-        "0ddfa716-3b42-448c-a3dd-7179b12f025c",
         "13252fe7-cfc8-4902-8a79-ee74f7d66b67",
         "6e8070ef-addf-4915-ae25-3f4979c715b7",
         "price",
