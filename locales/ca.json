@@ -3069,6 +3069,7 @@
   },
   "products": {
     "product": {
+      "preorder": "Venta anticipada",
       "add_to_cart": "A la cistella!",
       "description": "Descripció",
       "quantity": {
