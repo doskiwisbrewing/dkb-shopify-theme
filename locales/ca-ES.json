@@ -2947,7 +2947,7 @@
     },
     "products": {
         "product": {
-            "preorder": "Venta anticipada",
+            "preorder": "Compra anticipada",
             "add_to_cart": "Afegeix a la cistella",
             "description": "Descripció",
             "quantity": {
