@@ -107,6 +107,7 @@
         "text_rptbDJ",
         "button_VbRNUR"
       ],
+      "disabled": true,
       "custom_css": [
         "img {object-fit: contain; max-height: 90%;}"
       ],
