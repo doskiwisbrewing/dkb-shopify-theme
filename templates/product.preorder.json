@@ -15,7 +15,7 @@
         "custom_liquid_DKa6Xh": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<style>\n.anouncement {\nbackground-color: black;\npadding-left: 1em;\npadding-right: 1em;\ndisplay: inline-block}\n\nb {\ntext-transform: uppercase;\ncolor: white;\nfont-size: 1.5em;}\n</style>\n\n\n<div class=\"anouncement\">\n<b>{{ 'products.product.preorder' | t }}</b>\n</div>"
+            "custom_liquid": "<style>\n.anouncement {\nbackground-color: black;\npadding-left: 1em;\npadding-right: 1em;\ndisplay: inline-block}\n\nb {\ntext-transform: uppercase;\ncolor: white;\nfont-size: 1.5em;}\n\n.date {\ncolor: white;\n}\n</style>\n\n\n<div class=\"anouncement\">\n<b>{{ 'products.product.preorder' | t }}</b>\n<p class=\"date\">{{ 'products.product.preorder' }}</p>\n</div>"
           }
         },
         "title": {
