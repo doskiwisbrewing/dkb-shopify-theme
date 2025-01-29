@@ -32,14 +32,14 @@
         "heading_9bWkgN": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>GLEAM ON</strong>",
+            "heading": "<strong>CATCHALL</strong>",
             "heading_size": "h1"
           }
         },
         "text_E8my4R": {
           "type": "text",
           "settings": {
-            "text": "<p>Aquesta IPA de color groc brillant l’hem elaborat amb Citra Cryo, Nelson Sauvin i Moutere; una combinació que augmenta les característiques resinoses i la bebilitat. Tot i això pots comptar que hi trobaràs notes de fruita madura i suc de taronja i una sensació en boca suau i sedosa que acaba amb una agradable amargor persistent final.</p>",
+            "text": "<p>Aquesta Hazy IPA porta alguns dels nostres llúpols preferits que ens donen enormes aromes de macedònia (poma, plàtan i maduixa amb suc de llima i llimona). En boca, continuen els sabors de macedònia però s’entrellacen amb fruita seca : figues i panses. El glop final ens deixa amb un final herbaci, persistent, esborrant el gust de la fruita i fent-nos venir ganes d’un altre glop. </p>",
             "text_style": "body"
           }
         },
@@ -47,7 +47,7 @@
           "type": "button",
           "settings": {
             "button_label": "MÉS INFORMACIÓ",
-            "button_link": "shopify://products/gleam-on",
+            "button_link": "shopify://products/catchall",
             "button_style_secondary": false
           }
         }
@@ -61,7 +61,7 @@
         "img {object-fit: contain; max-height: 90%;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/gleam_on_can.png",
+        "image": "shopify://shop_images/catchall_cans.png",
         "height": "medium",
         "desktop_image_width": "small",
         "layout": "image_first",
@@ -107,6 +107,7 @@
         "text_rptbDJ",
         "button_VbRNUR"
       ],
+      "disabled": true,
       "custom_css": [
         "img {object-fit: contain; max-height: 90%;}"
       ],

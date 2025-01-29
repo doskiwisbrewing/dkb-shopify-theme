@@ -3070,6 +3070,7 @@
   "products": {
     "product": {
       "preorder": "Compra anticipada",
+      "preorder_date": "Data d'enllaunat: ",
       "add_to_cart": "A la cistella!",
       "description": "Descripció",
       "quantity": {
