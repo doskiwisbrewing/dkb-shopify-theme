@@ -32,14 +32,14 @@
         "heading_9bWkgN": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>CATCHALL</strong>",
+            "heading": "<strong>GLIDE</strong>",
             "heading_size": "h1"
           }
         },
         "text_E8my4R": {
           "type": "text",
           "settings": {
-            "text": "<p>Aquesta Hazy IPA porta alguns dels nostres llúpols preferits que ens donen enormes aromes de macedònia (poma, plàtan i maduixa amb suc de llima i llimona). En boca, continuen els sabors de macedònia però s’entrellacen amb fruita seca : figues i panses. El glop final ens deixa amb un final herbaci, persistent, esborrant el gust de la fruita i fent-nos venir ganes d’un altre glop. </p>",
+            "text": "<p>Aromes de codony, préssec i fruita de pinyol; el glop llisca fàcilment pel coll, destapant més sabors de préssec amb notes terroses i de pell de cítrics. És una IPA perfecte per quan et ve de gust una cervesa amb notes de suc de fruita però absolutament refrescant.</p>",
             "text_style": "body"
           }
         },
@@ -47,8 +47,13 @@
           "type": "button",
           "settings": {
             "button_label": "MÉS INFORMACIÓ",
+<<<<<<< HEAD
             "button_link": "shopify://products/catchall",
             "button_style_secondary": true
+=======
+            "button_link": "shopify://products/glide",
+            "button_style_secondary": false
+>>>>>>> 219fbf0 (Update from Shopify for theme DKBtheme/main)
           }
         }
       },
@@ -61,7 +66,7 @@
         "img {object-fit: contain; max-height: 90%;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/catchall_cans.png",
+        "image": "shopify://shop_images/glide_can.png",
         "height": "medium",
         "desktop_image_width": "small",
         "layout": "image_first",
@@ -178,7 +183,7 @@
         ".grid__item {max-height: 500px;}"
       ],
       "settings": {
-        "product": "the-red-dot",
+        "product": "glide",
         "color_scheme": "",
         "secondary_background": false,
         "media_size": "small",
