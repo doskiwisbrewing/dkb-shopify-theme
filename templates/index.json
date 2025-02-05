@@ -32,14 +32,14 @@
         "heading_9bWkgN": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>GLIDE</strong>",
+            "heading": "<strong>KICK PUSH</strong>",
             "heading_size": "h1"
           }
         },
         "text_E8my4R": {
           "type": "text",
           "settings": {
-            "text": "<p>Aromes de codony, préssec i fruita de pinyol; el glop llisca fàcilment pel coll, destapant més sabors de préssec amb notes terroses i de pell de cítrics. És una IPA perfecte per quan et ve de gust una cervesa amb notes de suc de fruita però absolutament refrescant.</p>",
+            "text": "<p>Aquesta West Coast IPA rebossa d’aromes taronja confitada i de resina i molsa. En boca destaca la taronja amarga i l’aranja amb un rerefons de tabac i fusta que perfilen el final amarg i sec que buscàvem. </p>",
             "text_style": "body"
           }
         },
@@ -47,7 +47,7 @@
           "type": "button",
           "settings": {
             "button_label": "MÉS INFORMACIÓ",
-            "button_link": "shopify://products/glide",
+            "button_link": "shopify://products/kick-push",
             "button_style_secondary": false
           }
         }
@@ -61,7 +61,7 @@
         "img {object-fit: contain; max-height: 90%;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/glide_can.png",
+        "image": "shopify://shop_images/kickpush.png",
         "height": "medium",
         "desktop_image_width": "small",
         "layout": "image_first",
@@ -82,14 +82,14 @@
         "heading_RW89MN": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>NIGHTLITE</strong>",
+            "heading": "<strong>A SAVAGE</strong>",
             "heading_size": "h1"
           }
         },
         "text_rptbDJ": {
           "type": "text",
           "settings": {
-            "text": "<p>Amb Nectaron i Citra a parts iguals, aquesta cervesa petita és, com és d'esperar, lleugera i fàcil de beure; refrescant i repleta de notes de cítrics i herba de llimona que combinades amb un acabat sec i net, fan d’aquest un glop adictiu.</p>",
+            "text": "<p>Una hazy IPA indòmita amb aromes de tangerina, mango i préssec i sabors de pinya, guava i una picantor apebrada i herbal que complementa el cos ple, fi i suau.</p>",
             "text_style": "body"
           }
         },
@@ -97,7 +97,7 @@
           "type": "button",
           "settings": {
             "button_label": "MÉS INFORMACIÓ",
-            "button_link": "shopify://products/nightlite",
+            "button_link": "shopify://products/a-savage",
             "button_style_secondary": false
           }
         }
@@ -107,12 +107,11 @@
         "text_rptbDJ",
         "button_VbRNUR"
       ],
-      "disabled": true,
       "custom_css": [
         "img {object-fit: contain; max-height: 90%;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/nightlite_can.png",
+        "image": "shopify://shop_images/asavage.png",
         "height": "medium",
         "desktop_image_width": "small",
         "layout": "text_first",
