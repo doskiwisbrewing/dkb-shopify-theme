@@ -9,9 +9,9 @@
  */
 {
   "current": {
-    "logo": "shopify://shop_images/DOSKIWISBREWING_LOGO_BLACK-01.png",
+    "logo": "shopify://shop_images/Logo_Full_Black.svg",
     "logo_width": 250,
-    "favicon": "shopify://shop_images/dkbfavicon.png",
+    "favicon": "shopify://shop_images/Doskiwis_egg-favicon.png",
     "type_header_font": "din_neuzeit_grotesk_n7",
     "heading_scale": 100,
     "type_body_font": "din_neuzeit_grotesk_n3",
