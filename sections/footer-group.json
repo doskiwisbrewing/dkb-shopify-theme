@@ -59,7 +59,7 @@
         "image_NrpbVH"
       ],
       "custom_css": [
-        ".gradient {background: var(--gradient-background); background-image: url(https://cdn.shopify.com/s/files/1/0779/8118/8435/files/FOOTER_1366_x_768_px_2.svg?v=1718315944) !important; background-position: top left !important; background-size: 60em; background-repeat: no-repeat; background-color: #fffde9 !important; background-size: cover;}",
+        ".gradient {background: var(--gradient-background); background-image: url(https://cdn.shopify.com/s/files/1/0779/8118/8435/files/FOOTER_1366_x_768_px_2.svg?v=1718315944) !important; background-position: top left !important; background-size: 60em; background-repeat: no-repeat; background-color: #fffde9 !important;}",
         ".footer {padding-top: 190px;}",
         "a {text-decoration: underline;}",
         ".footer {width: 100vw; max-width: 100%;}",
