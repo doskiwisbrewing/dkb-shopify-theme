@@ -48,7 +48,7 @@
           "settings": {
             "button_label": "MÉS INFORMACIÓ",
             "button_link": "shopify://products/catchall",
-            "button_style_secondary": false
+            "button_style_secondary": true
           }
         }
       },
