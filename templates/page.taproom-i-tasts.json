@@ -188,6 +188,7 @@
       "blocks": {
         "slide_gmRJaF": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/2025_TAPROOM_CALENDAR_1.svg",
             "heading": "",
@@ -221,11 +222,49 @@
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_Nrhqtt": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/2025_TAPROOM_CALENDAR_1_567ce613-f031-4c66-9905-d92d6eff490f.svg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_WMMYgq": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/4.svg",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "slide_gmRJaF",
-        "slide_kdThiw"
+        "slide_kdThiw",
+        "slide_Nrhqtt",
+        "slide_WMMYgq"
       ],
       "custom_css": [
         "slideshow-component {padding: 20px 20px;}"
