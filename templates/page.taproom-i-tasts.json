@@ -245,7 +245,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/4.svg",
-            "heading": "Image slide",
+            "heading": "",
             "heading_size": "h1",
             "subheading": "",
             "button_label": "",
