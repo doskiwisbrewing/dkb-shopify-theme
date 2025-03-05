@@ -32,14 +32,14 @@
         "heading_9bWkgN": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>KICK PUSH</strong>",
+            "heading": "<strong>LEARNING TO FLY</strong>",
             "heading_size": "h1"
           }
         },
         "text_E8my4R": {
           "type": "text",
           "settings": {
-            "text": "<p>Aquesta West Coast IPA rebossa d’aromes taronja confitada i de resina i molsa. En boca destaca la taronja amarga i l’aranja amb un rerefons de tabac i fusta que perfilen el final amarg i sec que buscàvem. </p>",
+            "text": "<p>Aquesta DIPA desplega aromes intenses d’herba acabada de tallar, llima fresca i meló cantaloup. Després del primer glop ens arriba una dolçor suau i arrodonida que desapareix ràpidament, deixant pas a capes de notes herbàcies i de molsa, herba llimonera i una amargor verda i delicada que s’allarga lleugerament.<br/><br/>Fresca i deliciosa, aquesta és una cervesa de contrasts: dolça però seca, suau però amb caràcter.</p>",
             "text_style": "body"
           }
         },
@@ -47,7 +47,7 @@
           "type": "button",
           "settings": {
             "button_label": "MÉS INFORMACIÓ",
-            "button_link": "shopify://products/kick-push",
+            "button_link": "shopify://products/learning-to-fly",
             "button_style_secondary": false
           }
         }
@@ -61,7 +61,7 @@
         "img {object-fit: contain; max-height: 90%;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/kickpush.png",
+        "image": "shopify://shop_images/learning_to_fly_can.png",
         "height": "medium",
         "desktop_image_width": "small",
         "layout": "image_first",
@@ -82,14 +82,14 @@
         "heading_RW89MN": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>A SAVAGE</strong>",
+            "heading": "<strong>BIRDSEYE</strong>",
             "heading_size": "h1"
           }
         },
         "text_rptbDJ": {
           "type": "text",
           "settings": {
-            "text": "<p>Una hazy IPA indòmita amb aromes de tangerina, mango i préssec i sabors de pinya, guava i una picantor apebrada i herbal que complementa el cos ple, fi i suau.</p>",
+            "text": "<p>Aromes d'espècies i fruita madura es barregen amb notes de “verdor” que recorden el coriandre i ens presenten aquesta hazy IPA.<br/><br/>En boca, les notes de mango, aranja i pell de llima del Citra s'entrellaçen amb el toc refrescant de llima fresca i herbes acabades de tallar del Motueka. Una petita aportació de Nectaron final assegura que no hi falti una dolçor suculenta i un caràcter cítric i vibrant ; tot embolcallat en un cos sedós i tèrbol i una amargor equilibrada que la fa increïblement fàcil de beure.</p>",
             "text_style": "body"
           }
         },
@@ -97,7 +97,7 @@
           "type": "button",
           "settings": {
             "button_label": "MÉS INFORMACIÓ",
-            "button_link": "shopify://products/a-savage",
+            "button_link": "shopify://products/birdseye",
             "button_style_secondary": false
           }
         }
@@ -111,7 +111,7 @@
         "img {object-fit: contain; max-height: 90%;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/asavage.png",
+        "image": "shopify://shop_images/birdseye_can.png",
         "height": "medium",
         "desktop_image_width": "small",
         "layout": "text_first",
