@@ -9,6 +9,37 @@
  */
 {
   "sections": {
+    "5ab0d96a-1e54-4d35-9e31-d7fc6b6db095": {
+      "type": "rich-text",
+      "blocks": {
+        "424f32ce-9862-4c60-abf7-5db44175c7e5": {
+          "type": "heading",
+          "settings": {
+            "heading": "Celebra amb nosaltres",
+            "heading_size": "h1"
+          }
+        },
+        "template--20113423270227__5ab0d96a-1e54-4d35-9e31-d7fc6b6db095-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Si t’agradaria celebrar o organitzar algun esdeveniment a Doskiwis, <a href=\"mailto:doskiwis@doskiwisbrewing.com\" title=\"mailto:doskiwis@doskiwisbrewing.com\">posa’t en contacte amb nosaltres</a>! <br/><br/>Celebres en un altre espai? Oferim lloguer de tiradors + barrils i llaunes per tal de que puguis comptar amb les teves cerveses preferides de Doskiwis durant la teva celebració.</p><p>Envia’ns un email a doskiwis@doskiwisbrewing per sol·licitar el teu barril o fer la teva consulta sobre el nostre servei de lloguer.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "424f32ce-9862-4c60-abf7-5db44175c7e5",
+        "template--20113423270227__5ab0d96a-1e54-4d35-9e31-d7fc6b6db095-text-1"
+      ],
+      "custom_css": [],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 24,
+        "padding_bottom": 52
+      }
+    },
     "image_with_text_aHphen": {
       "type": "image-with-text",
       "blocks": {
@@ -190,37 +221,6 @@
         "padding_bottom": 36
       }
     },
-    "5ab0d96a-1e54-4d35-9e31-d7fc6b6db095": {
-      "type": "rich-text",
-      "blocks": {
-        "424f32ce-9862-4c60-abf7-5db44175c7e5": {
-          "type": "heading",
-          "settings": {
-            "heading": "Celebra amb nosaltres",
-            "heading_size": "h1"
-          }
-        },
-        "template--20113423270227__5ab0d96a-1e54-4d35-9e31-d7fc6b6db095-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Si t’agradaria celebrar o organitzar algun esdeveniment a Doskiwis, <a href=\"mailto:doskiwis@doskiwisbrewing.com\" title=\"mailto:doskiwis@doskiwisbrewing.com\">posa’t en contacte amb nosaltres</a>! <br/><br/>Celebres en un altre espai? Oferim lloguer de tiradors + barrils i llaunes per tal de que puguis comptar amb les teves cerveses preferides de Doskiwis durant la teva celebració.</p><p>Envia’ns un email a doskiwis@doskiwisbrewing per sol·licitar el teu barril o fer la teva consulta sobre el nostre servei de lloguer.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "424f32ce-9862-4c60-abf7-5db44175c7e5",
-        "template--20113423270227__5ab0d96a-1e54-4d35-9e31-d7fc6b6db095-text-1"
-      ],
-      "custom_css": [],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "left",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 24,
-        "padding_bottom": 52
-      }
-    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -345,11 +345,11 @@
     }
   },
   "order": [
+    "5ab0d96a-1e54-4d35-9e31-d7fc6b6db095",
     "image_with_text_aHphen",
     "image_with_text_4fieB8",
     "image_banner_3MDiNq",
     "collage_LLniDF",
-    "5ab0d96a-1e54-4d35-9e31-d7fc6b6db095",
     "main",
     "image_with_text_RNYwjw",
     "image_with_text_ya6Unr",
