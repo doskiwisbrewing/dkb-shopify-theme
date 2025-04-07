@@ -11,35 +11,6 @@
   "sections": {
     "image_with_text_aHphen": {
       "type": "image-with-text",
-      "blocks": {
-        "heading_NUdUaT": {
-          "type": "heading",
-          "settings": {
-            "heading": "09/05/2025",
-            "heading_size": "h2"
-          }
-        },
-        "text_U43GyN": {
-          "type": "text",
-          "settings": {
-            "text": "<h2>CANDLES&BEERS</h2><p>TALLER D'ESPELMES DE LA MÀ DE BUFA CANDLES<br/><br/>El 9 de maig t’oferim un taller de la mà de @bufa_candles per desconnectar i crear amb les mans. <br/><br/>L’experiència inclou una cervesa Doskiwis i un petit pica-pica per compartir mentre deixem volar la creativitat.<br/><br/>🕯️✨ Places limitades</p>",
-            "text_style": "body"
-          }
-        },
-        "button_izaLtR": {
-          "type": "button",
-          "settings": {
-            "button_label": "INFO I RESERVES",
-            "button_link": "https://docs.google.com/forms/d/e/1FAIpQLSf_HE8fUOD9bJrV3I7pYivVeR8HL4-088G3KkZ3w1ZuD_wKUg/viewform",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_NUdUaT",
-        "text_U43GyN",
-        "button_izaLtR"
-      ],
       "settings": {
         "image": "shopify://shop_images/CANDLES_BEERS.png",
         "height": "adapt",
@@ -108,7 +79,6 @@
         },
         "text_AFbwhD": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": "<h2>MERCAT D'ARTESANES LOCALS</h2><p>EDICIÓ EQUINOCCI<br/><br/>El dissabte 22/03, omplim la fàbrica d’algunes de les nostres artesanes preferides.<br/><br/>Una oportunitat per donar suport al comerç local, descobrir artesanes de proximitat i conèixer gent afí. Cosmètica natural, ceràmica, ganxet, roba... tot fet amb amor per persones que val la pena conèixer. <br/><br/>L’excusa perfecta per relaxar-te i gaudir dels primers dies de primavera.Porta la colla, la curiositat... i la set!</p><p><em>T'esperem a DOSKIWIS, Carretera de Parlavà, 22, 17131 Rupià (Girona)</em></p>",
             "text_style": "body"
