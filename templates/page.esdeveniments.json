@@ -11,6 +11,18 @@
   "sections": {
     "image_with_text_aHphen": {
       "type": "image-with-text",
+      "blocks": {
+        "text_zBUwNE": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>CANDLES&BEERS</h2><p>TALLER D'ESPELMES DE LA MÀ DE BUFA CANDLES<br/><br/>El 9 de maig t’oferim un taller de la mà de @bufa_candles per desconnectar i crear amb les mans. <br/><br/>L’experiència inclou una cervesa Doskiwis i un petit pica-pica per compartir mentre deixem volar la creativitat.<br/><br/>🕯️✨ Places limitades</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_zBUwNE"
+      ],
       "settings": {
         "image": "shopify://shop_images/CANDLES_BEERS.png",
         "height": "adapt",
