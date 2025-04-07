@@ -99,6 +99,7 @@
         },
         "button_GQKdaN": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "",
             "button_link": "",
@@ -107,6 +108,7 @@
         },
         "text_AFbwhD": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<h2>MERCAT D'ARTESANES LOCALS</h2><p>EDICIÓ EQUINOCCI<br/><br/>El dissabte 22/03, omplim la fàbrica d’algunes de les nostres artesanes preferides.<br/><br/>Una oportunitat per donar suport al comerç local, descobrir artesanes de proximitat i conèixer gent afí. Cosmètica natural, ceràmica, ganxet, roba... tot fet amb amor per persones que val la pena conèixer. <br/><br/>L’excusa perfecta per relaxar-te i gaudir dels primers dies de primavera.Porta la colla, la curiositat... i la set!</p><p><em>T'esperem a DOSKIWIS, Carretera de Parlavà, 22, 17131 Rupià (Girona)</em></p>",
             "text_style": "body"
