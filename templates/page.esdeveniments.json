@@ -12,6 +12,13 @@
     "image_with_text_aHphen": {
       "type": "image-with-text",
       "blocks": {
+        "heading_7Gkwgi": {
+          "type": "heading",
+          "settings": {
+            "heading": "09/05/2025",
+            "heading_size": "h2"
+          }
+        },
         "text_zBUwNE": {
           "type": "text",
           "settings": {
@@ -29,6 +36,7 @@
         }
       },
       "block_order": [
+        "heading_7Gkwgi",
         "text_zBUwNE",
         "button_Dp7CrU"
       ],
