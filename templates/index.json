@@ -32,14 +32,14 @@
         "heading_9bWkgN": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>WEIGHTLESS</strong>",
+            "heading": "<strong>THE HEXX</strong>",
             "heading_size": "h1"
           }
         },
         "text_E8my4R": {
           "type": "text",
           "settings": {
-            "text": "<p>Una carta d’amor al Nelson Sauvin — aquesta Hazy IPA s’endinsa de ple en tot el que ofereix aquesta varietat de llúpol icònica.</p><p>Al nas, una intensitat especiada, embolcallada de tocs subtils d’albercoc verd i herbes aromàtiques. En boca, el cos és suau i plena, amb una mica més de carbonatació del que és habitual, que li dona lleugeresa i bebibilitat.</p><p>El final? Inconfusiblement Nelson — una amargor herbàcea persistent.</p>",
+            "text": "<p>Nítida i refrescant, aquesta West Coast IPA presenta un color daurat clar i brillant. Al nas, destaca la fruita tropical—pinya, mango i préssec—equilibrades pel caràcter clàssic del Nelson i un toc subtil de resina de fons.<br/><br/>Lleugera al paladar i molt fàcil de beure, els sabors reflecteixen l’aroma, amb notes de pinya i préssec. Amb un toc sec final, manté l’equilibri i convida a fer un altre glop. L’amargor hi és, però amb mesura—una IPA que aposta per l’equilibri més que per la intensitat.</p>",
             "text_style": "body"
           }
         },
@@ -47,7 +47,7 @@
           "type": "button",
           "settings": {
             "button_label": "MÉS INFORMACIÓ",
-            "button_link": "shopify://products/weightless",
+            "button_link": "shopify://products/the-hexx",
             "button_style_secondary": false
           }
         }
@@ -61,7 +61,7 @@
         "img {object-fit: contain; max-height: 90%;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/Weightless_can.png",
+        "image": "shopify://shop_images/the_hexx_can.png",
         "height": "medium",
         "desktop_image_width": "small",
         "layout": "image_first",
@@ -82,14 +82,14 @@
         "heading_RW89MN": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>BIRDSEYE</strong>",
+            "heading": "<strong>GAP YEAR</strong>",
             "heading_size": "h1"
           }
         },
         "text_rptbDJ": {
           "type": "text",
           "settings": {
-            "text": "<p>Aromes d'espècies i fruita madura es barregen amb notes de “verdor” que recorden el coriandre i ens presenten aquesta hazy IPA.<br/><br/>En boca, les notes de mango, aranja i pell de llima del Citra s'entrellaçen amb el toc refrescant de llima fresca i herbes acabades de tallar del Motueka. Una petita aportació de Nectaron final assegura que no hi falti una dolçor suculenta i un caràcter cítric i vibrant ; tot embolcallat en un cos sedós i tèrbol i una amargor equilibrada que la fa increïblement fàcil de beure.</p>",
+            "text": "<p>Vibrant, fresca i pensada per a l’estiu, <em>Gap Year</em> es presenta amb un groc pàl·lid, gairebé lletós. Aromes intenses de pinya lleugerament verda, citronel·la i llima acabada d’esprémer, equilibrades amb un toc dolç de caramel tipus sugus i una nota floral de farigola llimonera.<br/><br/>Lleugera, seca i molt fàcil de beure, amb els cítrics com a protagonistes en boca: llimona, llima i un cos suau que allarga els sabors. Una amargor moderada i ben integrada completa el glop, deixant la boca fresca i amb ganes de més.</p>",
             "text_style": "body"
           }
         },
@@ -97,7 +97,7 @@
           "type": "button",
           "settings": {
             "button_label": "MÉS INFORMACIÓ",
-            "button_link": "shopify://products/birdseye",
+            "button_link": "shopify://products/gap-year",
             "button_style_secondary": false
           }
         }
@@ -107,12 +107,11 @@
         "text_rptbDJ",
         "button_VbRNUR"
       ],
-      "disabled": true,
       "custom_css": [
         "img {object-fit: contain; max-height: 90%;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/birdseye_can.png",
+        "image": "shopify://shop_images/gap_year_can.png",
         "height": "medium",
         "desktop_image_width": "small",
         "layout": "text_first",
@@ -125,71 +124,6 @@
         "mobile_content_alignment": "left",
         "padding_top": 0,
         "padding_bottom": 0
-      }
-    },
-    "featured_product_77iTaM": {
-      "type": "featured-product",
-      "blocks": {
-        "text_3Vi7my": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<strong>VENDA ANTICIPADA</strong>",
-            "text_style": "body"
-          }
-        },
-        "title_kF9Fi3": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h1"
-          }
-        },
-        "text_XbTyMr": {
-          "type": "text",
-          "settings": {
-            "text": "The Red Dot és una Hazy IPA amb dryhop de 100% Cashmere, una varietat que és filla de Cascade i té un amargor persistent però suau i una lleugera aroma a cítrics. El nom d'aquesta cervesa està inspirat en l'episodi <a href=\"https://www.youtube.com/watch?v=xteXgurD-DM\">The Red Dot</a> de Seinfeld on en George li compra un jersei de caixmir a l'Elaine.",
-            "text_style": "body"
-          }
-        },
-        "buy_buttons_PUQy7J": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": false,
-            "show_gift_card_recipient": true
-          }
-        },
-        "share_yEYNDN": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        }
-      },
-      "block_order": [
-        "text_3Vi7my",
-        "title_kF9Fi3",
-        "text_XbTyMr",
-        "buy_buttons_PUQy7J",
-        "share_yEYNDN"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "img {object-fit: contain; max-height: 500px;}",
-        ".grid__item {max-height: 500px;}"
-      ],
-      "settings": {
-        "product": "glide",
-        "color_scheme": "",
-        "secondary_background": false,
-        "media_size": "small",
-        "constrain_to_viewport": true,
-        "media_fit": "contain",
-        "media_position": "left",
-        "image_zoom": "none",
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "bdfed234-7975-4e20-bad7-04b40c568ff0": {
@@ -357,6 +291,12 @@
             "title_color": "",
             "title_size": 0,
             "alignment": "left",
+            "margin_top": 0,
+            "margin_bottom": 0,
+            "margin_sides": 0,
+            "show_instagram_link": false,
+            "link_alignment": "left",
+            "link_color": "#000000",
             "background_color": "",
             "feed_id": "",
             "html_area": ""
@@ -376,7 +316,6 @@
     "c227bd9b-4cf2-481c-b9a6-4bfcb6a8f075",
     "image_with_text_e6p4Qc",
     "image_with_text_tWwdMf",
-    "featured_product_77iTaM",
     "bdfed234-7975-4e20-bad7-04b40c568ff0",
     "a84e0931-8f51-46dd-8c7f-cf103348b5ac",
     "ad688dc9-f3fb-4d08-b21a-722fd3afc0a6",
