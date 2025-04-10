@@ -255,6 +255,7 @@
         },
         "slide_kdThiw": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/2025_TAPROOM_CALENDAR_2.svg",
             "heading": "",
