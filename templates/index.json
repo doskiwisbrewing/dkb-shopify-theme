@@ -47,7 +47,7 @@
           "type": "button",
           "settings": {
             "button_label": "MÉS INFORMACIÓ",
-            "button_link": "shopify://products/dive-bomb",
+            "button_link": "shopify://products/fenix",
             "button_style_secondary": false
           }
         }
