@@ -14,8 +14,7 @@
       "blocks": {
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -25,8 +24,7 @@
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "cdb9b624-ec7b-475a-a023-78a502e36c3c": {
           "type": "icon-with-text",
@@ -58,7 +56,7 @@
         "13252fe7-cfc8-4902-8a79-ee74f7d66b67": {
           "type": "text",
           "settings": {
-            "text": "<strong>volum</strong> 440ml",
+            "text": "<strong>volum: </strong>{{ product.metafields.custom.can_size.value }}",
             "text_style": "uppercase"
           }
         },
@@ -71,13 +69,11 @@
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
