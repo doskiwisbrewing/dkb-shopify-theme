@@ -199,16 +199,6 @@
         "name": "boolean",
         "category": "TRUE_FALSE"
       }
-    },
-    {
-      "key": "brand",
-      "namespace": "custom",
-      "name": "Brand",
-      "description": "Doskiwis Brewing",
-      "type": {
-        "name": "single_line_text_field",
-        "category": "TEXT"
-      }
     }
   ],
   "variant": [
