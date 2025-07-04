@@ -59,7 +59,7 @@
           "type": "text",
           "name": "Volume",
           "settings": {
-            "text": "<strong>volum: </strong>{{ product.metafields.custom.can_size.alue }}",
+            "text": "<strong>volum: </strong>{{ product.metafields.custom.can_size.value }}",
             "text_style": "uppercase"
           }
         },
