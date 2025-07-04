@@ -105,8 +105,8 @@
     "drawer_shadow_blur": 5,
     "badge_position": "bottom left",
     "badge_corner_radius": 6,
-    "sale_badge_color_scheme": "accent-2",
-    "sold_out_badge_color_scheme": "accent-1",
+    "sale_badge_color_scheme": "scheme-71140e7c-bd90-4fad-b3b2-61f3f0357da1",
+    "sold_out_badge_color_scheme": "accent-2",
     "brand_headline": "<strong>DOSKIWIS BREWING</strong>",
     "brand_description": "<h5>CERVESERA EMPORDÀ</h5>",
     "brand_image": "shopify://shop_images/DKB_BOTTLE_LABEL_MONTGRI_BLACK-01_70806482-9839-4a30-9e8a-f5e601470a00.png",
@@ -224,10 +224,10 @@
         "settings": {
           "background": "#f3f3f3",
           "background_gradient": "",
-          "text": "#1c2444",
+          "text": "#131313",
           "button": "#2c332f",
           "button_label": "#1c2444",
-          "secondary_button_label": "#5c939b",
+          "secondary_button_label": "#6f6f6f",
           "shadow": "#1c2444"
         }
       },
