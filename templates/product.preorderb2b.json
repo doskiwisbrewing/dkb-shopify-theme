@@ -40,13 +40,36 @@
             "image_3": "shopify://shop_images/ethanol.svg",
             "heading_3": "{{ product.metafields.custom.abv.value }}%"
           }
+        },
+        "custom_liquid_nR9fcE": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": ""
+          }
+        },
+        "popup_E7F7eH": {
+          "type": "popup",
+          "settings": {
+            "text": "Reservar barril de 20L",
+            "page": ""
+          }
+        },
+        "popup_rRbL3E": {
+          "type": "popup",
+          "settings": {
+            "text": "Reservar barril de 30L",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "custom_liquid_DKa6Xh",
         "title",
         "description",
-        "cdb9b624-ec7b-475a-a023-78a502e36c3c"
+        "cdb9b624-ec7b-475a-a023-78a502e36c3c",
+        "custom_liquid_nR9fcE",
+        "popup_E7F7eH",
+        "popup_rRbL3E"
       ],
       "custom_css": [
         ".no-js-hidden {margin-top: 0rem;}"
