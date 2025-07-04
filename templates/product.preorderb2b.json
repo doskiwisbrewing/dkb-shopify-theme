@@ -44,7 +44,7 @@
         "custom_liquid_nR9fcE": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": ""
+            "custom_liquid": "<div style=\"display: flex; justify-content: space-around\">\n<div style href=\"google.com\">\nReservar barril de 20l</div>\n<div href=\"google.com\">\nReservar barril de 30l</div>\n</div>"
           }
         },
         "popup_E7F7eH": {
