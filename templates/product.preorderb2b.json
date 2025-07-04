@@ -44,7 +44,7 @@
         "custom_liquid_nR9fcE": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div style=\"display: flex; justify-content: space-between\n;\n\">\n<div class=\"rte\"><a href=\"https://wa.me/34613058064?text=Hola%21%20m%27agradaria%20reservar%20barrils%20de%2020l%20de%20Visions\">Reservar barril de 20l</a></div>\n<a style=\"color: black\">o</a>\n<div class=\"rte\"><a href=\"https://wa.me/34613058064?text=Hola%21%20m%27agradaria%20reservar%20barrils%20de%2030l%20de%20Visions\">Reservar barril de 30l</a></div>\n</div>"
+            "custom_liquid": "<style>\n.but{\nbackground-color: rgb(35,35,35);\npadding: 0.3em;}\n\na {\ntext-transform: uppercase;\ncolor: white;\nfont-size: 1em;}\n\n</style>\n\n<div style=\"display: flex; justify-content: space-between\n;\n\">\n<div class=\"but rte\"><a style=\"color: white;\" href=\"https://wa.me/34613058064?text=Hola%21%20m%27agradaria%20reservar%20barrils%20de%2020l%20de%20Visions\">Reservar barril de 20l</a></div>\n\n<div class=\"but rte\"><a style=\"color: white;\" href=\"https://wa.me/34613058064?text=Hola%21%20m%27agradaria%20reservar%20barrils%20de%2030l%20de%20Visions\">Reservar barril de 30l</a></div>\n</div>"
           }
         }
       },
