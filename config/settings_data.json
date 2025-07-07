@@ -129,7 +129,7 @@
     "show_vendor": false,
     "show_cart_note": true,
     "cart_drawer_collection": "",
-    "cart_color_scheme": "inverse",
+    "cart_color_scheme": "background-1",
     "checkout_accent_color": "#a7906a",
     "checkout_button_color": "#a7906a",
     "sections": {
