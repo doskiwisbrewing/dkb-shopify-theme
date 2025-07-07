@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -30,7 +30,7 @@
         "template--20016114925907__b23258b0-b41a-4821-b6e6-44d057961ccd-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Si el que vols és provar totes les cerveses que oferim, vine a fer un tast amb nosaltres!<\/p>",
+            "text": "<p>Si el que vols és provar totes les cerveses que oferim, vine a fer un tast amb nosaltres!</p>",
             "text_style": "subtitle"
           }
         },
@@ -38,7 +38,7 @@
           "type": "button",
           "settings": {
             "button_label": "REGALA UNA EXPERIÈNCIA",
-            "button_link": "https:\/\/giftup.app\/place-order\/1203d1ec-1b1a-4243-9541-2740b5e83041?platform=hosted",
+            "button_link": "https://giftup.app/place-order/1203d1ec-1b1a-4243-9541-2740b5e83041?platform=hosted",
             "button_style_secondary": false
           }
         }
@@ -48,23 +48,21 @@
         "template--20016114925907__b23258b0-b41a-4821-b6e6-44d057961ccd-text-1",
         "template--20016114925907__b23258b0-b41a-4821-b6e6-44d057961ccd-button-1"
       ],
-      "custom_css": [
-        "div {border-radius: 2%;}"
-      ],
+      "custom_css": [],
       "settings": {
-        "image": "shopify:\/\/shop_images\/DOSKIWIS-IPA.jpg",
+        "image": "shopify://shop_images/DOSKIWIS-IPA.jpg",
         "height": "medium",
-        "desktop_image_width": "large",
+        "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "section_color_scheme": "",
-        "color_scheme": "scheme-aaafaf35-5b06-4754-9e59-742aa5dbed71",
+        "color_scheme": "background-1",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
-        "padding_bottom": 16
+        "padding_bottom": 36
       }
     },
     "dc3b0198-9847-4d76-bc9e-3f6eb4350870": {
@@ -88,7 +86,7 @@
         "template--20016114925907__dc3b0198-9847-4d76-bc9e-3f6eb4350870-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Tastaràs 100ml de cadascuna de les cerveses que elaborem i que tinguem a les aixetes aquell dia. Normalment 9 varietats. El preu per persona és de 19€ i inclou pica-pica (xips artesanes i olives barrejades).<\/p>"
+            "text": "<p>Tastaràs 100ml de cadascuna de les cerveses que elaborem i que tinguem a les aixetes aquell dia. Normalment 9 varietats. El preu per persona és de 19€ i inclou pica-pica (xips artesanes i olives barrejades).</p>"
           }
         },
         "ca6dafb7-91cd-44c4-ba7a-caf3738a6fd4": {
@@ -101,20 +99,20 @@
         "957a01be-b321-494d-857b-52274493cbac": {
           "type": "text",
           "settings": {
-            "text": "<p>La durada del tast és d’aproximadament dues hores, tot i que sou vosaltres qui marqueu el ritme.<\/p>"
+            "text": "<p>La durada del tast és d’aproximadament dues hores, tot i que sou vosaltres qui marqueu el ritme.</p>"
           }
         },
         "1ad2a551-c390-44aa-95e1-61b836f18ceb": {
           "type": "heading",
           "settings": {
-            "heading": "I si també vull dinar\/sopar?",
+            "heading": "I si també vull dinar/sopar?",
             "heading_size": "h1"
           }
         },
         "298645bf-1bae-4d18-8906-8361bcbab38a": {
           "type": "text",
           "settings": {
-            "text": "<p>El tast és 100% compatible amb qualsevol dels plats de la nostra cuina, <a href=\"\/pages\/taproom\" title=\"Taproom\">El Container<\/a>, així que pots fer el tast mentre fas un àpat, o demanar menjar un cop acabat el tast. Ho pots improvitzar al moment ;-)<\/p>"
+            "text": "<p>El tast és 100% compatible amb qualsevol dels plats de la nostra cuina, <a href=\"/pages/taproom\" title=\"Taproom\">El Container</a>, així que pots fer el tast mentre fas un àpat, o demanar menjar un cop acabat el tast. Ho pots improvitzar al moment ;-)</p>"
           }
         }
       },
@@ -149,7 +147,7 @@
         "template--20016114925907__5eee92b6-bffe-4904-ba27-db07d5ac2af5-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Si! És important reservar! D’aquesta manera ho podem tenir tot a punt per oferir-vos la millor experiència.<\/p><p>Els horaris dels tasts poden variar segons la temporada. Els dies que obrim al públic de matins, es poden reservar a les 12h. Els dies que obrim de tardes, es pot reservar per les 18h.<\/p><p>Contacta’ns a <a href=\"mailto:taproom@doskiwisbrewing.com\">info@doskiwisbrewing.com<\/a> per fer una reserva.<\/p>"
+            "text": "<p>Si! És important reservar! D’aquesta manera ho podem tenir tot a punt per oferir-vos la millor experiència.</p><p>Els horaris dels tasts poden variar segons la temporada. Els dies que obrim al públic de matins, es poden reservar a les 12h. Els dies que obrim de tardes, es pot reservar per les 18h.</p><p>Contacta’ns a <a href=\"mailto:taproom@doskiwisbrewing.com\">info@doskiwisbrewing.com</a> per fer una reserva.</p>"
           }
         },
         "6a5456f3-9ec2-4dee-ae3a-f471a2afc03f": {
@@ -162,7 +160,7 @@
         "e46c788c-581c-452c-b9db-478ac140ef51": {
           "type": "text",
           "settings": {
-            "text": "<p>Aquest <a href=\"https:\/\/giftup.app\/place-order\/1203d1ec-1b1a-4243-9541-2740b5e83041?platform=hosted\" title=\"https:\/\/giftup.app\/place-order\/1203d1ec-1b1a-4243-9541-2740b5e83041?platform=hosted\">enllaç<\/a> permet comprar un xec-regal per fer un tast o per un import personalitzat per utilitzar al taproom.<\/p><p>El\/la recipient ens haurà de contactar per concretar el dia i hora del tast.<\/p><p>Tens més preguntes? Contacta’ns a <a href=\"mailto:taproom@doskiwisbrewing.com\">info@doskiwisbrewing.com<\/a>.<\/p>"
+            "text": "<p>Aquest <a href=\"https://giftup.app/place-order/1203d1ec-1b1a-4243-9541-2740b5e83041?platform=hosted\" title=\"https://giftup.app/place-order/1203d1ec-1b1a-4243-9541-2740b5e83041?platform=hosted\">enllaç</a> permet comprar un xec-regal per fer un tast o per un import personalitzat per utilitzar al taproom.</p><p>El/la recipient ens haurà de contactar per concretar el dia i hora del tast.</p><p>Tens més preguntes? Contacta’ns a <a href=\"mailto:taproom@doskiwisbrewing.com\">info@doskiwisbrewing.com</a>.</p>"
           }
         }
       },
@@ -188,7 +186,7 @@
           "type": "column",
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -197,7 +195,7 @@
           "type": "column",
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
