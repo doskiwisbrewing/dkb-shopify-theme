@@ -220,6 +220,15 @@
             "row_content": "<p>No. L’esperit del taproom és informal, i es pot venir sense reserva. Això si, tenim un motor de reserves per qui vulgui assegurar taula durant els mesos de més trànsit: estiu, festius, etc.</p><p>Si vols venir al taproom per fer alguna celebració, contacta’ns a <a href=\"mailto:taproom@doskiwisbrewing.com\"><span style=\"text-decoration:underline\">taproom@doskiwisbrewing.com</span></a> i coordinem!</p>",
             "page": ""
           }
+        },
+        "collapsible_row_tnbNTK": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Com arribo a Doskiwis?",
+            "icon": "none",
+            "row_content": "<p>Estem molt a prop de l’estació de tren de Flaçà, a uns 6-8 minuts amb cotxe. Hi ha taxis disponibles a l'estació i en pots reservar un per telèfon al +34 650 31 05 87.</p><p>També hi ha autobusos des de l’estació de Flaçà, Girona i altres poblacions properes. L’estació d’autobús de Rupià està a només 400m. <strong>Planifica el teu viatge en autobús.</strong></p><p>🚴‍♂️ <strong>Vens amb bicicleta?</strong> Hi ha molts camins i rutes que et portaran fins a Doskiwis. Aquí tens tres rutes en format <strong>.gpx</strong> que pots descarregar directament al teu GPS. Gràcies a en <strong>Jordí Pallí</strong> per compartir-les amb nosaltres!</p><ul><li><strong>Bordils - DOSKIWIS</strong></li><li><strong>Torroella de Montgrí - DOSKIWIS</strong></li></ul><p>🌍 <strong>Wikiloc</strong> és una web/app fantàstica amb un munt de rutes que passen per Rupià i Doskiwis. Només cal buscar-ho i afegir filtres per trobar la ruta ideal.</p><p>📍 <strong>Utilitzes Strava?</strong> Fes un cop d’ull a aquestes rutes. Gràcies a <strong>Dave Smith</strong> per compartir-les!</p><p><a href=\"https://www.strava.com/routes/19465377\"><span style=\"text-decoration:underline\">https://www.strava.com/routes/19465377<br/></span></a><a href=\"https://www.strava.com/routes/19465045\"><span style=\"text-decoration:underline\">https://www.strava.com/routes/19465045<br/></span></a><a href=\"https://www.strava.com/routes/19465012\"><span style=\"text-decoration:underline\">https://www.strava.com/routes/19465012<br/></span></a><a href=\"https://www.strava.com/routes/19464961\"><span style=\"text-decoration:underline\">https://www.strava.com/routes/19464961</span></a></p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -228,7 +237,8 @@
         "collapsible_row_kTePyL",
         "collapsible_row_rcqqiz",
         "collapsible_row_TGMA4D",
-        "collapsible_row_kVyiQ6"
+        "collapsible_row_kVyiQ6",
+        "collapsible_row_tnbNTK"
       ],
       "name": "Taproom",
       "settings": {
