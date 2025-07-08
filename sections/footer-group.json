@@ -11,6 +11,16 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "custom_liquid_kkBq9r": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n.fineline {\n  width: 100%;\n  border-width: 1px;\n  border-color: #232323;\n  color: white;\n  border-style: solid;\ncolor: black;\n}\n</style>\n\n<div class=\"fineline\"> </div>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -61,6 +71,7 @@
     }
   },
   "order": [
+    "custom_liquid_kkBq9r",
     "footer"
   ]
 }
