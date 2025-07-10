@@ -864,6 +864,9 @@
         "buy_buttons": {
           "name": "Buy buttons",
           "settings": {
+            "outline_button": {
+              "label": "Use outline button style"
+            },
             "show_dynamic_checkout": {
               "label": "Show dynamic checkout buttons",
               "info": "Using the payment methods available on your store, customers see their preferred option, like PayPal or Apple Pay. [Learn more](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)"
