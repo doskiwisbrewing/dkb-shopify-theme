@@ -27,62 +27,6 @@
         "show_text_below": false
       }
     },
-    "featured_product_3jzbpx": {
-      "type": "featured-product",
-      "blocks": {
-        "title_YNk87X": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h1"
-          }
-        },
-        "text_P3xdhi": {
-          "type": "text",
-          "settings": {
-            "text": "Presentem la nostra primera cervesa sense alcohol: una cervesa de color or groc clar amb aromes tropicals intensos de pinya, sobre notes sutils herbàcies i especiades.En boca, destaquen els sabors cítrics frescos sobre un cos suau i lleuger, oferint tot el sabor que t’agrada, sense alcohol.",
-            "text_style": "body"
-          }
-        },
-        "price_BHrmRh": {
-          "type": "price",
-          "settings": {}
-        },
-        "quantity_selector_ciPjQX": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "buy_buttons_8V4jmA": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": false,
-            "show_gift_card_recipient": true,
-            "button_style_secondary": true
-          }
-        }
-      },
-      "block_order": [
-        "title_YNk87X",
-        "text_P3xdhi",
-        "price_BHrmRh",
-        "quantity_selector_ciPjQX",
-        "buy_buttons_8V4jmA"
-      ],
-      "name": "t:sections.featured-product.presets.name",
-      "settings": {
-        "product": "fenix",
-        "color_scheme": "",
-        "secondary_background": false,
-        "media_size": "small",
-        "constrain_to_viewport": true,
-        "media_fit": "contain",
-        "media_position": "left",
-        "image_zoom": "lightbox",
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "featured_product_xRDNaP": {
       "type": "featured-product",
       "blocks": {
@@ -132,6 +76,62 @@
         "constrain_to_viewport": true,
         "media_fit": "contain",
         "media_position": "right",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_product_3jzbpx": {
+      "type": "featured-product",
+      "blocks": {
+        "title_YNk87X": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "text_P3xdhi": {
+          "type": "text",
+          "settings": {
+            "text": "Presentem la nostra primera cervesa sense alcohol: una cervesa de color or groc clar amb aromes tropicals intensos de pinya, sobre notes sutils herbàcies i especiades.En boca, destaquen els sabors cítrics frescos sobre un cos suau i lleuger, oferint tot el sabor que t’agrada, sense alcohol.",
+            "text_style": "body"
+          }
+        },
+        "price_BHrmRh": {
+          "type": "price",
+          "settings": {}
+        },
+        "quantity_selector_ciPjQX": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_8V4jmA": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true,
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "title_YNk87X",
+        "text_P3xdhi",
+        "price_BHrmRh",
+        "quantity_selector_ciPjQX",
+        "buy_buttons_8V4jmA"
+      ],
+      "name": "t:sections.featured-product.presets.name",
+      "settings": {
+        "product": "fenix",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
         "image_zoom": "lightbox",
         "hide_variants": false,
         "enable_video_looping": false,
@@ -205,9 +205,9 @@
         ".button {font-weight: bold;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/custom_resized_e3015f41-c959-412c-8048-66021a7517a9.jpg",
-        "height": "medium",
-        "desktop_image_width": "large",
+        "image": "shopify://shop_images/landingimage.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
