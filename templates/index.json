@@ -32,6 +32,7 @@
       "blocks": {
         "custom_liquid_YdqYbU": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<style>\n.anouncement {\nbackground-color: #525252;\npadding-left: 1em;\npadding-right: 1em;\ndisplay: inline-block}\n\nb {\ntext-transform: uppercase;\ncolor: white;\nfont-size: 1.5em;}\n\n.date {\ncolor: white;\nmargin: 0px;\nfont-size: 0.9em;\n}\n</style>\n\n\n<div class=\"anouncement\">\n<b>{{ 'products.product.preorder' | t }}</b>\n</div>"
           }
