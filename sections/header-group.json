@@ -29,9 +29,35 @@
         "padding_top": 8,
         "padding_bottom": 4
       }
+    },
+    "announcement_bar_dFEAJE": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement_zcAY8e": {
+          "type": "announcement",
+          "settings": {
+            "text": "Durant l'estiu, a causa de les altes temperatures, tots els enviaments es realitzaran dilluns i dimarts",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_zcAY8e"
+      ],
+      "name": "t:sections.announcement-bar.presets.name",
+      "settings": {
+        "color_scheme": "",
+        "show_line_separator": true,
+        "show_social": false,
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
     }
   },
   "order": [
-    "header"
+    "header",
+    "announcement_bar_dFEAJE"
   ]
 }
