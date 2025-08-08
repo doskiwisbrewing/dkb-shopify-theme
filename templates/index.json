@@ -46,7 +46,7 @@
         "text_VDMKgi": {
           "type": "text",
           "settings": {
-            "text": "De color groc sedós, amb aromes intenses de préssec, meló i maduixa, amb capes de llima vibrant i un toc d’herbes fresques com la farigola. En boca, apareixen notes de fruita dolça, fruita de la passió, suc de taronja i fins i tot una mica de poma confitada, tot plegat embolcallat per una marcada nota cítrica de llima.",
+            "text": "Equilibrada i complexa, la Keep On es presenta amb un groc pàl·lid i lluminós, amb aromes herbals fresques que enceten aquesta experiència.",
             "text_style": "body"
           }
         },
@@ -77,7 +77,7 @@
       ],
       "name": "t:sections.featured-product.presets.name",
       "settings": {
-        "product": "wild-motion",
+        "product": "keep-on",
         "color_scheme": "",
         "secondary_background": false,
         "media_size": "small",
