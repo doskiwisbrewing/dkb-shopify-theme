@@ -138,6 +138,7 @@
     },
     "featured_collection_YcGrqq": {
       "type": "featured-collection",
+      "disabled": true,
       "custom_css": [
         "img {object-fit: contain;}"
       ],
