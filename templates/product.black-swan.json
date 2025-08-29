@@ -12,12 +12,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "custom_liquid_DKa6Xh": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<style>\n.anouncement {\nbackground-color: black;\npadding-left: 1em;\npadding-right: 1em;\ndisplay: inline-block}\n\nb {\ntext-transform: uppercase;\ncolor: white;\nfont-size: 1.5em;}\n\n.date {\ncolor: white;\nmargin: 0px;\nfont-size: 0.9em;\n}\n</style>\n\n\n<div class=\"anouncement\">\n<b>{{ 'products.product.preorder' | t }}</b>\n<p class=\"date\">{{ 'products.product.preorder_date' | t}} \n{{product.metafields.custom.preorder_date  | date: \"%d - %m - %Y\"}}</p>\n</div>"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {}
@@ -44,12 +38,11 @@
         "custom_liquid_nR9fcE": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<style>\n.but{\nbackground-color: rgb(35,35,35);\npadding: 0.3em;}\n\na {\ntext-transform: uppercase;\ncolor: white;\nfont-size: 1em;}\n\n</style>\n\n<div style=\"display: flex; justify-content: space-between\n;\n\">\n<div class=\"but rte\"><a style=\"color: white;\" href=\"https://wa.me/34613058064?text=Hola%21%20m%27agradaria%20reservar%20un%20barril%20de%2020l\">Reservar barril de 20l</a></div>\n\n<div class=\"but rte\"><a style=\"color: white;\" href=\"https://wa.me/34613058064?text=Hola%21%20m%27agradaria%20reservar%20un%20barril%20de%2030l\">Reservar barril de 30l</a></div>\n</div>"
+            "custom_liquid": "<style>\n.but{\nbackground-color: rgb(35,35,35);\npadding: 0.3em;}\n\na {\ntext-transform: uppercase;\ncolor: white;\nfont-size: 1em;}\n\n</style>\n\n<div style=\"display: flex; justify-content: space-between\n;\n\">\n<div class=\"but rte\"></div>\n\n<div class=\"but rte\"><a style=\"color: white;\" href=\"https://wa.me/34613058064?text=Hola%21%20m%27agradaria%20reservar%20un%20barril%20de%2030l\">Reservar barril de 30l</a></div>\n</div>"
           }
         }
       },
       "block_order": [
-        "custom_liquid_DKa6Xh",
         "title",
         "description",
         "cdb9b624-ec7b-475a-a023-78a502e36c3c",
