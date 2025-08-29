@@ -75,6 +75,7 @@
         "quantity_selector_RG74Ud",
         "buy_buttons_waED8R"
       ],
+      "disabled": true,
       "name": "t:sections.featured-product.presets.name",
       "settings": {
         "product": "keep-on",
