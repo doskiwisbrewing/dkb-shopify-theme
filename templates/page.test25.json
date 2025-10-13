@@ -21,9 +21,9 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/njoy-costa-brava-rupia-doskiwis-craft-beer.webp",
+        "image": "shopify://shop_images/LANDING_compressed.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "adapt",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
@@ -309,11 +309,23 @@
             "button_label": "Find out more",
             "button_link": ""
           }
+        },
+        "row_kNDm8p": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/DSC06824.jpg",
+            "caption": "",
+            "heading": "Special Events",
+            "text": "<p>Check out our upcoming events, hosted at the Taproom in Rupià, Empordà and beyond.</p>",
+            "button_label": "See events",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
         "row_YQfhpn",
-        "row_w8Ltad"
+        "row_w8Ltad",
+        "row_kNDm8p"
       ],
       "name": "t:sections.multirow.presets.name",
       "settings": {
@@ -327,54 +339,6 @@
         "image_layout": "alternate-left",
         "section_color_scheme": "",
         "row_color_scheme": "",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "image_with_text_xpDEKt": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_TnzBqL": {
-          "type": "heading",
-          "settings": {
-            "heading": "A Labour of Love",
-            "heading_size": "h1"
-          }
-        },
-        "text_ErqaqC": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Back in 2016, we created the Doskiwis concept with the ambition of making the beers we wanted to drink ourselves but couldn’t find locally here in Empordà.</p>",
-            "text_style": "body"
-          }
-        },
-        "button_AXTxL3": {
-          "type": "button",
-          "settings": {
-            "button_label": "Keep reading",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_TnzBqL",
-        "text_ErqaqC",
-        "button_AXTxL3"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/232A3548-6709-4847-BC03-A1380F2B6413.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
@@ -525,6 +489,81 @@
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "image_banner_pYbBaB": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/VITAMINC_DKB.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_with_text_xpDEKt": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_TnzBqL": {
+          "type": "heading",
+          "settings": {
+            "heading": "A Labour of Love",
+            "heading_size": "h1"
+          }
+        },
+        "text_ErqaqC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Back in 2016, we created the Doskiwis concept with the ambition of making the beers we wanted to drink ourselves but couldn’t find locally here in Empordà.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_AXTxL3": {
+          "type": "button",
+          "settings": {
+            "button_label": "Keep reading",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_TnzBqL",
+        "text_ErqaqC",
+        "button_AXTxL3"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/232A3548-6709-4847-BC03-A1380F2B6413.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "background-1",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "newsletter_UqyYQY": {
+      "type": "newsletter",
+      "name": "t:sections.newsletter.presets.name",
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 72,
+        "padding_bottom": 72
       }
     },
     "image_with_text_zXECHw": {
@@ -737,40 +776,6 @@
         "accessibility_info": ""
       }
     },
-    "newsletter_UqyYQY": {
-      "type": "newsletter",
-      "blocks": {
-        "heading_YgNCVg": {
-          "type": "heading",
-          "settings": {
-            "heading": "Doskiwis Weekly Newsletter",
-            "heading_size": "h1"
-          }
-        },
-        "paragraph_nQTP9J": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Sign up to get 10% off your first online order. </p>"
-          }
-        },
-        "email_form_r9E6aP": {
-          "type": "email_form",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "heading_YgNCVg",
-        "paragraph_nQTP9J",
-        "email_form_r9E6aP"
-      ],
-      "name": "t:sections.newsletter.presets.name",
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 72,
-        "padding_bottom": 72
-      }
-    },
     "slideshow_LWXCkA": {
       "type": "slideshow",
       "blocks": {
@@ -926,14 +931,15 @@
     "featured_product_qkL9j7",
     "multicolumn_fGYzU6",
     "multirow_8xF7i4",
-    "image_with_text_xpDEKt",
     "image_with_text_qnew8U",
     "image_with_text_B7rzgz",
     "image_with_text_CPhkqf",
+    "image_banner_pYbBaB",
+    "image_with_text_xpDEKt",
+    "newsletter_UqyYQY",
     "image_with_text_zXECHw",
     "multicolumn_AirBMG",
     "slideshow_H4bGJY",
-    "newsletter_UqyYQY",
     "slideshow_LWXCkA",
     "featured_collection_3KVGKF"
   ]
