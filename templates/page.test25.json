@@ -1,0 +1,131 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_DFx7Vk": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_rda4Fh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/DSC09287_2_1.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_rda4Fh"
+      ],
+      "settings": {
+        "title": "Diari Ara",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "Diari Ara - 03/07/23",
+        "button_link": "https://mengem.ara.cat/mengem/doskiwis-rupia-una-fabrica-de-cervesa-artesana-bar-i-terrassa-amb-vistes-al-montgri_130_4740825.html",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_HiXfYA": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_bXcRR7": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_gJhEKw": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_htgD7j": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_bXcRR7",
+        "column_gJhEKw",
+        "column_htgD7j"
+      ],
+      "settings": {
+        "title": "Club Renfe",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1707480724ab4da501": {
+      "type": "apps",
+      "blocks": {
+        "xo_gallery_xo_gallery_EmbPT7": {
+          "type": "shopify://apps/xo-gallery/blocks/xo-gallery/e61dfbaa-1a75-4e4e-bffc-324f17325251",
+          "settings": {
+            "id": 1,
+            "mid": ""
+          }
+        }
+      },
+      "block_order": [
+        "xo_gallery_xo_gallery_EmbPT7"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "multicolumn_DFx7Vk",
+    "multicolumn_HiXfYA",
+    "1707480724ab4da501"
+  ]
+}
