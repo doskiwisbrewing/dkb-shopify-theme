@@ -9,6 +9,14 @@
  */
 {
   "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_banner_KitMHg": {
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
@@ -24,14 +32,6 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
-      }
-    },
-    "main": {
-      "type": "main-page",
-      "disabled": true,
-      "settings": {
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "rich_text_gPVYjh": {
@@ -305,6 +305,52 @@
         "padding_bottom": 36
       }
     },
+    "multicolumn_AirBMG": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_LA4QnN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/DSC00919.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_G99h4N": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/DSC01486.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_LA4QnN",
+        "column_G99h4N"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
+    },
     "newsletter_UqyYQY": {
       "type": "newsletter",
       "blocks": {
@@ -338,17 +384,246 @@
         "padding_top": 72,
         "padding_bottom": 72
       }
+    },
+    "slideshow_H4bGJY": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_GAiyV3": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/LIMINALITY_DKB_1.jpg",
+            "heading": "",
+            "heading_size": "h0",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_yDH4rq": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/ONIRIC_DKB.jpg",
+            "heading": "",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_mHMHQW": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/ACTUAL_AIR_DKB.jpg",
+            "heading": "",
+            "heading_size": "h0",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_UbP3Xh": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/VITAMINC_DKB.jpg",
+            "heading": "",
+            "heading_size": "h0",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_FHqRGh": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/SEDATE_SPLENDOR_DKB.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_GAiyV3",
+        "slide_yDH4rq",
+        "slide_mHMHQW",
+        "slide_UbP3Xh",
+        "slide_FHqRGh"
+      ],
+      "name": "t:sections.slideshow.presets.name",
+      "settings": {
+        "layout": "grid",
+        "slide_height": "adapt_image",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": ""
+      }
+    },
+    "slideshow_LWXCkA": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_bk9WEx": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/AAFF_DOSKIWIS_RUPIANUM_5.5.pdf.jpg",
+            "heading": "",
+            "heading_size": "h0",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_67Tq7n": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/AAFF_DOSKIWIS_MEDES_PILS.pdf.jpg",
+            "heading": "",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_GD3eqK": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/AAFF_DOSKIWIS_IDEAL.pdf.jpg",
+            "heading": "",
+            "heading_size": "h0",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_QynRJg": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/AAFF_DOSKIWIS_HEARTBREAKER_Gluten_Free.pdf.jpg",
+            "heading": "",
+            "heading_size": "h0",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_ixcnLM": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/AAFF_DOSKIWIS_SUNNY_NELSON.pdf.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_bk9WEx",
+        "slide_67Tq7n",
+        "slide_GD3eqK",
+        "slide_QynRJg",
+        "slide_ixcnLM"
+      ],
+      "name": "t:sections.slideshow.presets.name",
+      "settings": {
+        "layout": "grid",
+        "slide_height": "adapt_image",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": ""
+      }
     }
   },
   "order": [
-    "image_banner_KitMHg",
     "main",
+    "image_banner_KitMHg",
     "rich_text_gPVYjh",
     "image_with_text_zzDRnE",
     "image_with_text_qnew8U",
     "image_with_text_B7rzgz",
     "image_with_text_CPhkqf",
     "image_with_text_zXECHw",
-    "newsletter_UqyYQY"
+    "multicolumn_AirBMG",
+    "slideshow_H4bGJY",
+    "newsletter_UqyYQY",
+    "slideshow_LWXCkA"
   ]
 }
