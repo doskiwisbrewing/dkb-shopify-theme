@@ -37,22 +37,14 @@
     "rich_text_gPVYjh": {
       "type": "rich-text",
       "blocks": {
-        "heading_CwEgTq": {
-          "type": "heading",
-          "settings": {
-            "heading": "Welcome to Doskiwis",
-            "heading_size": "h0"
-          }
-        },
         "text_eYrYpy": {
           "type": "text",
           "settings": {
-            "text": "<p>We create modern and accessible beers, packed full of flavour, using only the highest-quality ingredients, ensuring an unmistakable experience in every glass.</p><p>Since 2019, we’ve been brewing away in Rupià, Empordà - a peaceful village tucked between Girona, the Pyrenees mountains and the Costa Brava coastline.</p>"
+            "text": "<h2>We create modern and accessible beers, packed full of flavour, using only the highest-quality ingredients, ensuring an unmistakable experience in every glass.</h2>"
           }
         }
       },
       "block_order": [
-        "heading_CwEgTq",
         "text_eYrYpy"
       ],
       "name": "t:sections.rich-text.presets.name",
@@ -63,6 +55,112 @@
         "full_width": true,
         "padding_top": 72,
         "padding_bottom": 72
+      }
+    },
+    "image_with_text_zzDRnE": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_3BjG9K": {
+          "type": "heading",
+          "settings": {
+            "heading": "Fresh beer, delivered to your door",
+            "heading_size": "h1"
+          }
+        },
+        "text_bLwPwF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Discover our core range of signature beers and a rotating lineup of limited-edition releases.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_8wzi8w": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop now",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_3BjG9K",
+        "text_bLwPwF",
+        "button_8wzi8w"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/DSC06566.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_DwXPFt": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "title": "Core Range",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "core-range",
+        "products_to_show": 6,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_UxYmta": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "title": "Limited Edition",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "new-arrivals",
+        "products_to_show": 25,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "featured_product_qkL9j7": {
@@ -129,50 +227,60 @@
         "padding_bottom": 72
       }
     },
-    "image_with_text_zzDRnE": {
-      "type": "image-with-text",
+    "multicolumn_fGYzU6": {
+      "type": "multicolumn",
       "blocks": {
-        "heading_3BjG9K": {
-          "type": "heading",
+        "column_6KFKFk": {
+          "type": "column",
           "settings": {
-            "heading": "Fresh beer, delivered to your door",
-            "heading_size": "h1"
+            "image": "shopify://shop_images/liminality_can_bg.jpg",
+            "title": "xxxx",
+            "text": "<p>xxxx</p>",
+            "link_label": "",
+            "link": ""
           }
         },
-        "text_bLwPwF": {
-          "type": "text",
+        "column_FHVykf": {
+          "type": "column",
           "settings": {
-            "text": "<p>Discover our core range of signature beers and a rotating lineup of limited-edition releases.</p>",
-            "text_style": "body"
+            "image": "shopify://shop_images/joia_can_bg.jpg",
+            "title": "xxxx",
+            "text": "<p>xxxxxx</p>",
+            "link_label": "",
+            "link": ""
           }
         },
-        "button_8wzi8w": {
-          "type": "button",
+        "column_99TQLn": {
+          "type": "column",
           "settings": {
-            "button_label": "Shop now",
-            "button_link": "",
-            "button_style_secondary": false
+            "image": "shopify://shop_images/oniric_can_bg.jpg",
+            "title": "xxxx",
+            "text": "<p>xxxxx</p>",
+            "link_label": "",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "heading_3BjG9K",
-        "text_bLwPwF",
-        "button_8wzi8w"
+        "column_6KFKFk",
+        "column_FHVykf",
+        "column_99TQLn"
       ],
-      "name": "t:sections.image-with-text.presets.name",
+      "disabled": true,
+      "name": "t:sections.multicolumn.presets.name",
       "settings": {
-        "image": "shopify://shop_images/Favicons_Core_Beers_-_4.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
+        "title": "Limited Edition",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "View all",
+        "button_link": "",
         "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -210,7 +318,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/DSC06566.jpg",
+        "image": "shopify://shop_images/DSC06886.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -685,13 +793,13 @@
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
         "title": "Fresh beer, delivered to your door",
-        "heading_size": "h2",
+        "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "core-range",
-        "products_to_show": 4,
-        "columns_desktop": 4,
+        "collection": "beer",
+        "products_to_show": 6,
+        "columns_desktop": 5,
         "full_width": false,
         "show_view_all": false,
         "view_all_style": "solid",
@@ -702,11 +810,11 @@
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
-        "enable_quick_add": false,
+        "enable_quick_add": true,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 72,
-        "padding_bottom": 72
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     }
   },
@@ -714,8 +822,11 @@
     "main",
     "image_banner_KitMHg",
     "rich_text_gPVYjh",
-    "featured_product_qkL9j7",
     "image_with_text_zzDRnE",
+    "featured_collection_DwXPFt",
+    "featured_collection_UxYmta",
+    "featured_product_qkL9j7",
+    "multicolumn_fGYzU6",
     "image_with_text_qnew8U",
     "image_with_text_B7rzgz",
     "image_with_text_CPhkqf",
