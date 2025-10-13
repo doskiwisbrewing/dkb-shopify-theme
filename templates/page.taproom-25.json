@@ -47,7 +47,7 @@
         "text_eYrYpy": {
           "type": "text",
           "settings": {
-            "text": "<p>Enjoy our freshest beers on tap, alongside kombucha, natural wine, specialty coffee and a seasonal kitchen menu available in our lively beer garden. We currently have ten beers on rotation - always brewed on-site by our small and passionate team.</p>"
+            "text": "<p>Enjoy our freshest beers on tap, alongside kombucha, natural wine, specialty coffee and a seasonal kitchen menu available in our lively beer garden.</p><p>We currently have ten beers on rotation - always brewed on-site by our small and passionate team.</p>"
           }
         }
       },
@@ -112,6 +112,24 @@
         "padding_bottom": 36
       }
     },
+    "image_banner_pqiWEf": {
+      "type": "image-banner",
+      "disabled": true,
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/DSC08854.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "rich_text_EWjFnQ": {
       "type": "rich-text",
       "blocks": {
@@ -133,6 +151,7 @@
         "heading_LUXqHN",
         "text_rDQWqB"
       ],
+      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
@@ -207,23 +226,6 @@
         "padding_bottom": 72
       }
     },
-    "image_banner_pqiWEf": {
-      "type": "image-banner",
-      "name": "t:sections.image-banner.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/DSC08854.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "image_with_text_zzDRnE": {
       "type": "image-with-text",
       "blocks": {
@@ -255,6 +257,7 @@
         "text_bLwPwF",
         "button_8wzi8w"
       ],
+      "disabled": true,
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/DSC07456.jpg",
@@ -303,6 +306,7 @@
         "text_hjwfV7",
         "button_UaUc7y"
       ],
+      "disabled": true,
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/DSC06566.jpg",
@@ -351,6 +355,7 @@
         "text_WqCXtJ",
         "button_AtcTnh"
       ],
+      "disabled": true,
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/DSC05746_e035d18d-c8ce-42fc-9199-51d46485488c.jpg",
@@ -448,6 +453,7 @@
         "text_8BdNLq",
         "button_p9tKPW"
       ],
+      "disabled": true,
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/DSC03936.jpg",
@@ -804,6 +810,62 @@
         "padding_top": 72,
         "padding_bottom": 72
       }
+    },
+    "multirow_8q39wH": {
+      "type": "multirow",
+      "blocks": {
+        "row_JVyVyn": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "Taproom Address",
+            "text": "<p>Doskiwis Brewing, Carretera Parlavà 22, 17131 Rupià, Girona</p>",
+            "button_label": "Google Maps",
+            "button_link": ""
+          }
+        },
+        "row_rGEM6j": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "Opening Hours - October 2025",
+            "text": "<p><strong>Friday: 6pm-11pm</strong> (kitchen: 7.30pm-10.30pm)</p><p><strong>Saturday: 12pm-11pm</strong> (kitchen: 1pm-3.30pm and 7.30pm-10.30pm)</p><p><strong>Sunday: 12pm-6pm</strong> (kitchen: 1pm-3.30pm)</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_pVw6mT": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "Our Kitchen",
+            "text": "<p>Fresh, seasonal dishes to match our beers, including burgers, salads, sides, and desserts.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_JVyVyn",
+        "row_rGEM6j",
+        "row_pVw6mT"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -823,6 +885,7 @@
     "slideshow_H4bGJY",
     "newsletter_UqyYQY",
     "slideshow_LWXCkA",
-    "featured_collection_3KVGKF"
+    "featured_collection_3KVGKF",
+    "multirow_8q39wH"
   ]
 }
