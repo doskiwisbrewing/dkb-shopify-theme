@@ -850,7 +850,7 @@
         "row_CWidVY": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/DSC07027.jpg",
+            "image": "shopify://shop_images/DSC07456.jpg",
             "caption": "",
             "heading": "Our Kitchen",
             "text": "<p>Fresh, seasonal dishes to match our beers, including burgers, salads, sides, and desserts.</p>",
@@ -872,7 +872,7 @@
         "row_ci7xij": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/DSC06890.jpg",
+            "image": "shopify://shop_images/DSC06872.jpg",
             "caption": "",
             "heading": "Special Events",
             "text": "<p>Check out our upcoming events, hosted at the Taproom in Rupià, and beyond.</p>",
@@ -905,6 +905,106 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "multicolumn_FLMhNB": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_C34WjW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/DSC06890.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_hD7piT": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/DSC01662.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_gYKAgz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/DSC07027.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_YE9pUg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/DSC08817.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_iC3kFK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/DSC03248.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_GHtwAa": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/DSC03936_6653afb3-1849-42ff-93bc-227797f749bd.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_GYmbNh": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_C34WjW",
+        "column_hD7piT",
+        "column_gYKAgz",
+        "column_YE9pUg",
+        "column_iC3kFK",
+        "column_GHtwAa",
+        "column_GYmbNh"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "portrait",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -925,6 +1025,7 @@
     "newsletter_UqyYQY",
     "slideshow_LWXCkA",
     "featured_collection_3KVGKF",
-    "multirow_8q39wH"
+    "multirow_8q39wH",
+    "multicolumn_FLMhNB"
   ]
 }
