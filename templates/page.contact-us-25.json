@@ -38,6 +38,7 @@
         "heading_CwEgTq",
         "text_eYrYpy"
       ],
+      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
@@ -50,6 +51,7 @@
     },
     "image_banner_KitMHg": {
       "type": "image-banner",
+      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/njoy-costa-brava-rupia-doskiwis-craft-beer.webp",
@@ -133,6 +135,7 @@
         "heading_LUXqHN",
         "text_rDQWqB"
       ],
+      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
@@ -812,6 +815,7 @@
     },
     "image_banner_4Nmxfw": {
       "type": "image-banner",
+      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/LIMINALITY_DKB_1.jpg",
@@ -841,6 +845,7 @@
       "block_order": [
         "xo_gallery_xo_gallery_CiUmfX"
       ],
+      "disabled": true,
       "settings": {
         "include_margins": true
       }
