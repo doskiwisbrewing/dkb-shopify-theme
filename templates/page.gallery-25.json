@@ -1060,20 +1060,20 @@
             "link": ""
           }
         },
-        "column_aMKbjJ": {
+        "column_krMA3D": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/IMG_4234_0cf482e9-ca5c-4488-a904-2a13ea41acec.jpg",
+            "image": "shopify://shop_images/DSC02979.jpg",
             "title": "",
             "text": "",
             "link_label": "",
             "link": ""
           }
         },
-        "column_krMA3D": {
+        "column_aMKbjJ": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/DSC02979.jpg",
+            "image": "shopify://shop_images/IMG_4234_0cf482e9-ca5c-4488-a904-2a13ea41acec.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -1103,8 +1103,8 @@
         "column_q7kmmm",
         "column_hwgJEL",
         "column_7QxMYC",
-        "column_aMKbjJ",
         "column_krMA3D",
+        "column_aMKbjJ",
         "column_yCfJ7B"
       ],
       "name": "t:sections.multicolumn.presets.name",
