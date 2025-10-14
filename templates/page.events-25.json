@@ -19,6 +19,7 @@
     },
     "image_banner_KitMHg": {
       "type": "image-banner",
+      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/LANDING_compressed.jpg",
@@ -40,13 +41,14 @@
         "text_eYrYpy": {
           "type": "text",
           "settings": {
-            "text": "<h2>We create modern and accessible beers, packed full of flavour, using only the highest-quality ingredients, ensuring an unmistakable experience in every glass.</h2><h2>Since 2019, we’ve been brewing away in Rupià, Empordà - a peaceful village tucked between Girona, the Pyrenees mountains and the Costa Brava coastline.</h2>"
+            "text": "<h2>Events</h2>"
           }
         }
       },
       "block_order": [
         "text_eYrYpy"
       ],
+      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
@@ -63,21 +65,21 @@
         "heading_3BjG9K": {
           "type": "heading",
           "settings": {
-            "heading": "Fresh beer, delivered to your door",
+            "heading": "Ambient Coffee Launch Party",
             "heading_size": "h2"
           }
         },
         "text_bLwPwF": {
           "type": "text",
           "settings": {
-            "text": "<p>Discover our core range of signature beers and a rotating lineup of limited-edition releases.</p>",
+            "text": "<p>Meet the roasters, DJs, cocktails, special treats and more.</p><p>Sunday 19th October 2025, 12pm-6pm</p>",
             "text_style": "body"
           }
         },
         "button_8wzi8w": {
           "type": "button",
           "settings": {
-            "button_label": "Shop now",
+            "button_label": "More info",
             "button_link": "",
             "button_style_secondary": false
           }
@@ -90,7 +92,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/DSC06566.jpg",
+        "image": "shopify://shop_images/ambient_launch_party_en.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -107,6 +109,7 @@
     },
     "featured_collection_DwXPFt": {
       "type": "featured-collection",
+      "disabled": true,
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
         "title": "Core Range",
@@ -136,6 +139,7 @@
     },
     "featured_collection_UxYmta": {
       "type": "featured-collection",
+      "disabled": true,
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
         "title": "Limited Edition",
@@ -327,6 +331,7 @@
         "row_w8Ltad",
         "row_kNDm8p"
       ],
+      "disabled": true,
       "name": "t:sections.multirow.presets.name",
       "settings": {
         "image_height": "adapt",
@@ -539,6 +544,7 @@
         "text_ErqaqC",
         "button_AXTxL3"
       ],
+      "disabled": true,
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/232A3548-6709-4847-BC03-A1380F2B6413.jpg",
@@ -558,6 +564,7 @@
     },
     "newsletter_UqyYQY": {
       "type": "newsletter",
+      "disabled": true,
       "name": "t:sections.newsletter.presets.name",
       "settings": {
         "color_scheme": "background-1",
@@ -919,6 +926,37 @@
         "padding_top": 100,
         "padding_bottom": 100
       }
+    },
+    "rich_text_t7Cf9E": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_GpggwC": {
+          "type": "heading",
+          "settings": {
+            "heading": "Celebrate at Doskiwis",
+            "heading_size": "h1"
+          }
+        },
+        "text_6ziHqG": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Private and group events at the Taproom, plus special event services</h3><p>We’d love to host you and your group for any special occasion. From birthdays and weddings to company events, album launches and more, we can help organise private events of all shapes and sizes, with any combination of our beers, food, and other special requests.</p><p>If your celebration is happening elsewhere, we also offer tap rentals, kegs, and cans, so you can take Doskiwis to your preferred venue.</p><p>Let’s get the conversation started: doskiwis@doskiwisbrewing.com</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_GpggwC",
+        "text_6ziHqG"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
     }
   },
   "order": [
@@ -941,6 +979,7 @@
     "multicolumn_AirBMG",
     "slideshow_H4bGJY",
     "slideshow_LWXCkA",
-    "featured_collection_3KVGKF"
+    "featured_collection_3KVGKF",
+    "rich_text_t7Cf9E"
   ]
 }
