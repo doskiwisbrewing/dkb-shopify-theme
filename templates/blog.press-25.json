@@ -11,6 +11,7 @@
   "sections": {
     "main": {
       "type": "main-blog",
+      "disabled": true,
       "custom_css": [
         "@media screen and (min-width: 750px) {.blog-articles {grid-template-columns: 1fr 1fr 1fr !important; } .blog-articles--collage > *:nth-child(3n + 1) {grid-column: span 1 !important; }}"
       ],
@@ -23,9 +24,28 @@
         "padding_top": 100,
         "padding_bottom": 100
       }
+    },
+    "featured_blog_PE8hUq": {
+      "type": "featured-blog",
+      "name": "t:sections.featured-blog.presets.name",
+      "settings": {
+        "heading": "Premsa / Prensa / Press",
+        "heading_size": "h1",
+        "blog": "press",
+        "post_limit": 4,
+        "columns_desktop": 1,
+        "color_scheme": "",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "featured_blog_PE8hUq"
   ]
 }
