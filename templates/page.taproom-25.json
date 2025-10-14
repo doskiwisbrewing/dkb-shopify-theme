@@ -47,7 +47,7 @@
         "text_eYrYpy": {
           "type": "text",
           "settings": {
-            "text": "<p>Enjoy our freshest beers on tap, alongside kombucha, natural wine, specialty coffee and a seasonal kitchen menu available in our lively beer garden.</p><p>We currently have ten beers on rotation - always brewed on-site by our small and passionate team.</p>"
+            "text": "<p>Enjoy our freshest beers on tap, alongside kombucha, natural wine, specialty coffee and a seasonal kitchen menu available in our lively beer garden. We currently have ten beers on rotation - always brewed on-site by our small and passionate team.</p>"
           }
         }
       },
@@ -817,6 +817,7 @@
         "row_JVyVyn": {
           "type": "row",
           "settings": {
+            "image": "shopify://shop_images/DSC06896.jpg",
             "caption": "",
             "heading": "Taproom Address",
             "text": "<p>Doskiwis Brewing, Carretera Parlavà 22, 17131 Rupià, Girona</p>",
@@ -827,9 +828,10 @@
         "row_rGEM6j": {
           "type": "row",
           "settings": {
+            "image": "shopify://shop_images/DSC06123_d32d4698-206b-4b5e-8dde-6f80c4f8ba14.jpg",
             "caption": "",
-            "heading": "Opening Hours - October 2025",
-            "text": "<p><strong>Friday: 6pm-11pm</strong> (kitchen: 7.30pm-10.30pm)</p><p><strong>Saturday: 12pm-11pm</strong> (kitchen: 1pm-3.30pm and 7.30pm-10.30pm)</p><p><strong>Sunday: 12pm-6pm</strong> (kitchen: 1pm-3.30pm)</p>",
+            "heading": "Opening Hours",
+            "text": "<p><strong>October 2025:</strong></p><ul><li>Friday: 6pm-11pm</li><li>Saturday: 12pm-11pm</li><li>Sunday: 12pm-6pm</li></ul>",
             "button_label": "",
             "button_link": ""
           }
@@ -837,19 +839,32 @@
         "row_pVw6mT": {
           "type": "row",
           "settings": {
+            "image": "shopify://shop_images/DSC06872.jpg",
             "caption": "",
             "heading": "Book a Table",
-            "text": "<p>We recommend booking ahead to guarantee a comfortable spot in the beer garden, especially for large groups and busy summer evenings.</p>",
+            "text": "<p>We recommend booking ahead to guarantee a table, especially for large groups and busy summer evenings.</p>",
             "button_label": "Book now",
+            "button_link": ""
+          }
+        },
+        "row_CWidVY": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/DSC07027.jpg",
+            "caption": "",
+            "heading": "Our Kitchen",
+            "text": "<p>Fresh, seasonal dishes to match our beers, including burgers, salads, sides, and desserts.</p>",
+            "button_label": "Menu",
             "button_link": ""
           }
         },
         "row_gVxW6a": {
           "type": "row",
           "settings": {
+            "image": "shopify://shop_images/DSC05746_e035d18d-c8ce-42fc-9199-51d46485488c.jpg",
             "caption": "",
             "heading": "Tasting Experiences ",
-            "text": "<p>Join our passionate team at the Brewery & Taproom for a fun and relaxed tasting of the full range of fresh Doskiwis beers.</p>",
+            "text": "<p>Join our passionate team at the Taproom for a fun and relaxed tasting of the full range of fresh Doskiwis beers.</p>",
             "button_label": "Find out more",
             "button_link": ""
           }
@@ -857,9 +872,10 @@
         "row_ci7xij": {
           "type": "row",
           "settings": {
+            "image": "shopify://shop_images/DSC06890.jpg",
             "caption": "",
             "heading": "Special Events",
-            "text": "<p>Check out our upcoming events, hosted at the Brewery & Taproom in Rupià, Empordà and beyond.</p>",
+            "text": "<p>Check out our upcoming events, hosted at the Taproom in Rupià, and beyond.</p>",
             "button_label": "See events",
             "button_link": ""
           }
@@ -869,6 +885,7 @@
         "row_JVyVyn",
         "row_rGEM6j",
         "row_pVw6mT",
+        "row_CWidVY",
         "row_gVxW6a",
         "row_ci7xij"
       ],
