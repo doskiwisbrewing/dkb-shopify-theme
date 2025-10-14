@@ -55,10 +55,10 @@
             "button_link": ""
           }
         },
-        "row_wCyMfz": {
+        "row_a8zCTF": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/DSC06566.jpg",
+            "image": "shopify://shop_images/rupianum_pour.png",
             "caption": "",
             "heading": "Beer",
             "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>",
@@ -69,7 +69,18 @@
         "row_tG8HxL": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/DSC06566.jpg",
+            "image": "shopify://shop_images/DSC06123.jpg",
+            "caption": "",
+            "heading": "Beer",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_wCyMfz": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/DSC01465.jpg",
             "caption": "",
             "heading": "Beer",
             "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>",
@@ -80,29 +91,7 @@
         "row_TeVF86": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/DSC06566.jpg",
-            "caption": "",
-            "heading": "Beer",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "row_a8zCTF": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/DSC06566.jpg",
-            "caption": "",
-            "heading": "Beer",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "row_xLrYEx": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/DSC06566.jpg",
+            "image": "shopify://shop_images/DSC03936_aff02b61-a756-4904-8327-88215c0ac4aa.jpg",
             "caption": "",
             "heading": "Beer",
             "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>",
@@ -113,11 +102,10 @@
       },
       "block_order": [
         "row_LVr8rR",
-        "row_wCyMfz",
-        "row_tG8HxL",
-        "row_TeVF86",
         "row_a8zCTF",
-        "row_xLrYEx"
+        "row_tG8HxL",
+        "row_wCyMfz",
+        "row_TeVF86"
       ],
       "name": "t:sections.multirow.presets.name",
       "settings": {
