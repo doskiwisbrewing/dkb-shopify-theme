@@ -1140,10 +1140,40 @@
             "link": ""
           }
         },
+        "column_4U3yPJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/DSC08534.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "column_7YE3DA": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/rupianum_pour.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Np8PGD": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/DSC04277.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_FjL76G": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/DSC07641.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -1181,7 +1211,10 @@
         "column_WB7r4T",
         "column_VJTCD3",
         "column_EdYDwR",
+        "column_4U3yPJ",
         "column_7YE3DA",
+        "column_Np8PGD",
+        "column_FjL76G",
         "column_QfHiqG"
       ],
       "name": "t:sections.multicolumn.presets.name",
