@@ -21,7 +21,7 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/Doskiwis_GiRODEO-23.png",
+        "image": "shopify://shop_images/Doskiwis_GiRODEO-7.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -817,7 +817,7 @@
         "row_JVyVyn": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/DSC06896.jpg",
+            "image": "shopify://shop_images/DSC01788.jpg",
             "caption": "",
             "heading": "Taproom Address",
             "text": "<p>Doskiwis Brewing, Carretera Parlavà 22, 17131 Rupià, Girona</p>",
@@ -828,7 +828,7 @@
         "row_rGEM6j": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/DSC06123_d32d4698-206b-4b5e-8dde-6f80c4f8ba14.jpg",
+            "image": "shopify://shop_images/DSC06824_77cda7c2-30bb-4c9a-a6f5-58b73ba4706f.jpg",
             "caption": "",
             "heading": "Opening Hours",
             "text": "<p><strong>October 2025:</strong></p><ul><li>Friday: 6pm-11pm</li><li>Saturday: 12pm-11pm</li><li>Sunday: 12pm-6pm</li></ul>",
@@ -839,7 +839,7 @@
         "row_pVw6mT": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/DSC06872.jpg",
+            "image": "shopify://shop_images/DSC06123_26de5972-d938-441c-8257-5a5e5473cd57.jpg",
             "caption": "",
             "heading": "Book a Table",
             "text": "<p>We recommend booking ahead to guarantee a table, especially for large groups and busy summer evenings.</p>",
