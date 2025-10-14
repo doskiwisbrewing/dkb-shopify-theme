@@ -753,7 +753,7 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/Bird3_e135d1ec-9269-4ad2-b411-8cc4f07b0e4c.jpg",
+        "image": "shopify://shop_images/Birds3.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
