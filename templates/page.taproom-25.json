@@ -1034,7 +1034,7 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/Bird2.jpg",
+        "image": "shopify://shop_images/Bird2_cc7ef2ab-1ffa-4bd0-9a64-e67a57fcc48d.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
