@@ -64,7 +64,7 @@
           "type": "heading",
           "settings": {
             "heading": "Fresh beer, delivered to your door",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "text_bLwPwF": {
@@ -302,7 +302,7 @@
         "row_w8Ltad": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/DSC05746_e035d18d-c8ce-42fc-9199-51d46485488c.jpg",
+            "image": "shopify://shop_images/Doskiwis_GiRODEO-22.png",
             "caption": "",
             "heading": "Tasting Experiences",
             "text": "<p>Join our passionate team for a fun and relaxed tasting of the full range of fresh Doskiwis beers.</p>",
@@ -331,7 +331,7 @@
       "settings": {
         "image_height": "adapt",
         "desktop_image_width": "medium",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "text_style": "body",
         "button_style": "primary",
         "desktop_content_position": "middle",
