@@ -1070,6 +1070,16 @@
             "link": ""
           }
         },
+        "column_yCfJ7B": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/DSC01662_c1e4d61f-8fa6-40b7-a2ff-e2ca92dc7f0e.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "column_aMKbjJ": {
           "type": "column",
           "settings": {
@@ -1080,10 +1090,70 @@
             "link": ""
           }
         },
-        "column_yCfJ7B": {
+        "column_3zbgjg": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/DSC01662_c1e4d61f-8fa6-40b7-a2ff-e2ca92dc7f0e.jpg",
+            "image": "shopify://shop_images/DSC03393.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_RGy3L8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/DSC08621.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_WB7r4T": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/DSC09873.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_VJTCD3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/DSC04480.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_EdYDwR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/DSC04827.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_7YE3DA": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/rupianum_pour.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_QfHiqG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/IMG_1068.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -1104,8 +1174,15 @@
         "column_hwgJEL",
         "column_7QxMYC",
         "column_krMA3D",
+        "column_yCfJ7B",
         "column_aMKbjJ",
-        "column_yCfJ7B"
+        "column_3zbgjg",
+        "column_RGy3L8",
+        "column_WB7r4T",
+        "column_VJTCD3",
+        "column_EdYDwR",
+        "column_7YE3DA",
+        "column_QfHiqG"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
