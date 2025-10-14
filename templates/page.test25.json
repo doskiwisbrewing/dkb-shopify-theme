@@ -491,21 +491,21 @@
         "padding_bottom": 36
       }
     },
-    "image_banner_pYbBaB": {
+    "image_banner_mQHTyr": {
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/Bird1_3e22c98e-1190-4f22-a849-4afc6f12e27d.jpg",
+        "image": "shopify://shop_images/Doskiwis_GiRODEO.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
-        "show_text_box": false,
+        "show_text_box": true,
         "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
+        "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "image_with_text_xpDEKt": {
@@ -554,6 +554,23 @@
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "image_banner_pYbBaB": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Bird1_3e22c98e-1190-4f22-a849-4afc6f12e27d.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
       }
     },
     "newsletter_UqyYQY": {
@@ -934,8 +951,9 @@
     "image_with_text_qnew8U",
     "image_with_text_B7rzgz",
     "image_with_text_CPhkqf",
-    "image_banner_pYbBaB",
+    "image_banner_mQHTyr",
     "image_with_text_xpDEKt",
+    "image_banner_pYbBaB",
     "newsletter_UqyYQY",
     "image_with_text_zXECHw",
     "multicolumn_AirBMG",
