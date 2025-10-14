@@ -496,6 +496,37 @@
         "padding_bottom": 36
       }
     },
+    "rich_text_NWazRJ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_fcJtih": {
+          "type": "heading",
+          "settings": {
+            "heading": "Become a Stockist ",
+            "heading_size": "h1"
+          }
+        },
+        "text_gMfXJa": {
+          "type": "text",
+          "settings": {
+            "text": "<p>From bars to bottle shops, hotels and distributors, we’re keen to collaborate with the best and would love to hear from you if you are interested in serving Doskiwis beer.</p><p>Please complete the form below and we will be in touch to discuss the possibilities together. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_fcJtih",
+        "text_gMfXJa"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "image_banner_pYbBaB": {
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
@@ -927,35 +958,15 @@
         "padding_bottom": 100
       }
     },
-    "rich_text_NWazRJ": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_fcJtih": {
-          "type": "heading",
-          "settings": {
-            "heading": "Contact us",
-            "heading_size": "h1"
-          }
-        },
-        "text_gMfXJa": {
-          "type": "text",
-          "settings": {
-            "text": "<p>General Enquiries:</p><ul><li>Email: doskiwis@doskiwisbrewing.com</li><li>Phone: +34623192815</li></ul><p>Brewery & Taproom Address:</p><ul><li>Doskiwis Brewing, Carretera de Parlavà, GI-642, 22, 17131 Rupià, Girona</li></ul><p>Opening hours:</p><ul><li>Our Taproom is open year-round, with hours that vary by season.</li><li>Please check the Taproom page or Google Maps for more information.</li></ul>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_fcJtih",
-        "text_gMfXJa"
-      ],
-      "name": "t:sections.rich-text.presets.name",
+    "contact_form_tGFpbL": {
+      "type": "contact-form",
+      "name": "t:sections.contact-form.presets.name",
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "left",
+        "heading": "",
+        "heading_size": "h1",
         "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
@@ -973,6 +984,7 @@
     "image_with_text_B7rzgz",
     "image_with_text_CPhkqf",
     "rich_text_NWazRJ",
+    "contact_form_tGFpbL",
     "image_banner_pYbBaB",
     "image_with_text_xpDEKt",
     "newsletter_UqyYQY",
