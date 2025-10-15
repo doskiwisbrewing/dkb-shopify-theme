@@ -962,7 +962,7 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/Birds.001.png",
+        "image": "shopify://shop_images/Birds.001_c7bb331b-aaa0-4e54-94d4-d0cf8a10447d.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
