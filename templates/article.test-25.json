@@ -40,7 +40,6 @@
     },
     "featured_blog_9LNcLx": {
       "type": "featured-blog",
-      "disabled": true,
       "name": "t:sections.featured-blog.presets.name",
       "settings": {
         "heading": "Blog posts",
