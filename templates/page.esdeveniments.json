@@ -22,22 +22,25 @@
         "text_an4c6x": {
           "type": "text",
           "settings": {
-            "text": "<p>dia 1 de novembre</p>"
+            "text": "<p>Torna la Castanyada/Festa de Halloween de DosKiwis! 🎃<br/>Premis a les tres millors disfresses. Amb DJ DEATH & Friends 🍡🌰🍠🔥<br/><br/>Hi haurà bus Girona ↔️ DKB. Per apuntar-t’hi, enllaç a la bio.<br/><br/>També serà l’últim servei de tarda del taproom abans d’una petita pausa; tornem el 6 de desembre. Veniu a celebrar-ho amb tothom! ✨<br/><br/><br/></p>"
           }
         },
-        "caption_kEQFDq": {
-          "type": "caption",
+        "button_e4Cnyb": {
+          "type": "button",
           "settings": {
-            "caption": "MÉS DETALLS PROPERAMENT",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "large"
+            "button_label": "Button label",
+            "button_link": "https://tr.ee/zuR6gXjCLp",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
         "heading_QiRY8A",
         "text_an4c6x",
-        "caption_kEQFDq"
+        "button_e4Cnyb"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
