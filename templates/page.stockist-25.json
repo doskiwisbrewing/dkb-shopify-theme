@@ -65,29 +65,18 @@
         "padding_bottom": 52
       }
     },
-    "contact_form_tGFpbL": {
-      "type": "contact-form",
-      "name": "t:sections.contact-form.presets.name",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "color_scheme": "",
-        "padding_top": 52,
-        "padding_bottom": 52
-      }
-    },
     "1760976158f7a51fc4": {
       "type": "apps",
       "blocks": {
         "forms_inline_RnbPmY": {
           "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
           "settings": {
-            "form_id": "",
+            "form_id": "707739",
             "text_color": "#202020",
             "button_background_color": "#202020",
-            "button_label_color": "#FFFFFF",
-            "links_color": "#1878B9",
-            "errors_color": "#E02229",
+            "button_label_color": "#ffffff",
+            "links_color": "#1878b9",
+            "errors_color": "#e02229",
             "text_alignment": "center",
             "form_alignment": "center",
             "padding_top": 0,
@@ -109,7 +98,6 @@
     "main",
     "image_banner_KitMHg",
     "rich_text_NWazRJ",
-    "contact_form_tGFpbL",
     "1760976158f7a51fc4"
   ]
 }
