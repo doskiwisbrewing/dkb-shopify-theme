@@ -32,7 +32,7 @@
         "text_H78Y4G": {
           "type": "text",
           "settings": {
-            "text": "<h2>We create modern, accessible beers packed full of flavour, using only the highest-quality ingredients to deliver an unmistakable experience in every glass.</h2><h2>Since 2019, we’ve been brewing in Rupià, Empordà - a peaceful village tucked between Girona, the Pyrenees, and the Costa Brava.</h2>"
+            "text": "<h2>Ens centrem en crear cerveses modernes i accessibles, plenes de sabor, utilitzant només ingredients de la màxima qualitat per oferir una experiència inconfusible a cada got.</h2><h2>Des del 2019, elaborem cervesa a Rupià, Baix Empordà – un poble tranquil situat entre Girona, els Pirineus i la Costa Brava.</h2>"
           }
         }
       },
@@ -55,21 +55,21 @@
         "heading_g8nFMn": {
           "type": "heading",
           "settings": {
-            "heading": "Fresh beer, delivered to your door",
+            "heading": "Cervesa fresca, directe a casa teva",
             "heading_size": "h2"
           }
         },
         "text_ji79Kr": {
           "type": "text",
           "settings": {
-            "text": "<p>Discover our core range of signature beers and a rotating lineup of limited-edition releases.</p>",
+            "text": "<p>Descobreix la nostra línia de cerveses fixes i una selecció de cerveses d’edició limitada.</p>",
             "text_style": "body"
           }
         },
         "button_dffPVP": {
           "type": "button",
           "settings": {
-            "button_label": "Shop now",
+            "button_label": "Compra ara",
             "button_link": "shopify://collections/beer",
             "button_style_secondary": false
           }
@@ -101,7 +101,7 @@
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
-        "title": "Core Range",
+        "title": "Cerveses fixes (Core Range)",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -130,7 +130,7 @@
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
-        "title": "Limited Edition",
+        "title": "Cerveses d’edició limitada (Limited Edition)",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -163,9 +163,9 @@
           "settings": {
             "image": "shopify://shop_images/DSC06886.jpg",
             "caption": "",
-            "heading": "Visit our Taproom",
-            "text": "<p>Enjoy our freshest beers on tap, alongside specialty coffee by Ambient, kombucha, natural wine and a seasonal kitchen menu.</p>",
-            "button_label": "Find out more",
+            "heading": "Visita el nostre Taproom",
+            "text": "<p>Gaudeix de les nostres cerveses de tirador al seu lloc d’origen, juntament amb cafè d’especialitat d’Ambient, kombutxa, vi natural i una carta de cuina informal de temporada.</p>",
+            "button_label": "Més informació",
             "button_link": "shopify://pages/taproom-25"
           }
         },
@@ -174,9 +174,9 @@
           "settings": {
             "image": "shopify://shop_images/Doskiwis_GiRODEO-22.png",
             "caption": "",
-            "heading": "Tasting Experiences",
-            "text": "<p>Join our passionate team for a fun and relaxed tasting of the full range of fresh Doskiwis beers.</p>",
-            "button_label": "Find out more",
+            "heading": "Experiències de tast",
+            "text": "<p>Deixa que un membre del nostre equip t’acompanyi en un tast divertit i relaxat de les nostres cerveses.</p>",
+            "button_label": "Més informació",
             "button_link": "shopify://pages/tasting-25"
           }
         },
@@ -185,9 +185,9 @@
           "settings": {
             "image": "shopify://shop_images/DSC06872.jpg",
             "caption": "",
-            "heading": "Special Events",
-            "text": "<p>Check out our upcoming events, hosted at the Taproom in Rupià, and beyond.</p>",
-            "button_label": "See events",
+            "heading": "Esdeveniments especials",
+            "text": "<p>Consulta els propers esdeveniments, tant al nostre Taproom de Rupià com fora d’ell.</p>",
+            "button_label": "Veure esdeveniments",
             "button_link": "shopify://pages/events-25"
           }
         }
