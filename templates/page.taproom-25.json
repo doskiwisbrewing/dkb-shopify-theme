@@ -40,14 +40,14 @@
         "heading_CwEgTq": {
           "type": "heading",
           "settings": {
-            "heading": "Visit our Taproom",
+            "heading": "Visita el nostre Taproom",
             "heading_size": "h1"
           }
         },
         "text_eYrYpy": {
           "type": "text",
           "settings": {
-            "text": "<p>Enjoy our freshest beers on tap, alongside specialty coffee by Ambient, kombucha, natural wine and a seasonal kitchen menu available in our lively beer garden. We currently have ten beers on rotation - always brewed on-site by our small and passionate team.</p>"
+            "text": "<p>Gaudeix de les nostres cerveses de tirador al seu lloc d’origen, juntament amb cafè d’especialitat d’Ambient, kombutxa, vi natural i una carta de cuina informal de temporada al nostre jardí. Actualment tenim deu cerveses en rotació, sempre elaborades in situ pel nostre petit i apassionat equip.</p>"
           }
         }
       },
@@ -73,7 +73,7 @@
           "settings": {
             "image": "shopify://shop_images/DSC01788.jpg",
             "caption": "",
-            "heading": "Taproom Address",
+            "heading": "Adreça del Taproom",
             "text": "<p>Doskiwis Brewing, Carretera Parlavà 22, 17131 Rupià, Girona</p>",
             "button_label": "Google Maps",
             "button_link": "https://maps.app.goo.gl/ZxwVNeF9yjxsegwV7?g_st=ipc"
@@ -84,8 +84,8 @@
           "settings": {
             "image": "shopify://shop_images/DSC06824_77cda7c2-30bb-4c9a-a6f5-58b73ba4706f.jpg",
             "caption": "",
-            "heading": "Opening Hours",
-            "text": "<p><strong>October 2025:</strong></p><ul><li>Friday: 6pm-11pm</li><li>Saturday: 12pm-11pm</li><li>Sunday: 12pm-6pm</li></ul>",
+            "heading": "Horaris del Taproom",
+            "text": "<p><strong>Octubre 2025:</strong></p><ul><li>Divendres: 18:00 – 23:00</li><li>Dissabte: 12:00 – 23:00</li><li>Diumenge: 12:00 – 18:00</li></ul>",
             "button_label": "",
             "button_link": ""
           }
@@ -118,7 +118,7 @@
         "text_zU9tRV": {
           "type": "text",
           "settings": {
-            "text": "<p>Please note:</p><p>Our opening hours change with the seasons and are updated on a monthly basis.</p><p>Our kitchen opening hours differ from the Taproom, as follows:</p><ul><li>Friday kitchen: 7.30pm-10.30pm</li><li>Saturday kitchen: 1pm-3.30pm and 7.30pm-10.30pm</li><li>Sunday kitchen: 1pm-3.30pm</li></ul><p>Our beers are available to go in 440ml cans and 946ml reusable bottles. The shop is open Tuesday to Friday, 10am-6pm, as well as the Taproom opening hours listed above. </p>"
+            "text": "<p>Si us plau, tingues en compte:</p><p>Els horaris canvien segons la temporada i s’actualitzen mensualment.</p><p>Els horaris de la cuina són diferents:</p><ul><li>Divendres: 19:30 – 22:30</li><li>Dissabte: 13:00 – 15:30 i 19:30 – 22:30</li><li>Diumenge: 13:00 – 15:30</li></ul><p>Les nostres cerveses estan disponibles per emportar en llaunes de 440 ml i ampolles reutilitzables de 946 ml.La botiga està oberta de dilluns a divendres, de 10:00 a 18:00, així com durant els horaris del Taproom.</p>"
           }
         }
       },
