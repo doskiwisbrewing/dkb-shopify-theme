@@ -71,13 +71,13 @@
         "text_kYeWYp": {
           "type": "text",
           "settings": {
-            "text": "<p>What does it include?</p><ul><li>The Tasting Experience includes 100ml of ten different beers on tap plus an appetiser of artisanal crisps and mixed olives. </li></ul><p>What is the price?</p><ul><li>The Tasting Experience is €25 per person. Of course, additional beers can be purchased to enjoy in the beer garden or to take home.</li></ul><p>Duration:</p><ul><li>The experience typically lasts two hours, but can be shortened if preferred - please let us know in advance or upon arrival.</li></ul><p>Timing:</p><ul><li>Tasting Experience hours vary by season. When we are open during the day, tastings start at 12pm. During evening-only hours, they start at 6pm.</li></ul><p>Combine with lunch or dinner:</p><ul><li>The Tasting Experience can be enjoyed alongside any of our kitchen menu dishes, either during or afterwards, subject to kitchen opening hours. </li></ul><p>Booking:</p><ul><li>Advance booking is required to ensure the best possible experience.</li></ul><p>Can I gift a Tasting Experience?</p><ul><li>Yes! Our Tasting Experience is the perfect gift for beer lovers.</li></ul><p>Questions?</p><ul><li>Please <a href=\"/pages/contact-us-25\" title=\"Contact us 25\">contact us</a> with any questions or special requests and we will be delighted to help. </li></ul>"
+            "text": "<p>Què inclou?</p><p>L’experiència de tast inclou 100 ml de les deu cerveses que tinguem als tiradors, acompanyades d’un aperitiu de xips artesanes i olives variades.</p><p>Preu: 25 € per persona.</p><p>Es poden demanar cerveses addicionals per gaudir-les al jardí o per emportar-te-les a casa.</p><p>Durada: Normalment dues hores (es pot escurçar si es prefereix, només cal avisar).</p><p>Horaris: Varien segons la temporada. Quan obrim al migdia, els tasts comencen a les 12:00. Quan obrim al vespre, comencen a les 18:00.</p><p>Combina el tast amb un àpat: L’experiència es pot gaudir juntament amb qualsevol plat del nostre menú, durant o després del tast (segons els horaris de cuina).</p><p>Reserva: Cal reserva prèvia per garantir la millor experiència possible.</p><p>Es pot regalar?</p><p>Sí! És un regal ideal per als amants de la cervesa.</p><p>Dubtes o peticions especials?</p><p>Escriu-nos i t’ajudarem encantats.</p>"
           }
         },
         "button_xDAMmU": {
           "type": "button",
           "settings": {
-            "button_label": "Book now",
+            "button_label": "Reserva ara",
             "button_link": "https://doskiwisbrewing.myrestoo.net/ca/reservar",
             "button_style_secondary": false,
             "button_label_2": "",
