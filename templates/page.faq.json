@@ -84,27 +84,27 @@
         "collapsible_row_tgYHgy": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Do you make alcohol-free beer?",
+            "heading": "Feu cervesa sense alcohol?",
             "icon": "none",
-            "row_content": "<p>Yes, it’s called <span style=\"text-decoration:underline\">Fenix</span>, available in cans at our <span style=\"text-decoration:underline\">Taproom</span> and <span style=\"text-decoration:underline\">online shop</span>.</p>",
+            "row_content": "<p>Sí, es diu Fenix, disponible en llaunes al Taproom i a la botiga en línia.</p>",
             "page": ""
           }
         },
         "collapsible_row_cV8PAk": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How should I store Doskiwis beer?",
+            "heading": "Com s’ha de conservar la cervesa DosKiwis?",
             "icon": "none",
-            "row_content": "<p>We recommend keeping your beer cold (below 10ºC) to preserve its freshness and flavour. </p><p>Avoid storing it in hot conditions or exposing it to sudden temperature changes.</p><p>Please note: Doskiwis beer is unfiltered and unpasteurised (with the exception of <span style=\"text-decoration:underline\">Fenix Alcohol-Free</span>, which is pasteurised). Once packaged, it’s stored cold until delivery. We always maintain the cold chain and only work with distributors who do the same.</p>",
+            "row_content": "<p>Recomanem mantenir-la freda (per sota de 10 °C) per conservar-ne la frescor i el sabor. Evita exposar-la a la calor o a canvis bruscos de temperatura.La nostra cervesa és sense filtrar ni pasteuritzar (excepte la Fenix sense alcohol que si que està pasteuritzada per garantir-ne la seguretat).</p>",
             "page": ""
           }
         },
         "collapsible_row_XkiwHF": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "What are the advantages of cans?",
+            "heading": "Quins són els avantatges de les llaunes?",
             "icon": "none",
-            "row_content": "<p>Our top priority is ensuring that our beer reaches you with all its flavor and freshness intact. Like many breweries worldwide, we believe that recycled, BPA-free aluminum cans are the best option for preserving beers like ours.</p><ul><li>Oxygen: Oxygen harms beer freshness. Our cans minimize dissolved oxygen, keeping beer at its best.</li><li>Light: Beer is sensitive to light. Cans completely protect it from sunlight and UV damage.</li><li>Flavour: Our hop-forward styles retain their character better in cans. For the best experience, pour into a glass to enjoy all the aromas.</li><li>Recycling: Aluminum is 100% recyclable and can be recycled indefinitely. Our cans contain 68% recycled aluminum.</li><li>Carbon footprint: Cans are lighter and more compact than glass, reducing packaging and transport emissions. A can weighs 94% less than a glass bottle - meaning fewer pallets, fewer trucks, and less packaging overall.</li></ul>",
+            "row_content": "<p>La nostra prioritat és assegurar-nos que la cervesa us arribi amb tot el seu sabor i frescor intactes. Com moltes fàbriques arreu del món, creiem que les llaunes d’alumini reciclades i lliures de BPA són la millor opció per conservar cerveses com les nostres.</p><p>Oxigen: L’oxigen perjudica la frescor de la cervesa. Les nostres llaunes minimitzen l’oxigen dissolt i mantenen la cervesa en el seu millor estat.</p><p>Llum: La cervesa és sensible a la llum. Les llaunes la protegeixen completament de la llum solar i dels danys dels raigs UV.</p><p>Sabor: Els estils que elaborem solen estar protagonitzats del llúpol, i la llauna conserva millor el seu caràcter. Per gaudir-ne al màxim, serviu la cervesa en un got per apreciar tots els aromes.</p><p>Reciclatge: L’alumini és 100% reciclable i es pot reciclar indefinidament. Les llaunes que utilitzem contenen un 68% d’alumini reciclat.</p><p>Petjada de carboni: Les llaunes són més lleugeres i compactes que el vidre, reduint les emissions de l’embalatge i el transport. Una llauna pesa un 94% menys que una ampolla de vidre: això vol dir menys palets, menys camions i menys material d’embalage en general.</p>",
             "page": ""
           }
         }
