@@ -83,127 +83,6 @@
         "show_text_below": true
       }
     },
-    "multicolumn_MPxb4e": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_h7C9Bq": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/DSC06566.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_fLebWG": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/DSC06566.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_h7C9Bq",
-        "column_fLebWG"
-      ],
-      "disabled": true,
-      "name": "t:sections.multicolumn.presets.name",
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "rich_text_EWjFnQ": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_LUXqHN": {
-          "type": "heading",
-          "settings": {
-            "heading": "A Labour of Love",
-            "heading_size": "h1"
-          }
-        },
-        "text_rDQWqB": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Back in 2016, we (Judit, from Llofriu, Baix Empordà and Michael, from New Zealand, the “Kiwi”) created the Doskiwis concept with the ambition of making the beers we wanted to drink ourselves but couldn’t find locally here in Empordà.</p><p>In late 2017, we found exactly what we had been looking for: an old, unoccupied barn full of potential. Strapped for cash, we rolled up our sleeves and called upon friends and family to help transform the barn into the brewery, taproom and beer garden we now call home.</p><p>After more than a year of hard work, we officially opened our doors on a cold February night in 2019, with just three beers on tap and a single garden table.Today, we have ten beers on tap - some core beers and a rotating selection of limited brews, always brewed on-site by our small and passionate team, alongside kombucha, natural wine, specialty coffee and a seasonal kitchen menu best enjoyed in our lively beer garden, which now has around 30 tables.</p><p>Looking ahead, our goal is simple: to keep learning, improving and brewing the best beers possible, while making a positive impact on our community and environment.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_LUXqHN",
-        "text_rDQWqB"
-      ],
-      "disabled": true,
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "left",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "rich_text_D6jCQc": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_ci9M4F": {
-          "type": "heading",
-          "settings": {
-            "heading": "Una feina feta amb amor",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "heading_ci9M4F"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 100,
-        "padding_bottom": 0
-      }
-    },
-    "image_banner_pqiWEf": {
-      "type": "image-banner",
-      "disabled": true,
-      "name": "t:sections.image-banner.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/DSC08854.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "image_with_text_zzDRnE": {
       "type": "image-with-text",
       "blocks": {
@@ -378,14 +257,10 @@
     }
   },
   "order": [
-    "image_banner_KitMHg",
     "main",
+    "image_banner_KitMHg",
     "rich_text_gPVYjh",
     "image_banner_Jegp9M",
-    "multicolumn_MPxb4e",
-    "rich_text_EWjFnQ",
-    "rich_text_D6jCQc",
-    "image_banner_pqiWEf",
     "image_with_text_zzDRnE",
     "image_with_text_mDdXrF",
     "image_with_text_k3UUTn",
