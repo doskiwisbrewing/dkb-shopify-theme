@@ -40,14 +40,14 @@
         "heading_fcJtih": {
           "type": "heading",
           "settings": {
-            "heading": "Become a Stockist ",
+            "heading": "Ofereix les nostres cerveses al teu establiment",
             "heading_size": "h1"
           }
         },
         "text_gMfXJa": {
           "type": "text",
           "settings": {
-            "text": "<p>From bars to bottle shops, hotels and distributors, we’re keen to collaborate with the best and would love to hear from you if you are interested in serving Doskiwis beer.</p><p>Please complete the form below and we will be in touch to discuss the possibilities together. </p>"
+            "text": "<p>Des de bars i botigues fins a hotels i distribuïdors, volem col·laborar amb els millors. Si t’interessa oferir cervesa DosKiwis, omple el formulari i ens posarem en contacte amb tu.</p>"
           }
         }
       },
