@@ -57,27 +57,27 @@
         "collapsible_row_VQJN7q": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "What makes Doskiwis beer different from industrial beer?",
+            "heading": "Què fa que la cervesa DosKiwis sigui diferent?",
             "icon": "none",
-            "row_content": "<p>We’re a small, independent brewery driven by passion and integrity.</p><p>We select ingredients based on quality and values, not cost, always choosing the best available while considering their impact on the environment and the people who drink our beers.</p><p>We never use rice, corn syrup, or GMO products, and we avoid unnecessary additives.</p>",
+            "row_content": "<p>Som una fàbrica petita i independent, guiada per la passió i la integritat.Triem ingredients per la seva qualitat i valors, no pel preu, sempre considerant-ne l’impacte ambiental i social.No fem servir arròs, xarop de blat de moro ni productes transgènics, i evitem additius innecessaris.</p>",
             "page": ""
           }
         },
         "collapsible_row_aeYHXr": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Is your beer vegan?",
+            "heading": "Les vostres cerveses són veganes?",
             "icon": "none",
-            "row_content": "<p>Yes. We don’t use clarifiers or additives of animal origin (common in many industrial beers), and we never use lactose.</p>",
+            "row_content": "<p>Sí. No utilitzem clarificants ni additius d’origen animal i mai fem servir lactosa.</p>",
             "page": ""
           }
         },
         "collapsible_row_GgygWh": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Do you make gluten-free beer?",
+            "heading": "Feu cervesa sense gluten?",
             "icon": "none",
-            "row_content": "<p>Yes, our <span style=\"text-decoration:underline\">Rupianum West Coast IPA</span> and <span style=\"text-decoration:underline\">Heartbreaker Sour</span> are both gluten-free.</p><p>Please note: In the EU, beers containing less than 20 ppm of gluten are considered “gluten-free.” If you’re highly sensitive to even trace amounts, we recommend avoiding it.</p>",
+            "row_content": "<p>Sí, les nostres Rupianum West Coast IPA i Heartbreaker Sour són sense gluten.Segons la normativa de la UE, les cerveses amb menys de 20 ppm de gluten es consideren “sense gluten”.</p>",
             "page": ""
           }
         },
