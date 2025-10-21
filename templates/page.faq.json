@@ -24,7 +24,7 @@
         "heading_mPEBMU": {
           "type": "heading",
           "settings": {
-            "heading": "PREGÜNTES FREQÜENTS / FAQ",
+            "heading": "Preguntes freqüents",
             "heading_size": "h1"
           }
         }
@@ -48,9 +48,9 @@
         "collapsible_row_GAJYUr": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Where can I drink Doskiwis?",
+            "heading": "On puc beure DosKiwis?",
             "icon": "none",
-            "row_content": "<p>You can visit our Taproom in Rupià, Empordà, where we have ten of our freshest beers on tap. Cans and growlers are also available for takeaway.</p><p>Please check our <span style=\"text-decoration:underline\">Taproom</span> page or <span style=\"text-decoration:underline\">Google Maps</span> for current opening hours.</p><p>You can also order directly from our <span style=\"text-decoration:underline\">webshop</span> and enjoy fresh beer delivered straight to your door, with free shipping on orders over €60. <span style=\"text-decoration:underline\">See our shipping policy here. </span></p><p>You’ll find our beers in a range of great shops, bars, restaurants, and hotels throughout Empordà, Girona, and Barcelona. For local partners (within 150 km), we handle distribution directly.</p><p>We also work with several national and international distributors who specialise in craft beer.</p><p>If you’d like to become a <span style=\"text-decoration:underline\">Doskiwis stockist</span>, we’d love to hear from you.</p>",
+            "row_content": "<p>Al nostre Taproom de Rupià, on tenim deu cerveses de tirador que van canviant. També pots emportar-te’n en llaunes o ampolles.<br/>Consulta els horaris al web o Google Maps.</p><p>També pots comprar directament a la nostra botiga web i rebre cervesa fresca a casa, amb enviament gratuït per comandes superiors a 60 €.</p><p>Les nostres cerveses també estan disponibles en botigues, bars, restaurants i hotels de l’Empordà, Girona i Barcelona.Per clients locals (fins a 150 km), fem la distribució directament.També treballem amb distribuïdors nacionals i internacionals especialitzats en cervesa artesanal.</p>",
             "page": ""
           }
         },
@@ -121,7 +121,7 @@
       "name": "General",
       "settings": {
         "caption": "",
-        "heading": "GENERAL",
+        "heading": "General",
         "heading_size": "h2",
         "heading_alignment": "center",
         "layout": "none",
