@@ -199,7 +199,7 @@
           "type": "button",
           "settings": {
             "button_label": "MÉS",
-            "button_link": "shopify://pages/taproom",
+            "button_link": "shopify://pages/taproom_archived",
             "button_style_secondary": true
           }
         }
