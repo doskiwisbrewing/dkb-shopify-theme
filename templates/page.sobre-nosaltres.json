@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -22,7 +22,7 @@
         "template--20113423237459__3735bd84-28a1-4e2b-9956-d0365f8173e1-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Elaborem cerveses modernes, accessibles i plenes de sabor. Utilitzem només ingredients de primera qualitat i ens esforcem dia a dia per oferir una experiència inconfusible en cada cervesa.<\/strong>",
+            "heading": "<strong>Elaborem cerveses modernes, accessibles i plenes de sabor. Utilitzem només ingredients de primera qualitat i ens esforcem dia a dia per oferir una experiència inconfusible en cada cervesa.</strong>",
             "heading_size": "h1"
           }
         },
@@ -47,6 +47,35 @@
         "padding_bottom": 52
       }
     },
+    "image_banner_7JPtBx": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_bCp7ga": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_bCp7ga"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/LANDING_compressed.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
     "33517754-0f5a-470f-9678-42da8616f6fc": {
       "type": "rich-text",
       "blocks": {
@@ -60,7 +89,7 @@
         "template--20113423237459__33517754-0f5a-470f-9678-42da8616f6fc-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>L'any 2016, vam <em>(Judit, Llofriu, Baix Empordà) i Michael, Nova Zelanda, el “kiwi”)<\/em> crear Doskiwis Brewing amb la missió d’elaborar les cerveses que volíem beure però que en aquell moment no estaven disponibles aquí a l'Empordà. Llavors, la cervesa artesana que es produïa a Espanya encara estava en evolució i uns anys enrere de països amb una cultura cervesera més definida. Ens movia la idea de compartir l'apassionant món i els sabors de la cervesa artesana amb la nostra comunitat.<\/p><p>A finals del 2017 vam trobar el que buscàvem: un antic paller, amb moltíssim potencial i espai per fàbrica, taproom i jardí. No teníem gaires diners ni cap inversió externa, però estàvem decidits a fer-ho funcionar amb el que teníem. Vam fer una crida a amics i familiars perquè ens donéssin un cop de mà i vam reunir totes les nostres habilitats i inspiracions d’experiències passades, convertint la nostra major debilitat (la falta de diners) en la nostra major fortalesa, ja que la limitació econòmica ens va obligar a ser creatius. Per això l'esperit del “DIY” o “fes-t’ho tu mateix” és una par inseparable de Doskiwis i de qui som.<\/p><h3><em>Determinats, apassionats i compromesos.<\/em><\/h3><p>Vam trigar més d'un any a obrir les portes, obrint una nit freda de febrer del 2019. Només teniem una sola taula al jardí i 3 cerveses de barril, la nostra kombutxa i cafè d’especialitat nitro a les aixetes. <\/p><p>Avançant fins l’actualitat, disposem de 9 cerveses de barril i  unes 30 taules al jardí. Continuem compromesos a donar suport a altres empreses locals amb idees afins sempre que sigui possible.<\/p><p>Des de l'obertura el 2019, hem ampliat la nostra fàbrica, hem afegit un altell per incrementar la nostra superfície útil de treball i hem convertit un antic contenidor marítim en una cuina (@thecontainer). El nostre equip arriba a les 12 persones (segons la temporada) i hem construït una sòlida reputació dins de la nostra comunitat i dins de la indústria de la cervesa artesana; estem orgullosos de que les nostres cerveses es sovint estiguin puntuades entre les millors d'Espanya. Hem vist augmentar la popularitat de la cervesa artesana a la zona i fins i tot n'hem inspirat a altres per obrir negocis similars al nostre.<\/p><p>Mirant al futur, el nostre objectiu és seguir millorant, seguir aprenent, esforçar-nos per fer-ho sempre el millor possible, produïr la millor cervesa possible, tenir un impacte positiu en la nostra comunitat i el nostre entorn local.<\/p><h3><strong>CONTINUEM SENT<\/strong><\/h3><h3>100% independents<\/h3><h3>100% empresa familiar<\/h3><h3>100% empresa empordanesa<\/h3><p>Sempre agraïts a tots els amics i familiars que ens van donar un cop de mà aquells inicis: Liz, Laurence, Gloria, Adrià, Catherine, Magali, Max, Matt, Liz, Jono, Scott, Afra, Glenn, Natalia, Scott's Parents, Leigh, Sandra, Davie, Sandra, Carlos, Gino<\/p>"
+            "text": "<p>L'any 2016, vam <em>(Judit, Llofriu, Baix Empordà) i Michael, Nova Zelanda, el “kiwi”)</em> crear Doskiwis Brewing amb la missió d’elaborar les cerveses que volíem beure però que en aquell moment no estaven disponibles aquí a l'Empordà. Llavors, la cervesa artesana que es produïa a Espanya encara estava en evolució i uns anys enrere de països amb una cultura cervesera més definida. Ens movia la idea de compartir l'apassionant món i els sabors de la cervesa artesana amb la nostra comunitat.</p><p>A finals del 2017 vam trobar el que buscàvem: un antic paller, amb moltíssim potencial i espai per fàbrica, taproom i jardí. No teníem gaires diners ni cap inversió externa, però estàvem decidits a fer-ho funcionar amb el que teníem. Vam fer una crida a amics i familiars perquè ens donéssin un cop de mà i vam reunir totes les nostres habilitats i inspiracions d’experiències passades, convertint la nostra major debilitat (la falta de diners) en la nostra major fortalesa, ja que la limitació econòmica ens va obligar a ser creatius. Per això l'esperit del “DIY” o “fes-t’ho tu mateix” és una par inseparable de Doskiwis i de qui som.</p><h3><em>Determinats, apassionats i compromesos.</em></h3><p>Vam trigar més d'un any a obrir les portes, obrint una nit freda de febrer del 2019. Només teniem una sola taula al jardí i 3 cerveses de barril, la nostra kombutxa i cafè d’especialitat nitro a les aixetes. </p><p>Avançant fins l’actualitat, disposem de 9 cerveses de barril i  unes 30 taules al jardí. Continuem compromesos a donar suport a altres empreses locals amb idees afins sempre que sigui possible.</p><p>Des de l'obertura el 2019, hem ampliat la nostra fàbrica, hem afegit un altell per incrementar la nostra superfície útil de treball i hem convertit un antic contenidor marítim en una cuina (@thecontainer). El nostre equip arriba a les 12 persones (segons la temporada) i hem construït una sòlida reputació dins de la nostra comunitat i dins de la indústria de la cervesa artesana; estem orgullosos de que les nostres cerveses es sovint estiguin puntuades entre les millors d'Espanya. Hem vist augmentar la popularitat de la cervesa artesana a la zona i fins i tot n'hem inspirat a altres per obrir negocis similars al nostre.</p><p>Mirant al futur, el nostre objectiu és seguir millorant, seguir aprenent, esforçar-nos per fer-ho sempre el millor possible, produïr la millor cervesa possible, tenir un impacte positiu en la nostra comunitat i el nostre entorn local.</p><h3><strong>CONTINUEM SENT</strong></h3><h3>100% independents</h3><h3>100% empresa familiar</h3><h3>100% empresa empordanesa</h3><p>Sempre agraïts a tots els amics i familiars que ens van donar un cop de mà aquells inicis: Liz, Laurence, Gloria, Adrià, Catherine, Magali, Max, Matt, Liz, Jono, Scott, Afra, Glenn, Natalia, Scott's Parents, Leigh, Sandra, Davie, Sandra, Carlos, Gino</p>"
           }
         }
       },
@@ -83,7 +112,7 @@
         "heading": "2018-2020",
         "heading_size": "h2",
         "enable_video_looping": false,
-        "video": "shopify:\/\/files\/videos\/DKB history - SD 480p.mov",
+        "video": "shopify://files/videos/DKB history - SD 480p.mov",
         "video_url": "",
         "description": "",
         "full_width": false,
@@ -98,7 +127,7 @@
         "slide_pTeeFT": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/new-floor02.jpg",
+            "image": "shopify://shop_images/new-floor02.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -116,7 +145,7 @@
         "slide_C8eGbN": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/J-floor.jpg",
+            "image": "shopify://shop_images/J-floor.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -134,7 +163,7 @@
         "slide_7QFjd4": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/vertical-wood_a57905c1-948b-469a-9998-61ea9913cd9e.jpg",
+            "image": "shopify://shop_images/vertical-wood_a57905c1-948b-469a-9998-61ea9913cd9e.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -152,7 +181,7 @@
         "slide_cKATHW": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Judir-Pinol-00171.jpg",
+            "image": "shopify://shop_images/Judir-Pinol-00171.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -170,7 +199,7 @@
         "slide_tJ6fkE": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/bringing-it-down_bb0ca088-ffb3-4774-b9bc-ed23b4b47ce0.jpg",
+            "image": "shopify://shop_images/bringing-it-down_bb0ca088-ffb3-4774-b9bc-ed23b4b47ce0.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -214,6 +243,7 @@
   "order": [
     "main",
     "3735bd84-28a1-4e2b-9956-d0365f8173e1",
+    "image_banner_7JPtBx",
     "33517754-0f5a-470f-9678-42da8616f6fc",
     "video_TAgBWa",
     "slideshow_qWkwnE",

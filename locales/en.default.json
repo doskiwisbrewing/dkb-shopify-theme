@@ -119,6 +119,7 @@
         "product": {
             "preorder": "Preorder",
             "preorder_date": "Canning day: ",
+            "limited_info": "Each limited edition beer label depicts an imagined bird's-eye view.",
             "add_to_cart": "Add to cart",
             "choose_options": "Choose options",
             "choose_product_options": "Choose options for {{ product_name }}",

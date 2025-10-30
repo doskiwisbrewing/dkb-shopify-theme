@@ -11,336 +11,288 @@
   "sections": {
     "c227bd9b-4cf2-481c-b9a6-4bfcb6a8f075": {
       "type": "image-banner",
-      "disabled": true,
       "custom_css": [],
       "settings": {
         "image": "shopify://shop_images/LANDING_compressed.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "large",
+        "image_height": "adapt",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "accent-1",
-        "image_behavior": "fixed",
+        "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": false
       }
     },
-    "featured_product_xRDNaP": {
-      "type": "featured-product",
+    "rich_text_nhQDcB": {
+      "type": "rich-text",
       "blocks": {
-        "custom_liquid_YdqYbU": {
-          "type": "custom_liquid",
-          "disabled": true,
-          "settings": {
-            "custom_liquid": "<style>\n.anouncement {\nbackground-color: #525252;\npadding-left: 1em;\npadding-right: 1em;\ndisplay: inline-block}\n\nb {\ntext-transform: uppercase;\ncolor: white;\nfont-size: 1.5em;}\n\n.date {\ncolor: white;\nmargin: 0px;\nfont-size: 0.9em;\n}\n</style>\n\n\n<div class=\"anouncement\">\n<b>{{ 'products.product.preorder' | t }}</b>\n</div>"
-          }
-        },
-        "title_gJC6A3": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h1"
-          }
-        },
-        "text_VDMKgi": {
+        "text_H78Y4G": {
           "type": "text",
           "settings": {
-            "text": "De color groc sedós, amb aromes intenses de préssec, meló i maduixa, amb capes de llima vibrant i un toc d’herbes fresques com la farigola. En boca, apareixen notes de fruita dolça, fruita de la passió, suc de taronja i fins i tot una mica de poma confitada, tot plegat embolcallat per una marcada nota cítrica de llima.",
-            "text_style": "body"
-          }
-        },
-        "price_Rn7pJg": {
-          "type": "price",
-          "settings": {}
-        },
-        "quantity_selector_RG74Ud": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "buy_buttons_waED8R": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": false,
-            "show_gift_card_recipient": true,
-            "button_style_secondary": true
+            "text": "<h2>Ens centrem en crear cerveses modernes i accessibles, plenes de sabor, utilitzant només ingredients de la màxima qualitat per oferir una experiència inconfusible a cada got.</h2><h2>Des del 2019, elaborem cervesa a Rupià, Baix Empordà – un poble tranquil situat entre Girona, els Pirineus i la Costa Brava.</h2>"
           }
         }
       },
       "block_order": [
-        "custom_liquid_YdqYbU",
-        "title_gJC6A3",
-        "text_VDMKgi",
-        "price_Rn7pJg",
-        "quantity_selector_RG74Ud",
-        "buy_buttons_waED8R"
+        "text_H78Y4G"
       ],
-      "name": "t:sections.featured-product.presets.name",
+      "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "product": "wild-motion",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "",
-        "secondary_background": false,
-        "media_size": "small",
-        "constrain_to_viewport": true,
-        "media_fit": "contain",
-        "media_position": "right",
-        "image_zoom": "lightbox",
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "full_width": true,
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
-    "featured_product_3jzbpx": {
-      "type": "featured-product",
+    "image_with_text_NMYQiC": {
+      "type": "image-with-text",
       "blocks": {
-        "title_YNk87X": {
-          "type": "title",
+        "heading_g8nFMn": {
+          "type": "heading",
           "settings": {
-            "heading_size": "h1"
+            "heading": "Cervesa fresca, directe a casa teva",
+            "heading_size": "h2"
           }
         },
-        "text_P3xdhi": {
+        "text_ji79Kr": {
           "type": "text",
           "settings": {
-            "text": "Presentem la nostra primera cervesa sense alcohol: una cervesa de color or groc clar amb aromes tropicals intensos de pinya, sobre notes sutils herbàcies i especiades.En boca, destaquen els sabors cítrics frescos sobre un cos suau i lleuger, oferint tot el sabor que t’agrada, sense alcohol.",
+            "text": "<p>Descobreix la nostra línia de cerveses fixes i una selecció de cerveses d’edició limitada.</p>",
             "text_style": "body"
           }
         },
-        "price_BHrmRh": {
-          "type": "price",
-          "settings": {}
-        },
-        "quantity_selector_ciPjQX": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "buy_buttons_8V4jmA": {
-          "type": "buy_buttons",
+        "button_dffPVP": {
+          "type": "button",
           "settings": {
-            "show_dynamic_checkout": false,
-            "show_gift_card_recipient": true,
-            "button_style_secondary": true
+            "button_label": "Compra ara",
+            "button_link": "shopify://collections/beer",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "title_YNk87X",
-        "text_P3xdhi",
-        "price_BHrmRh",
-        "quantity_selector_ciPjQX",
-        "buy_buttons_8V4jmA"
+        "heading_g8nFMn",
+        "text_ji79Kr",
+        "button_dffPVP"
       ],
-      "name": "t:sections.featured-product.presets.name",
+      "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "product": "fenix",
+        "image": "shopify://shop_images/DSC06566.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "",
-        "secondary_background": false,
-        "media_size": "small",
-        "constrain_to_viewport": true,
-        "media_fit": "contain",
-        "media_position": "left",
-        "image_zoom": "lightbox",
-        "hide_variants": false,
-        "enable_video_looping": false,
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "bdfed234-7975-4e20-bad7-04b40c568ff0": {
+    "featured_collection_3riWdx": {
       "type": "featured-collection",
-      "custom_css": [
-        "img {object-fit: contain;}"
-      ],
+      "name": "t:sections.featured-collection.presets.name",
       "settings": {
-        "title": "<a href=\"https://www.doskiwisbrewing.com/collections\" title=\"https://www.doskiwisbrewing.com/collections\"><strong>CERVESES FRESQUES, APUNT PER ENVIAR</strong></a>",
+        "title": "Cerveses fixes (Core Range)",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "beer",
+        "collection": "core-range",
         "products_to_show": 25,
         "columns_desktop": 3,
         "full_width": false,
         "show_view_all": true,
-        "view_all_style": "solid",
+        "view_all_style": "outline",
         "enable_desktop_slider": true,
-        "color_scheme": "scheme-71140e7c-bd90-4fad-b3b2-61f3f0357da1",
-        "image_ratio": "portrait",
+        "color_scheme": "",
+        "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": true,
         "show_vendor": true,
         "show_rating": false,
-        "enable_quick_add": true,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 20
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 52,
+        "padding_bottom": 52
       }
     },
-    "a84e0931-8f51-46dd-8c7f-cf103348b5ac": {
-      "type": "image-with-text",
+    "featured_collection_JAARz7": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "title": "Cerveses d’edició limitada (Limited Edition)",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "new-arrivals",
+        "products_to_show": 25,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "outline",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
+    "multirow_9NUBrV": {
+      "type": "multirow",
       "blocks": {
-        "template--19735877615955__a84e0931-8f51-46dd-8c7f-cf103348b5ac-heading-1": {
-          "type": "heading",
+        "row_4Qq3XU": {
+          "type": "row",
           "settings": {
-            "heading": "<strong>BENVINGUTS AL NOSTRE NEST</strong>",
-            "heading_size": "h2"
+            "image": "shopify://shop_images/DSC06886.jpg",
+            "caption": "",
+            "heading": "Visita el nostre Taproom",
+            "text": "<p>Gaudeix de les nostres cerveses de tirador al seu lloc d’origen, juntament amb cafè d’especialitat d’Ambient, kombutxa, vi natural i una carta de cuina informal de temporada.</p>",
+            "button_label": "Més informació",
+            "button_link": "shopify://pages/taproom"
           }
         },
-        "template--19735877615955__a84e0931-8f51-46dd-8c7f-cf103348b5ac-text-1": {
-          "type": "text",
+        "row_Kfp4AD": {
+          "type": "row",
           "settings": {
-            "text": "<p>Prova la nostra cervesa acabada de fer a la mateixa fàbrica o emporta-te-la per gaudir-la a casa.</p>",
-            "text_style": "body"
+            "image": "shopify://shop_images/Doskiwis_GiRODEO-22.png",
+            "caption": "",
+            "heading": "Experiències de tast",
+            "text": "<p>Deixa que un membre del nostre equip t’acompanyi en un tast divertit i relaxat de les nostres cerveses.</p>",
+            "button_label": "Més informació",
+            "button_link": "shopify://pages/tasting"
           }
         },
-        "template--19735877615955__a84e0931-8f51-46dd-8c7f-cf103348b5ac-button-1": {
-          "type": "button",
+        "row_bkKgFp": {
+          "type": "row",
           "settings": {
-            "button_label": "MÉS",
-            "button_link": "shopify://pages/taproom_archived",
-            "button_style_secondary": true
+            "image": "shopify://shop_images/DSC06872.jpg",
+            "caption": "",
+            "heading": "Esdeveniments especials",
+            "text": "<p>Consulta els propers esdeveniments, tant al nostre Taproom de Rupià com fora d’ell.</p>",
+            "button_label": "Veure esdeveniments",
+            "button_link": "shopify://pages/events"
           }
         }
       },
       "block_order": [
-        "template--19735877615955__a84e0931-8f51-46dd-8c7f-cf103348b5ac-heading-1",
-        "template--19735877615955__a84e0931-8f51-46dd-8c7f-cf103348b5ac-text-1",
-        "template--19735877615955__a84e0931-8f51-46dd-8c7f-cf103348b5ac-button-1"
+        "row_4Qq3XU",
+        "row_Kfp4AD",
+        "row_bkKgFp"
       ],
-      "custom_css": [
-        ".button {font-weight: bold;}"
-      ],
+      "name": "t:sections.multirow.presets.name",
       "settings": {
-        "image": "shopify://shop_images/landingimage.jpg",
-        "height": "adapt",
+        "image_height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-71140e7c-bd90-4fad-b3b2-61f3f0357da1",
-        "color_scheme": "scheme-71140e7c-bd90-4fad-b3b2-61f3f0357da1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 24,
-        "padding_bottom": 12
-      }
-    },
-    "ad688dc9-f3fb-4d08-b21a-722fd3afc0a6": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--20069978014035__ad688dc9-f3fb-4d08-b21a-722fd3afc0a6-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>SOBRE NOSALTRES</strong>",
-            "heading_size": "h2"
-          }
-        },
-        "template--20069978014035__ad688dc9-f3fb-4d08-b21a-722fd3afc0a6-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Elaborem cervesa al cor de l’Empordà, entre els Pirineus, la Costa Brava i les Gavarres.</p>",
-            "text_style": "body"
-          }
-        },
-        "template--20069978014035__ad688dc9-f3fb-4d08-b21a-722fd3afc0a6-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "MÉS",
-            "button_link": "shopify://pages/aboutus_archived",
-            "button_style_secondary": true
-          }
-        }
-      },
-      "block_order": [
-        "template--20069978014035__ad688dc9-f3fb-4d08-b21a-722fd3afc0a6-heading-1",
-        "template--20069978014035__ad688dc9-f3fb-4d08-b21a-722fd3afc0a6-text-1",
-        "template--20069978014035__ad688dc9-f3fb-4d08-b21a-722fd3afc0a6-button-1"
-      ],
-      "custom_css": [
-        ".button {font-weight: bold;}"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/DSC04622-2.jpg",
-        "height": "adapt",
-        "desktop_image_width": "large",
-        "layout": "image_first",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "primary",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-71140e7c-bd90-4fad-b3b2-61f3f0357da1",
-        "color_scheme": "scheme-71140e7c-bd90-4fad-b3b2-61f3f0357da1",
-        "image_behavior": "none",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "background-1",
+        "row_color_scheme": "",
         "mobile_content_alignment": "left",
-        "padding_top": 12,
-        "padding_bottom": 44
+        "padding_top": 52,
+        "padding_bottom": 52
       }
     },
-    "b9b4250d-59d7-4198-b535-99170c56f2e7": {
-      "type": "rich-text",
-      "blocks": {
-        "template--20377464144211__b9b4250d-59d7-4198-b535-99170c56f2e7-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>WHAT GOES ON</strong>",
-            "heading_size": "h2"
-          }
-        }
-      },
-      "block_order": [
-        "template--20377464144211__b9b4250d-59d7-4198-b535-99170c56f2e7-heading-1"
-      ],
-      "disabled": true,
+    "image_banner_Fnbk8G": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "left",
+        "image": "shopify://shop_images/Doskiwis_GiRODEO.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
         "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 12
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
-    "170334665735040ef7": {
-      "type": "apps",
+    "multirow_YFCrtm": {
+      "type": "multirow",
       "blocks": {
-        "88d4ca6c-013e-4939-b6c0-3b449a43de22": {
-          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+        "row_Lw3Ywc": {
+          "type": "row",
           "settings": {
-            "title": "",
-            "title_color": "",
-            "title_size_v2": 0,
-            "alignment": "left",
-            "instafeed_margin_top": 0,
-            "instafeed_margin_bottom": 0,
-            "instafeed_margin_sides": 0,
-            "show_instagram_link": false,
-            "link_alignment": "left",
-            "link_color": "#000000",
-            "background_color": "",
-            "feed_id": "",
-            "html_area": ""
+            "image": "shopify://shop_images/232A3548-6709-4847-BC03-A1380F2B6413_91722564-80ec-4a84-a458-3ae378065be9.jpg",
+            "caption": "",
+            "heading": "Una feina feta amb amor",
+            "text": "<p>L’any 2016 vam crear el concepte DosKiwis amb la idea de fer les cerveses que volíem beure però que no trobàvem a prop de casa, aquí a l’Empordà.</p>",
+            "button_label": "Segueix llegint",
+            "button_link": "shopify://pages/aboutus"
           }
         }
       },
       "block_order": [
-        "88d4ca6c-013e-4939-b6c0-3b449a43de22"
+        "row_Lw3Ywc"
       ],
-      "disabled": true,
+      "name": "t:sections.multirow.presets.name",
       "settings": {
-        "include_margins": true
+        "image_height": "adapt",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "primary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "background-1",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
+    "image_banner_R8JC6j": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Untitled.004.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     }
   },
   "order": [
     "c227bd9b-4cf2-481c-b9a6-4bfcb6a8f075",
-    "featured_product_xRDNaP",
-    "featured_product_3jzbpx",
-    "bdfed234-7975-4e20-bad7-04b40c568ff0",
-    "a84e0931-8f51-46dd-8c7f-cf103348b5ac",
-    "ad688dc9-f3fb-4d08-b21a-722fd3afc0a6",
-    "b9b4250d-59d7-4198-b535-99170c56f2e7",
-    "170334665735040ef7"
+    "rich_text_nhQDcB",
+    "image_with_text_NMYQiC",
+    "featured_collection_3riWdx",
+    "featured_collection_JAARz7",
+    "multirow_9NUBrV",
+    "image_banner_Fnbk8G",
+    "multirow_YFCrtm",
+    "image_banner_R8JC6j"
   ]
 }

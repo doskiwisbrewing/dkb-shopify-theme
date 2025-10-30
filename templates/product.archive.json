@@ -20,6 +20,12 @@
           "type": "description",
           "settings": {}
         },
+        "custom_liquid_UB7idA": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{%- if product.metafields.custom.core_range == false -%}\n\n<style>\n.anouncement {\npadding-right: 1em;\ndisplay: inline-block}\n\nb {\ntext-transform: uppercase;\ncolor: #F3F3F3;\nfont-size: 1.5em;}\n\n.date {\ncolor: #252525;\nmargin: 0px;\nfont-size: 0.8em;\n}\n</style>\n\n\n<div class=\"anouncement\">\n<p class=\"date\">{{ 'products.product.limited_info' | t}} </p>\n</div>\n\n{%- endif -%}"
+          }
+        },
         "cdb9b624-ec7b-475a-a023-78a502e36c3c": {
           "type": "icon-with-text",
           "settings": {
@@ -51,6 +57,7 @@
       "block_order": [
         "title",
         "description",
+        "custom_liquid_UB7idA",
         "cdb9b624-ec7b-475a-a023-78a502e36c3c",
         "icon_with_text_8C7mRR"
       ],

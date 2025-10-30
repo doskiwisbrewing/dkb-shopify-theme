@@ -15,7 +15,7 @@
         "custom_liquid_DKa6Xh": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<style>\n.anouncement {\nbackground-color: black;\npadding-left: 1em;\npadding-right: 1em;\ndisplay: inline-block}\n\nb {\ntext-transform: uppercase;\ncolor: white;\nfont-size: 1.5em;}\n\n.date {\ncolor: white;\nmargin: 0px;\nfont-size: 0.9em;\n}\n</style>\n\n\n<div class=\"anouncement\">\n<b>{{ 'products.product.preorder' | t }}</b>\n<p class=\"date\">{{ 'products.product.preorder_date' | t}} \n{{product.metafields.custom.preorder_date  | date: \"%d - %m - %Y\"}}</p>\n</div>"
+            "custom_liquid": "<style>\n.anouncement {\nbackground-color: black;\npadding-left: 1em;\npadding-right: 1em;\ndisplay: inline-block}\n\nb {\ntext-transform: uppercase;\ncolor: white;\nfont-size: 1.5em;}\n\n.date {\ncolor: white;\nmargin: 0px;\nfont-size: 0.9em;\n}\n</style>\n\n{% assign today_date = 'now' | date: '%s' %}\n{% assign pre_date = product.metafields.custom.preorder_date | date: '%s' %}\n\n{% if today_date < pre_date %}\n\n<div class=\"anouncement\">\n<b>{{ 'products.product.preorder' | t }}</b>\n<p class=\"date\">{{ 'products.product.preorder_date' | t}} \n{{pre_date  | date: \"%d - %m - %Y\"}}</p>\n</div>\n\n{% endif %}"
           }
         },
         "title": {
@@ -54,21 +54,6 @@
             "text": "<strong>PACK DE 6 LLAUNES</strong>",
             "text_style": "body"
           }
-        },
-        "price": {
-          "type": "price",
-          "settings": {}
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": false,
-            "show_gift_card_recipient": true
-          }
         }
       },
       "block_order": [
@@ -77,10 +62,7 @@
         "description",
         "cdb9b624-ec7b-475a-a023-78a502e36c3c",
         "13252fe7-cfc8-4902-8a79-ee74f7d66b67",
-        "6e8070ef-addf-4915-ae25-3f4979c715b7",
-        "price",
-        "quantity_selector",
-        "buy_buttons"
+        "6e8070ef-addf-4915-ae25-3f4979c715b7"
       ],
       "custom_css": [
         ".no-js-hidden {margin-top: 0rem;}"

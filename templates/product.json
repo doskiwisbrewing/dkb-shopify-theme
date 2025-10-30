@@ -12,6 +12,12 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "custom_liquid_hNtBTP": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n.anouncement {\nbackground-color: black;\npadding-left: 1em;\npadding-right: 1em;\ndisplay: inline-block}\n\nb {\ntext-transform: uppercase;\ncolor: white;\nfont-size: 1.5em;}\n\n.candate {\ncolor: white;\nmargin: 0px;\nfont-size: 0.9em;\n}\n</style>\n\n{% assign today_date = 'now' | date: '%s' %}\n{% assign pre_date = product.metafields.custom.preorder_date | date: '%s' %}\n\n{% if today_date < pre_date %}\n\n<div class=\"anouncement\">\n<b>{{ 'products.product.preorder' | t }}</b>\n<p class=\"candate\">{{ 'products.product.preorder_date' | t}} \n{{pre_date  | date: \"%d - %m - %Y\"}}</p>\n</div>\n\n{% endif %}"
+          }
+        },
         "title": {
           "type": "title",
           "settings": {}
@@ -25,6 +31,13 @@
         "description": {
           "type": "description",
           "settings": {}
+        },
+        "custom_liquid_dFUVbK": {
+          "type": "custom_liquid",
+          "name": "Bird pov announcement",
+          "settings": {
+            "custom_liquid": "{%- if product.metafields.custom.core_range == false -%}\n\n<style>\n.anouncement {\npadding-right: 1em;\ndisplay: inline-block}\n\nb {\ntext-transform: uppercase;\ncolor: #F3F3F3;\nfont-size: 1.5em;}\n\n.candate {\ncolor: #white;\nmargin: 0px;\nfont-size: 0.8em;\n}\n</style>\n\n\n<div class=\"anouncement\">\n<p class=\"candate\">{{ 'products.product.limited_info' | t}} </p>\n</div>\n\n{%- endif -%}"
+          }
         },
         "cdb9b624-ec7b-475a-a023-78a502e36c3c": {
           "type": "icon-with-text",
@@ -85,9 +98,11 @@
         }
       },
       "block_order": [
+        "custom_liquid_hNtBTP",
         "title",
         "variant_picker",
         "description",
+        "custom_liquid_dFUVbK",
         "cdb9b624-ec7b-475a-a023-78a502e36c3c",
         "icon_with_text_8C7mRR",
         "13252fe7-cfc8-4902-8a79-ee74f7d66b67",
@@ -138,6 +153,7 @@
     },
     "featured_collection_YcGrqq": {
       "type": "featured-collection",
+      "disabled": true,
       "custom_css": [
         "img {object-fit: contain;}"
       ],

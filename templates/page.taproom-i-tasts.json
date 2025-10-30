@@ -182,30 +182,11 @@
     "slideshow_T4KnMR": {
       "type": "slideshow",
       "blocks": {
-        "slide_gmRJaF": {
-          "type": "slide",
-          "name": "Juliol",
-          "settings": {
-            "image": "shopify://shop_images/2025_TAPROOM_CALENDAR_1_bb7e6bc1-0d06-4370-97cc-453c17746619.svg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-71140e7c-bd90-4fad-b3b2-61f3f0357da1",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_kdThiw": {
           "type": "slide",
           "name": "Agost",
           "settings": {
-            "image": "shopify://shop_images/2025_TAPROOM_CALENDAR_2_8df6146d-de31-432e-8738-9a79582c5f8d.svg",
+            "image": "shopify://shop_images/agost2025cal.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -219,17 +200,37 @@
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_AzWPyX": {
+          "type": "slide",
+          "name": "Setembre",
+          "settings": {
+            "image": "shopify://shop_images/setembre2025cal.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
-        "slide_gmRJaF",
-        "slide_kdThiw"
+        "slide_kdThiw",
+        "slide_AzWPyX"
       ],
       "custom_css": [
-        "slideshow-component {padding: 20px 20px;}"
+        "slideshow-component {padding: 20px 20px;}",
+        ".slideshow__text-wrapper {display: none;}"
       ],
       "settings": {
-        "layout": "full_bleed",
+        "layout": "grid",
         "slide_height": "adapt_image",
         "slider_visual": "dots",
         "auto_rotate": false,

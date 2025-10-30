@@ -118,6 +118,7 @@
     "product": {
       "preorder": "Compra anticipada",
       "preorder_date": "Día de enlatado: ",
+      "limited_info": "Todas las cervezas de edición limitada muestran en la etiqueta un supuesto punto de vista de pájaro.",
       "add_to_cart": "Agregar al carrito",
       "description": "Descripción",
       "on_sale": "Oferta",

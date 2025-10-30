@@ -24,7 +24,7 @@
         "heading_mPEBMU": {
           "type": "heading",
           "settings": {
-            "heading": "PREGÜNTES FREQÜENTS / FAQ",
+            "heading": "Preguntes freqüents",
             "heading_size": "h1"
           }
         }
@@ -48,27 +48,27 @@
         "collapsible_row_GAJYUr": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "On puc trobar la vostra cervesa?",
+            "heading": "On puc beure DosKiwis?",
             "icon": "none",
-            "row_content": "<p>Directament des de la nostra fàbrica podràs comprar cervesa fresca en diferents formats i quedar-te a prendre cervesa allà mateix on l’elaborem. Si no tens com venir fins aquí, pots fer una comanda a través de la nostra botiga web.</p><p>A l’Empordà, Girona i Barcelona distribuïm nosaltres mateixos i ens trobaràs a bars, restaurants, botigues i hotels que busquen oferir productes locals de qualitat així com botigues i locals especialitzats en cervesa artesana.</p><p>També treballem amb diversos distribuïdors nacional i internacionalment, de manera que ens trobaràs als principals punts de venta de cervesa artesana.</p><p>No ens trobes al teu punt de venta preferit? Pregunta per la nostra cervesa! És molt fàcil aconseguir la nostra cervesa.<br/></p>",
+            "row_content": "<p>Al nostre Taproom de Rupià, on tenim deu cerveses de tirador que van canviant. També pots emportar-te’n en llaunes o ampolles.<br/>Consulta els horaris al web o Google Maps.</p><p>També pots comprar directament a la nostra botiga web i rebre cervesa fresca a casa, amb enviament gratuït per comandes superiors a 60 €.</p><p>Les nostres cerveses també estan disponibles en botigues, bars, restaurants i hotels de l’Empordà, Girona i Barcelona.Per clients locals (fins a 150 km), fem la distribució directament.També treballem amb distribuïdors nacionals i internacionals especialitzats en cervesa artesanal.</p>",
             "page": ""
           }
         },
         "collapsible_row_VQJN7q": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Què diferencia la vostra cervesa de la cervesa industrial?",
+            "heading": "Què fa que la cervesa DosKiwis sigui diferent?",
             "icon": "none",
-            "row_content": "<p>Som una microempresa, independent, fundada per una parella amb passió pels productes que priorititzen la qualitat.</p>",
+            "row_content": "<p>Som una fàbrica petita i independent, guiada per la passió i la integritat.Triem ingredients per la seva qualitat i valors, no pel preu, sempre considerant-ne l’impacte ambiental i social.No fem servir arròs, xarop de blat de moro ni productes transgènics, i evitem additius innecessaris.</p>",
             "page": ""
           }
         },
         "collapsible_row_aeYHXr": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Feu cervesa sense alcohol?",
+            "heading": "Les vostres cerveses són veganes?",
             "icon": "none",
-            "row_content": "<p>La cervesa tradicional és una beguda segura perquè, entre altres factors,<strong> conté alcohol</strong>, té un pH baix i conté llúpol, que pot ajudar a la seva estabilitat.</p><p>Quan eliminem l’alcohol d’aquesta equació, estem eliminant una barrera important vers patògens que són perillosos per a la salut. Un recurs per lluitar contra aquests patògens en cerveses sense alcohol és la pasteurització. Tot i això, la cervesa sense alcohol de barril segueix presentant riscs de contaminació i creixement de patògens mentre estigui punxada.</p><p>A Doskiwis no ens la juguem amb la salut dels nostres clients i clientes. Fins que no disposem dels recursos, tecnologia i processos per elaborar cervesa sense alcohol de manera segura, no n’elaborarem.</p>",
+            "row_content": "<p>Sí. No utilitzem clarificants ni additius d’origen animal i mai fem servir lactosa.</p>",
             "page": ""
           }
         },
@@ -77,61 +77,34 @@
           "settings": {
             "heading": "Feu cervesa sense gluten?",
             "icon": "none",
-            "row_content": "<p>Actualment, la nostra cervesa Rupianum és sense gluten. <br/><br/>És important entendre que a la UE, un &lt;20ppm de gluten ja és pot considerar <em>sense gluten</em>. Les persones que puguin tenir una sensibilitat inclús a nivells tan baixos de gluten, haurien d’evitar-ne el seu consum.</p>",
+            "row_content": "<p>Sí, les nostres Rupianum West Coast IPA i Heartbreaker Sour són sense gluten.Segons la normativa de la UE, les cerveses amb menys de 20 ppm de gluten es consideren “sense gluten”.</p>",
             "page": ""
           }
         },
         "collapsible_row_tgYHgy": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "És vegana la vostra cervesa?",
+            "heading": "Feu cervesa sense alcohol?",
             "icon": "none",
-            "row_content": "<p>Si. No fem servir clarificants ni additius d’origen animal com moltes cerveses industrials. Tampoc fem servir lactosa. Si en algun moment en féssim servir per una recepta en concret, aniria degudament assenyalada als ingredients.</p>",
+            "row_content": "<p>Sí, es diu Fenix, disponible en llaunes al Taproom i a la botiga en línia.</p>",
             "page": ""
           }
         },
         "collapsible_row_cV8PAk": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Com he de guardar la vostra cervesa?",
+            "heading": "Com s’ha de conservar la cervesa DosKiwis?",
             "icon": "none",
-            "row_content": "<p>Guardant la nostra cervesa a la nevera t’assegures que manté amb les seves propietats organolèptiques durant un temps més llarg. Aconsellem evitar canvis de temperatura bruscos.</p>",
+            "row_content": "<p>Recomanem mantenir-la freda (per sota de 10 °C) per conservar-ne la frescor i el sabor. Evita exposar-la a la calor o a canvis bruscos de temperatura.La nostra cervesa és sense filtrar ni pasteuritzar (excepte la Fenix sense alcohol que si que està pasteuritzada per garantir-ne la seguretat).</p>",
             "page": ""
           }
         },
         "collapsible_row_XkiwHF": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "M’agradaria oferir la vostra cervesa als meus clients!",
+            "heading": "Quins són els avantatges de les llaunes?",
             "icon": "none",
-            "row_content": "<p>Genial! Gràcies per voler oferir un producte de qualitat i per apreciar els esforços d’una empresa jove i familiar. Escriu-nos i ens posem en marxa!</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_bDWmtF": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Es pot visitar la fàbrica?",
-            "icon": "none",
-            "row_content": "<p>Ara mateix no fem visited guiades, però si ens visites al Taproom veuràs que tota la fàbrica està a la vista; per nosaltres és molt important mostrar d’on prové la cervesa que t’estàs bevent.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_hxCDTA": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Puc comprar un barril per una festa privada?",
-            "icon": "none",
-            "row_content": "<p>I tant! Disposem de barrils i tiradors per la teva festa. <br/>Contacta’ns a <a href=\"mailto:orders@doskiwisbrewing.com\"><span style=\"text-decoration:underline\">orders@doskiwisbrewing.com</span></a> </p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_U7pC66": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Per què us dieu Doskiwis?",
-            "icon": "none",
-            "row_content": "<p>El nostre nom fa referència a l’ocell kiwi, endèmic de Nova Zelanda, i al gentilici informal que s’utilitza per denominar les persones nascudes en aquest país. </p>",
+            "row_content": "<p>La nostra prioritat és assegurar-nos que la cervesa us arribi amb tot el seu sabor i frescor intactes. Com moltes fàbriques arreu del món, creiem que les llaunes d’alumini reciclades i lliures de BPA són la millor opció per conservar cerveses com les nostres.</p><p>Oxigen: L’oxigen perjudica la frescor de la cervesa. Les nostres llaunes minimitzen l’oxigen dissolt i mantenen la cervesa en el seu millor estat.</p><p>Llum: La cervesa és sensible a la llum. Les llaunes la protegeixen completament de la llum solar i dels danys dels raigs UV.</p><p>Sabor: Els estils que elaborem solen estar protagonitzats del llúpol, i la llauna conserva millor el seu caràcter. Per gaudir-ne al màxim, serviu la cervesa en un got per apreciar tots els aromes.</p><p>Reciclatge: L’alumini és 100% reciclable i es pot reciclar indefinidament. Les llaunes que utilitzem contenen un 68% d’alumini reciclat.</p><p>Petjada de carboni: Les llaunes són més lleugeres i compactes que el vidre, reduint les emissions de l’embalatge i el transport. Una llauna pesa un 94% menys que una ampolla de vidre: això vol dir menys palets, menys camions i menys material d’embalage en general.</p>",
             "page": ""
           }
         }
@@ -143,15 +116,12 @@
         "collapsible_row_GgygWh",
         "collapsible_row_tgYHgy",
         "collapsible_row_cV8PAk",
-        "collapsible_row_XkiwHF",
-        "collapsible_row_bDWmtF",
-        "collapsible_row_hxCDTA",
-        "collapsible_row_U7pC66"
+        "collapsible_row_XkiwHF"
       ],
       "name": "General",
       "settings": {
         "caption": "",
-        "heading": "GENERAL",
+        "heading": "General",
         "heading_size": "h2",
         "heading_alignment": "center",
         "layout": "none",
@@ -172,61 +142,79 @@
           "settings": {
             "heading": "Què és el Taproom?",
             "icon": "none",
-            "row_content": "<p>El taproom és l’espai adjacent a la fàbrica on pots venir a prendre una cervesa i veure exactament on les elaborem i envasem totes. Per nosaltres és crucial poder connectar-te directament a l’origen dels nostres productes.</p>",
+            "row_content": "<p>És una part essencial del nostre projecte: un espai on pots beure la cervesa més fresca just davant d’on l’hem elaborat. Tenim un petit interior acollidor i un ampli jardí.</p>",
             "page": ""
           }
         },
         "collapsible_row_NQiEzz": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Serviu menjar al Taproom?",
+            "heading": "Serviu menjar?",
             "icon": "none",
-            "row_content": "<p>Si! Tenim la nostra petita cuina: El Container.</p>",
+            "row_content": "<p>Sí. La nostra cuina ofereix una carta informal de temporada amb plats acabats de fer que celebren els ingredients d’origen local, incloent-hi opcions veganes i vegeratianes.</p><p>Si tens alguna al·lèrgia, si us plau, avisa a la cuina. No podem garantir absències de tracess.</p><p>Tingues en compte que l’horari de la cuina pot diferir de l’horari del Taproom.</p>",
             "page": ""
           }
         },
         "collapsible_row_kTePyL": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Podem venir amb un gos? ",
+            "heading": "Serviu altres begudes a part de la cervesa?",
             "icon": "none",
-            "row_content": "<p>Si, som 100% dog-friendly.</p>",
+            "row_content": "<p>Sí. Oferim opcions sense gluten i sense alcohol, com ara sidra i sucs del productor local Mooma, a més d’una petita selecció de vins naturals locals.</p><p>També servim cafè d’especialitat Ambient, i Lov Kombucha.</p>",
             "page": ""
           }
         },
         "collapsible_row_rcqqiz": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Si vinc a Doskiwis, només puc beure cervesa?",
+            "heading": "Cal reservar per visitar el Taproom?",
             "icon": "none",
-            "row_content": "<p>També elaborem kombutxa i llimonada i servim begudes locals d’altres petits productors com ara sucs, sidra i vins naturals.</p>",
+            "row_content": "<p>No és obligatori, però recomanem reservar en festius, per a grups grans o nits d’estiu.</p>",
             "page": ""
           }
         },
         "collapsible_row_TGMA4D": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Puc fer un tast de cervesa amb vosaltres?",
+            "heading": "Puc portar el meu gos?",
             "icon": "none",
-            "row_content": "<p>Si! Si vols tastar les diferents varietats de cervesa que elaborem, posa’t en contacte per reservar un tast guiat.</p>",
+            "row_content": "<p>Sí! Els gossos són benvinguts, però cal mantenir-los lligats i sota supervisió.</p>",
             "page": ""
           }
         },
         "collapsible_row_kVyiQ6": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "He de reservar per venir al Taproom?",
+            "heading": "Oferiu experiències de tast?",
             "icon": "none",
-            "row_content": "<p>No. L’esperit del taproom és informal, i es pot venir sense reserva. Això si, tenim un motor de reserves per qui vulgui assegurar taula durant els mesos de més trànsit: estiu, festius, etc.</p><p>Si vols venir al taproom per fer alguna celebració, contacta’ns a <a href=\"mailto:taproom@doskiwisbrewing.com\"><span style=\"text-decoration:underline\">taproom@doskiwisbrewing.com</span></a> i coordinem!</p>",
+            "row_content": "<p>Sí, pots trobar tots els detalls a la secció corresponent.</p>",
             "page": ""
           }
         },
         "collapsible_row_tnbNTK": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Com arribo a Doskiwis?",
+            "heading": "Feu visites guiades?",
             "icon": "none",
-            "row_content": "<p>Estem molt a prop de l’estació de tren de Flaçà, a uns 6-8 minuts amb cotxe. Hi ha taxis disponibles a l'estació i en pots reservar un per telèfon al +34 650 31 05 87.</p><p>També hi ha autobusos des de l’estació de Flaçà, Girona i altres poblacions properes. L’estació d’autobús de Rupià està a només 400m. <strong>Planifica el teu viatge en autobús.</strong></p><p>🚴‍♂️ <strong>Vens amb bicicleta?</strong> Hi ha molts camins i rutes que et portaran fins a Doskiwis. Aquí tens tres rutes en format <strong>.gpx</strong> que pots descarregar directament al teu GPS. Gràcies a en <strong>Jordí Pallí</strong> per compartir-les amb nosaltres!</p><ul><li><strong>Bordils - DOSKIWIS</strong></li><li><strong>Torroella de Montgrí - DOSKIWIS</strong></li></ul><p>🌍 <strong>Wikiloc</strong> és una web/app fantàstica amb un munt de rutes que passen per Rupià i Doskiwis. Només cal buscar-ho i afegir filtres per trobar la ruta ideal.</p><p>📍 <strong>Utilitzes Strava?</strong> Fes un cop d’ull a aquestes rutes. Gràcies a <strong>Dave Smith</strong> per compartir-les!</p><p><a href=\"https://www.strava.com/routes/19465377\"><span style=\"text-decoration:underline\">https://www.strava.com/routes/19465377<br/></span></a><a href=\"https://www.strava.com/routes/19465045\"><span style=\"text-decoration:underline\">https://www.strava.com/routes/19465045<br/></span></a><a href=\"https://www.strava.com/routes/19465012\"><span style=\"text-decoration:underline\">https://www.strava.com/routes/19465012<br/></span></a><a href=\"https://www.strava.com/routes/19464961\"><span style=\"text-decoration:underline\">https://www.strava.com/routes/19464961</span></a></p>",
+            "row_content": "<p>Actualment no fem visites “entre bastidors”, però des del Taproom es veu tota la fàbrica, on es fa i s’envasa la nostra cervesa. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_4Eqkqc": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Puc organitzar un esdeveniment privat al Taproom?",
+            "icon": "none",
+            "row_content": "<p>Per descomptat. T’ajudem a preparar la teva celebració, sigui un aniversari, casament o qualsevol ocasió especial.</p><p>També oferim lloguer de tiradors, barrils i llaunes.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_npM9YG": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I get there?",
+            "icon": "none",
+            "row_content": "<p>Com hi arribo?</p><p>Adreça:<br/> DosKiwis Brewing<br/> Carretera de Parlavà, GI-642, 22<br/> 17131 Rupià, Girona</p><p>Hi ha aparcament gratuït.<br/> L’estació de tren de Flaçà és a 7 minuts amb cotxe.<br/> També hi ha connexió d’autobús amb Rupià, Girona i pobles propers.<br/><br/> Els ciclistes trobaran bones rutes i un punt d’aigua per reomplir.<br/><br/>Exemples de rutes amb bicicletes:</p><p>Girona a DosKiwis – carretera, pla:<br/><a href=\"https://www.strava.com/routes/19465045\"> <span style=\"text-decoration:underline\">https://www.strava.com/routes/19465045</span></a></p><p>Girona a DosKiwis – camins, pla:<br/><a href=\"https://www.strava.com/routes/19465377\"> <span style=\"text-decoration:underline\">https://www.strava.com/routes/19465377</span></a></p><p>Girona a DosKiwis – carretera, pujant i baixant els Àngels:<br/><a href=\"https://www.strava.com/routes/19465012\"> <span style=\"text-decoration:underline\">https://www.strava.com/routes/19465012</span></a></p><p>Girona a DosKiwis – camins, pujant i baixant els Àngels:<br/><a href=\"https://www.strava.com/routes/19464961\"> <span style=\"text-decoration:underline\">https://www.strava.com/routes/19464961</span></a></p><p>Moltes gràcies a en Dave Smith per compartir aquestes rutes!</p>",
             "page": ""
           }
         }
@@ -238,12 +226,14 @@
         "collapsible_row_rcqqiz",
         "collapsible_row_TGMA4D",
         "collapsible_row_kVyiQ6",
-        "collapsible_row_tnbNTK"
+        "collapsible_row_tnbNTK",
+        "collapsible_row_4Eqkqc",
+        "collapsible_row_npM9YG"
       ],
       "name": "Taproom",
       "settings": {
         "caption": "",
-        "heading": "TAPROOM",
+        "heading": "Taproom",
         "heading_size": "h2",
         "heading_alignment": "center",
         "layout": "none",
@@ -255,12 +245,36 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "rich_text_Q8NrHn": {
+      "type": "rich-text",
+      "blocks": {
+        "text_ckA6Uk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Per a qualsevol altra pregunta, no dubteu a escriure’ns a doskiwis@doskiwisbrewing.com</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_ckA6Uk"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "rich_text_39crdK",
     "collapsible_content_VbwWYy",
-    "collapsible_content_YgWYAz"
+    "collapsible_content_YgWYAz",
+    "rich_text_Q8NrHn"
   ]
 }

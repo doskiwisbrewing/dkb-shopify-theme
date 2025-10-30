@@ -14,6 +14,10 @@
 
   Usage:
   {% render 'article-card' blog: blog, article: article, show_image: section.settings.show_image %}
+
+
+
+
 {% endcomment %}
 
 {%- if article and article != empty -%}
@@ -90,7 +94,7 @@
             </div>
             {%- if show_excerpt -%}
               {%- if article.excerpt.size > 0 or article.content.size > 0 -%}
-                <p class="article-card__excerpt rte-width">
+                <p class="article-card__excerpt rte-width line-clamp">
                   {%- if article.excerpt.size > 0 -%}
                     {{ article.excerpt | strip_html | truncatewords: 30 }}
                   {%- else -%}
@@ -129,7 +133,7 @@
           </div>
           {%- if show_excerpt -%}
             {%- if article.excerpt.size > 0 or article.content.size > 0 -%}
-              <p class="article-card__excerpt rte-width">
+              <p class="article-card__excerpt rte-width line-clamp">
                 {%- if article.excerpt.size > 0 -%}
                   {{ article.excerpt | strip_html | truncatewords: 30 }}
                 {%- else -%}

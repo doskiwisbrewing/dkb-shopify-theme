@@ -11,6 +11,40 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "newsletter_kBUH6P": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_BrGnqw": {
+          "type": "heading",
+          "settings": {
+            "heading": "Newsletter DosKiwis",
+            "heading_size": "h2"
+          }
+        },
+        "paragraph_X3XxPU": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Subscriu-te per aconseguir un 10% de descompte en la teva primera comanda.</p>"
+          }
+        },
+        "email_form_Q8xckD": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_BrGnqw",
+        "paragraph_X3XxPU",
+        "email_form_Q8xckD"
+      ],
+      "name": "t:sections.newsletter.presets.name",
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "custom_liquid_kkBq9r": {
       "type": "custom-liquid",
       "disabled": true,
@@ -29,20 +63,20 @@
           "type": "text",
           "settings": {
             "heading": "",
-            "subtext": "<h3><strong>TAPROOM</strong></h3><p><a href=\"https://www.doskiwisbrewing.com/pages/taproom\" title=\"https://www.doskiwisbrewing.com/pages/taproom\"><em>Els nostres horaris</em></a><em> varien segons l'època de l'any:</em></p><p><strong>ESTIU</strong> - cada vespre de 18h a 00h<br/><br/><strong>PRIMAVERA I TARDOR </strong>- divendres de 18h a 00h, dissabtes de 12h a 00h i diumenges de 12h a 18h</p><p><strong>HIVERN</strong> - dissabtes i diumenges de 12h a 18h</p><p></p><h3><strong>BOTIGA</strong></h3><p>Oberta <a href=\"https://www.google.com/maps/place/DOSKIWIS+BREWING/@42.0225367,3.003692,17z/data=!3m1!4b1!4m6!3m5!1s0x12bafa171344c665:0xa92eec59e452f07d!8m2!3d42.0225367!4d3.0062669!16s%2Fg%2F11hd22j_yb?entry=ttu\" target=\"_blank\" title=\"https://www.google.com/maps/place/DOSKIWIS+BREWING/@42.0225367,3.003692,17z/data=!3m1!4b1!4m6!3m5!1s0x12bafa171344c665:0xa92eec59e452f07d!8m2!3d42.0225367!4d3.0062669!16s%2Fg%2F11hd22j_yb?entry=ttu\">durant els horaris del taproom</a> i de dimarts a divendres de 10h a 18h</p><h5></h5><p></p>"
+            "subtext": "<h4>DosKiwis Brewing, Carretera Parlavà 22, 17131 Rupià, Girona</h4><h4>El nostre Taproom està obert tot l’any, amb horaris que varien segons la temporada. Consulta la <a href=\"/pages/taproom-25\" target=\"_blank\" title=\"Taproom 25\">pàgina del Taproom</a> o <a href=\"https://maps.app.goo.gl/ZxwVNeF9yjxsegwV7?g_st=ipc\" target=\"_blank\" title=\"https://maps.app.goo.gl/ZxwVNeF9yjxsegwV7?g_st=ipc\">Google Maps</a> per veure els horaris actuals.</h4><h4>taproom@doskiwisbrewing.com</h4><h4>+34623192815</h4>"
           }
         },
         "link_list_PDRB48": {
           "type": "link_list",
           "settings": {
-            "heading": "<strong>Connecta</strong>",
+            "heading": "Connecta",
             "menu": "footer"
           }
         },
         "link_list_CMienx": {
           "type": "link_list",
           "settings": {
-            "heading": "<strong>Enllaços</strong>",
+            "heading": "Enllaços",
             "menu": "links-footer-menu"
           }
         }
@@ -57,7 +91,7 @@
       ],
       "settings": {
         "color_scheme": "scheme-9641a114-95db-4b5a-b6d4-dd518e525051",
-        "newsletter_enable": true,
+        "newsletter_enable": false,
         "newsletter_heading": "SUBSCRIU-TE",
         "enable_follow_on_shop": false,
         "show_social": false,
@@ -72,6 +106,7 @@
     }
   },
   "order": [
+    "newsletter_kBUH6P",
     "custom_liquid_kkBq9r",
     "footer"
   ]
