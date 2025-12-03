@@ -71,14 +71,14 @@
         "text_kYeWYp": {
           "type": "text",
           "settings": {
-            "text": "<p>Què inclou?</p><p>L’experiència de tast inclou 100 ml de les deu cerveses que tinguem als tiradors, acompanyades d’un aperitiu de xips artesanes i olives variades.</p><p>Preu: 25 € per persona.</p><p>Es poden demanar cerveses addicionals per gaudir-les al jardí o per emportar-te-les a casa.</p><p>Durada: Normalment dues hores (es pot escurçar si es prefereix, només cal avisar).</p><p>Horaris: Varien segons la temporada. Quan obrim al migdia, els tasts comencen a les 12:00. Quan obrim al vespre, comencen a les 18:00.</p><p>Combina el tast amb un àpat: L’experiència es pot gaudir juntament amb qualsevol plat del nostre menú, durant o després del tast (segons els horaris de cuina).</p><p>Reserva: Cal reserva prèvia per garantir la millor experiència possible.</p><p>Es pot regalar?</p><p>Sí! És un regal ideal per als amants de la cervesa.</p><p>Dubtes o peticions especials?</p><p>Escriu-nos i t’ajudarem encantats.</p>"
+            "text": "<p>Què inclou?</p><p>L’experiència de tast inclou 100 ml de les deu cerveses que tinguem als tiradors, acompanyades d’un aperitiu de xips artesanes i olives variades.</p><p>Preu: 25 € per persona.</p><p>Es poden demanar cerveses addicionals per gaudir-les al jardí o per emportar-te-les a casa.</p><p>Durada: Normalment dues hores (es pot escurçar si es prefereix, només cal avisar).</p><p>Horaris: Varien segons la temporada. Quan obrim al migdia, els tasts comencen a les 12:00. Quan obrim al vespre, comencen a les 18:00.</p><p>Combina el tast amb un àpat: L’experiència es pot gaudir juntament amb qualsevol plat del nostre menú, durant o després del tast (segons els horaris de cuina).</p><p>Reserva: Cal reserva prèvia <a href=\"mailto:taproom@doskiwisbrewing.com+\" target=\"_blank\" title=\"mailto:taproom@doskiwisbrewing.com\">per email</a> per garantir la millor experiència possible.</p><p>Es pot regalar?</p><p>Sí! És un regal ideal per als amants de la cervesa.</p><p>Dubtes o peticions especials?</p><p>Escriu-nos i t’ajudarem encantats.</p>"
           }
         },
         "button_xDAMmU": {
           "type": "button",
           "settings": {
-            "button_label": "Reserva ara",
-            "button_link": "https://doskiwisbrewing.myrestoo.net/ca/reservar",
+            "button_label": "Compra xec regal",
+            "button_link": "https://giftup.app/place-order/1203d1ec-1b1a-4243-9541-2740b5e83041?platform=hosted",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
