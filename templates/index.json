@@ -360,8 +360,7 @@
       "custom_css": [
         "/* Show titles */.card__heading,.article-card__title {display: block; white-space: normal; overflow: visible; max-height: none;}",
         " /* Specifically hide only excerpt text, not the title */.article-card__excerpt,.card__excerpt,.card__badge-bottom {display: none !important;}",
-        " /* hide the 1/2 counter under the slider */.slider-counter,.slider-buttons {display: none !important;}",
-        ".page-width {max-width: 100%; padding-left: 0; padding-right: 0;}"
+        " /* hide the 1/2 counter under the slider */.slider-counter,.slider-buttons {display: none !important;}"
       ],
       "name": "t:sections.featured-blog.presets.name",
       "settings": {
