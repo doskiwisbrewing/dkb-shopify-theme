@@ -361,7 +361,7 @@
         "/* Show titles */.card__heading,.article-card__title {display: block; white-space: normal; overflow: visible; max-height: none;}",
         " /* Specifically hide only excerpt text, not the title */.article-card__excerpt,.card__excerpt,.card__badge-bottom {display: none !important;}",
         " /* hide the 1/2 counter under the slider */.slider-counter,.slider-buttons {display: none !important;}",
-        " /* Make this blog section full width */"
+        "/* Make this blog section full width */.page-width {max-width: none !important; padding-left: 0 !important; padding-right: 0 !important;}"
       ],
       "name": "t:sections.featured-blog.presets.name",
       "settings": {
