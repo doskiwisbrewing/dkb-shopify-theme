@@ -359,8 +359,7 @@
       "type": "featured-blog",
       "custom_css": [
         "/* Show titles */.card__heading,.article-card__title {display: block; white-space: normal; overflow: visible; max-height: none;}",
-        " /* Specifically hide only excerpt text, not the title */.article-card__excerpt,.card__excerpt,.card__badge-bottom {display: none !important;}",
-        ".blog-articles{width:100vw!important;margin:0 calc(50% - 50vw);padding:0}"
+        " /* Specifically hide only excerpt text, not the title */.article-card__excerpt,.card__excerpt,.card__badge-bottom {display: none !important;}"
       ],
       "name": "t:sections.featured-blog.presets.name",
       "settings": {
