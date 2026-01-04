@@ -13,7 +13,7 @@
       "type": "main-blog",
       "custom_css": [
         "@media screen and (min-width: 750px) {.blog-articles {grid-template-columns: 1fr 1fr 1fr !important; } .blog-articles--collage > *:nth-child(3n + 1) {grid-column: span 1 !important; }}",
-        ".article-card__title,.article-card__title a,.card__heading {font-family: \"PASTE-EXACT-FONT-FAMILY-HERE\" !important;}"
+        ".blog-articles .card__heading,.blog-articles .card__heading a,.blog-articles .article-card__title,.blog-articles .article-card__title a {font-family: \"Droulers\", serif !important; white-space: normal; overflow: visible; max-height: none;}"
       ],
       "settings": {
         "layout": "grid",
