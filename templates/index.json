@@ -58,22 +58,21 @@
           "settings": {
             "image": "shopify://shop_images/3_6.jpg",
             "caption": "",
-            "heading": "Reflexions de Cap d’Any: mirant enrere al 2025",
-            "text": "",
+            "heading": "Reflexions de Cap d’Any",
+            "text": "<p>Mirant enrere al 2025</p>",
             "button_label": "Llegeix la història",
             "button_link": "shopify://blogs/press/doskiwis-in-reflection-looking-back-at-2025"
           }
         },
         "row_dVftqe": {
           "type": "row",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/1_d7fddab0-9d08-4d0b-8c9f-b08170a44401.png",
+            "image": "shopify://shop_images/13_b0b31fe9-8414-4cf2-bac8-141c99baf641.jpg",
             "caption": "",
-            "heading": "DosKiwis + DEYA - Chazzy Hazy IPA, 7%",
-            "text": "",
-            "button_label": "Compra ara",
-            "button_link": "shopify://products/doskiwis-deya-chazzy-hazy-ipa"
+            "heading": "Elaborant a través de l’univers",
+            "text": "<p>DosKiwis + Uchu (Tòquio, Japó)</p>",
+            "button_label": "Llegeix la història",
+            "button_link": "shopify://blogs/press/brewing-across-the-universe-doskiwis-x-uchu-tokyo-japan"
           }
         },
         "row_rRUTJr": {
