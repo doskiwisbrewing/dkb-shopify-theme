@@ -17,20 +17,68 @@
         "padding_bottom": 36
       }
     },
+    "image_with_text_GfXJ4h": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_8ba9GA": {
+          "type": "heading",
+          "settings": {
+            "heading": "Hora de festa!",
+            "heading_size": "h1"
+          }
+        },
+        "text_NJq6Ej": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Este febrero DosKiwis cumple 7 años!!</p><p>Para celebrarlo, lanzaremos una Hazy IPA especial del 7% – Seven Heavens.DJ Jostalgia pinchará los temas que más han sonado en DK durante estos últimos 7 años y la BBQ estará a pleno rendimiento todo el fin de semana, sacando buen humoNos encantará verte por allí.</p><p>Dissabte 7 i diumenge 8 de febrer, de 12 a 18 h</p>",
+            "text_style": "body"
+          }
+        },
+        "button_ednp9a": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_8ba9GA",
+        "text_NJq6Ej",
+        "button_ednp9a"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/2_5f234e76-2a53-46b8-901a-6100bbdc6c44.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
     "image_with_text_zzDRnE": {
       "type": "image-with-text",
       "blocks": {
         "heading_3BjG9K": {
           "type": "heading",
           "settings": {
-            "heading": "Este febrero DosKiwis cumple 7 años!!",
+            "heading": "",
             "heading_size": "h2"
           }
         },
         "text_bLwPwF": {
           "type": "text",
           "settings": {
-            "text": "<p>Para celebrarlo, lanzaremos una Hazy IPA especial del 7% – Seven Heavens.DJ Jostalgia pinchará los temas que más han sonado en DK durante estos últimos 7 años y la BBQ estará a pleno rendimiento todo el fin de semana, sacando buen humoNos encantará verte por allí.</p><p><em>Dissabte 7 de febrer i diumenge 8 de febrer, de 12 a 18 h</em></p>",
+            "text": "",
             "text_style": "body"
           }
         },
@@ -48,11 +96,12 @@
         "text_bLwPwF",
         "button_8wzi8w"
       ],
+      "disabled": true,
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/2_5f234e76-2a53-46b8-901a-6100bbdc6c44.png",
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "large",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
@@ -71,14 +120,14 @@
         "heading_pMEDqM": {
           "type": "heading",
           "settings": {
-            "heading": "Festa de presentació del Ambient Coffee",
+            "heading": "",
             "heading_size": "h2"
           }
         },
         "text_E7xntA": {
           "type": "text",
           "settings": {
-            "text": "<p>Coneix els torradors, DJs, còctels, llaminadures especials i molt més.<br/>Diumenge, 19 d'octubre de 2025, de 12 a 18 h</p>",
+            "text": "",
             "text_style": "body"
           }
         },
@@ -99,7 +148,7 @@
       "disabled": true,
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/ambient_launch_party_en.jpg",
+        "image": "shopify://shop_images/2_5f234e76-2a53-46b8-901a-6100bbdc6c44.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -182,6 +231,7 @@
   },
   "order": [
     "main",
+    "image_with_text_GfXJ4h",
     "image_with_text_zzDRnE",
     "image_with_text_7rHHGW",
     "image_banner_pYbBaB",
