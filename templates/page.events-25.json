@@ -17,151 +17,39 @@
         "padding_bottom": 36
       }
     },
-    "image_with_text_GfXJ4h": {
-      "type": "image-with-text",
+    "multirow_QKX9jk": {
+      "type": "multirow",
       "blocks": {
-        "heading_8ba9GA": {
-          "type": "heading",
+        "row_jtdQdT": {
+          "type": "row",
           "settings": {
+            "image": "shopify://shop_images/2_5f234e76-2a53-46b8-901a-6100bbdc6c44.png",
+            "caption": "",
             "heading": "Hora de festa!",
-            "heading_size": "h1"
-          }
-        },
-        "text_NJq6Ej": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Este febrero DosKiwis cumple 7 años!!</p><p>Para celebrarlo, lanzaremos una Hazy IPA especial del 7% – Seven Heavens.DJ Jostalgia pinchará los temas que más han sonado en DK durante estos últimos 7 años y la BBQ estará a pleno rendimiento todo el fin de semana, sacando buen humoNos encantará verte por allí.</p><p>Dissabte 7 i diumenge 8 de febrer, de 12 a 18 h</p>",
-            "text_style": "body"
-          }
-        },
-        "button_ednp9a": {
-          "type": "button",
-          "settings": {
+            "text": "<p>Este febrero DosKiwis cumple 7 años!!</p><p>Para celebrarlo, lanzaremos una Hazy IPA especial del 7% – Seven Heavens.DJ Jostalgia pinchará los temas que más han sonado en DK durante estos últimos 7 años y la BBQ estará a pleno rendimiento todo el fin de semana, sacando buen humoNos encantará verte por allí.</p><p><em>Dissabte 7 i diumenge 8 de febrer, de 12 a 18h</em></p>",
             "button_label": "",
-            "button_link": "",
-            "button_style_secondary": false
+            "button_link": ""
           }
         }
       },
       "block_order": [
-        "heading_8ba9GA",
-        "text_NJq6Ej",
-        "button_ednp9a"
+        "row_jtdQdT"
       ],
-      "disabled": true,
-      "name": "t:sections.image-with-text.presets.name",
+      "name": "t:sections.multirow.presets.name",
       "settings": {
-        "image": "shopify://shop_images/2_5f234e76-2a53-46b8-901a-6100bbdc6c44.png",
-        "height": "adapt",
+        "image_height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
+        "image_layout": "alternate-left",
         "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
+        "row_color_scheme": "",
         "mobile_content_alignment": "left",
-        "padding_top": 100,
-        "padding_bottom": 100
-      }
-    },
-    "image_with_text_zzDRnE": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_3BjG9K": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "heading_size": "h2"
-          }
-        },
-        "text_bLwPwF": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "text_style": "body"
-          }
-        },
-        "button_8wzi8w": {
-          "type": "button",
-          "settings": {
-            "button_label": "",
-            "button_link": "https://docs.google.com/forms/d/e/1FAIpQLScjWpmyyDanIaTfUU-CEY2Haw0H03xIAcajpwoLt2Uglxb3Hg/viewform",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_3BjG9K",
-        "text_bLwPwF",
-        "button_8wzi8w"
-      ],
-      "disabled": true,
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/2_5f234e76-2a53-46b8-901a-6100bbdc6c44.png",
-        "height": "adapt",
-        "desktop_image_width": "large",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 48,
-        "padding_bottom": 100
-      }
-    },
-    "image_with_text_7rHHGW": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_pMEDqM": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "heading_size": "h2"
-          }
-        },
-        "text_E7xntA": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "text_style": "body"
-          }
-        },
-        "button_YTNff4": {
-          "type": "button",
-          "settings": {
-            "button_label": "",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_pMEDqM",
-        "text_E7xntA",
-        "button_YTNff4"
-      ],
-      "disabled": true,
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/2_5f234e76-2a53-46b8-901a-6100bbdc6c44.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 48,
-        "padding_bottom": 100
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "image_banner_pYbBaB": {
@@ -228,49 +116,11 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
-    },
-    "multirow_QKX9jk": {
-      "type": "multirow",
-      "blocks": {
-        "row_jtdQdT": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/2_5f234e76-2a53-46b8-901a-6100bbdc6c44.png",
-            "caption": "",
-            "heading": "Hora de festa!",
-            "text": "<p>Este febrero DosKiwis cumple 7 años!!</p><p>Para celebrarlo, lanzaremos una Hazy IPA especial del 7% – Seven Heavens.DJ Jostalgia pinchará los temas que más han sonado en DK durante estos últimos 7 años y la BBQ estará a pleno rendimiento todo el fin de semana, sacando buen humoNos encantará verte por allí.</p><p><em>Dissabte 7 i diumenge 8 de febrer, de 12 a 18h</em></p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "row_jtdQdT"
-      ],
-      "name": "t:sections.multirow.presets.name",
-      "settings": {
-        "image_height": "adapt",
-        "desktop_image_width": "medium",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "",
-        "row_color_scheme": "",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "main",
     "multirow_QKX9jk",
-    "image_with_text_GfXJ4h",
-    "image_with_text_zzDRnE",
-    "image_with_text_7rHHGW",
     "image_banner_pYbBaB",
     "rich_text_t7Cf9E",
     "image_banner_6m6CfN"
