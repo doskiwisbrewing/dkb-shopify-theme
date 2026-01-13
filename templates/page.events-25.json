@@ -23,14 +23,14 @@
         "heading_3BjG9K": {
           "type": "heading",
           "settings": {
-            "heading": "Mercat d’Artesanes de Nadal anual de DosKiwis - Dissabte 13 i diumenge 14 de desembre",
+            "heading": "Este febrero DosKiwis cumple 7 años!!",
             "heading_size": "h2"
           }
         },
         "text_bLwPwF": {
           "type": "text",
           "settings": {
-            "text": "<p>Tenim moltes ganes de rebre un cop més a diverses artesanes i artesans de la comunitat.</p><p>Horari del mercat: 12h-17h, Horari de la cuina: 12h-16h.</p>",
+            "text": "<p>Para celebrarlo, lanzaremos una Hazy IPA especial del 7% – Seven Heavens.DJ Jostalgia pinchará los temas que más han sonado en DK durante estos últimos 7 años y la BBQ estará a pleno rendimiento todo el fin de semana, sacando buen humoNos encantará verte por allí.</p><p><em>Dissabte 7 de febrer i diumenge 8 de febrer, de 12 a 18 h</em></p>",
             "text_style": "body"
           }
         },
@@ -50,7 +50,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/1_46d8133f-e35a-4530-8c36-c8b1a6a5c09d.png",
+        "image": "shopify://shop_images/2_5f234e76-2a53-46b8-901a-6100bbdc6c44.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
