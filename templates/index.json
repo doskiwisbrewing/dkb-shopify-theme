@@ -77,14 +77,13 @@
         },
         "row_rRUTJr": {
           "type": "row",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/1_6e7e61fe-fa3c-47ea-9fb3-747eeb57f071.png",
+            "image": "shopify://shop_images/6_3_29fcacf9-989f-4941-a634-78298ca20295.jpg",
             "caption": "",
-            "heading": "DosKiwis + Left Handed Giant - Ambidextrous Foreign Extra Stout, 7%",
-            "text": "",
-            "button_label": "Compra ara",
-            "button_link": "shopify://products/doskiwis-left-handed-giant-ambidextrous-foreign-extra-stout"
+            "heading": "Road Trip fins a Prizm Brewery",
+            "text": "<p>Prizm + DosKiwis presenten Pygostyle</p>",
+            "button_label": "Llegeix la història",
+            "button_link": "shopify://blogs/press/road-trip-fins-a-prizm-brewery"
           }
         },
         "row_YGkdRC": {
