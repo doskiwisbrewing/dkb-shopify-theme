@@ -66,6 +66,7 @@
         },
         "row_dVftqe": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/13_b0b31fe9-8414-4cf2-bac8-141c99baf641.jpg",
             "caption": "",
@@ -77,6 +78,7 @@
         },
         "row_rRUTJr": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/6_3_29fcacf9-989f-4941-a634-78298ca20295.jpg",
             "caption": "",
