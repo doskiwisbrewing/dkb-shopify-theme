@@ -3523,10 +3523,10 @@ details-disclosure > details {
 
  /* Body text → Courier New */
 body, body p, body li, body span, body a {
-  font-family: "Courier Prime", Courier, monospace !important;
+  font-family: "Courier Prime", Courier, monospace;
 }
 
 /* Headings keep Droulers */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Droulers" !important;
+  font-family: "Droulers";
 }
