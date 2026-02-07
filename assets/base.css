@@ -3528,5 +3528,5 @@ body, body p, body li, body span, body a {
 
 /* Headings keep Droulers */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Droulers";
+  font-family: "Droulers" !important;
 }
