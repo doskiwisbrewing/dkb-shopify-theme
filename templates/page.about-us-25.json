@@ -39,7 +39,6 @@
       "blocks": {
         "heading_CwEgTq": {
           "type": "heading",
-          "disabled": true,
           "settings": {
             "heading": "Welcome to Doskiwis",
             "heading_size": "h1"
