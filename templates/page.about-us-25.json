@@ -39,6 +39,7 @@
       "blocks": {
         "heading_CwEgTq": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Welcome to Doskiwis",
             "heading_size": "h1"
@@ -88,7 +89,7 @@
         "heading_UrxHiY": {
           "type": "heading",
           "settings": {
-            "heading": "Una feina feta amb molt d'amor",
+            "heading": "Una feina feta amb amor",
             "heading_size": "h1"
           }
         }
