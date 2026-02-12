@@ -71,18 +71,57 @@
         "heading_wpeTT7": {
           "type": "heading",
           "settings": {
-            "heading": "Cuiner/a Jornada completa",
+            "heading": "Personal per al Taproom",
             "heading_size": "h1"
           }
         },
         "text_WfpnYF": {
           "type": "text",
           "settings": {
+            "text": "<p>La posició comença a temps parcial, amb possibilitat de passar a jornada completa durant els mesos d’estiu. No cal experiència prèvia, però és imprescindible parlar anglès. Aplica ara: <a href=\"mailto:doskiwis@doskiwisbrewing.com\"><span style=\"text-decoration:underline\">doskiwis@doskiwisbrewing.com</span></a></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_wpeTT7",
+        "text_WfpnYF"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/1_2_5de9dd68-f36f-4238-b198-d7677ca06c87.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 100
+      }
+    },
+    "image_with_text_ikXPAN": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_id6DYN": {
+          "type": "heading",
+          "settings": {
+            "heading": "Cuiner/a Jornada completa",
+            "heading_size": "h1"
+          }
+        },
+        "text_Ywxhwt": {
+          "type": "text",
+          "settings": {
             "text": "",
             "text_style": "body"
           }
         },
-        "button_wicxQK": {
+        "button_GwNP4d": {
           "type": "button",
           "settings": {
             "button_label": "Més informació",
@@ -92,16 +131,16 @@
         }
       },
       "block_order": [
-        "heading_wpeTT7",
-        "text_WfpnYF",
-        "button_wicxQK"
+        "heading_id6DYN",
+        "text_Ywxhwt",
+        "button_GwNP4d"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/DSC07027.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
@@ -118,6 +157,7 @@
     "main",
     "image_banner_KitMHg",
     "rich_text_n3Pahk",
-    "image_with_text_8y9prC"
+    "image_with_text_8y9prC",
+    "image_with_text_ikXPAN"
   ]
 }
