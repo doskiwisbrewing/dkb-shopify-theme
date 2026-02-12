@@ -53,6 +53,17 @@
     "multirow_BayEpx": {
       "type": "multirow",
       "blocks": {
+        "row_dVftqe": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/2_8e3e65bc-c0fd-490b-8c98-17c36a4c4f1d.jpg",
+            "caption": "",
+            "heading": "Seven Heavens",
+            "text": "<p>7 anys de DosKiwis. BIG DEAL.</p>",
+            "button_label": "Hazy IPA, 7%",
+            "button_link": "shopify://products/seven-heavens"
+          }
+        },
         "row_b7UraJ": {
           "type": "row",
           "settings": {
@@ -62,18 +73,6 @@
             "text": "",
             "button_label": "Llegeix la història",
             "button_link": "shopify://blogs/press/from-yakima-to-rupia-hand-selected-amp-cryofresh-hops"
-          }
-        },
-        "row_dVftqe": {
-          "type": "row",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/13_b0b31fe9-8414-4cf2-bac8-141c99baf641.jpg",
-            "caption": "",
-            "heading": "Elaborant a través de l’univers",
-            "text": "<p>DosKiwis + Uchu (Tòquio, Japó)</p>",
-            "button_label": "Llegeix la història",
-            "button_link": "shopify://blogs/press/brewing-across-the-universe-doskiwis-x-uchu-tokyo-japan"
           }
         },
         "row_rRUTJr": {
@@ -114,8 +113,8 @@
         }
       },
       "block_order": [
-        "row_b7UraJ",
         "row_dVftqe",
+        "row_b7UraJ",
         "row_rRUTJr",
         "row_YGkdRC",
         "row_GmgmkX"
