@@ -99,6 +99,10 @@ html.no-js .no-js-hidden {
   padding: 0 1.5rem;
 }
 
+.page-width-wide {
+  max-width: var(--page-width-wide);
+}
+
 body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
   max-width: 100%;
 }
