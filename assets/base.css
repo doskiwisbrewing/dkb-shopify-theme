@@ -812,6 +812,12 @@ summary::-webkit-details-marker {
   margin: 4rem 0;
 }
 
+.title--primary-wide {
+  max-width: var(--page-width);
+  margin: 4rem auto 6rem;
+  padding: 0 5rem;
+}
+
 .title-wrapper--self-padded-tablet-down,
 .title-wrapper--self-padded-mobile {
   padding-left: 1.5rem;
@@ -833,6 +839,12 @@ summary::-webkit-details-marker {
 
   .title--primary {
     margin: 2rem 0;
+  }
+
+  .title--primary-wide {
+    max-width: var(--page-width);
+    margin: 2rem auto 6rem;
+    padding: 0 5rem;
   }
 
   .title-wrapper-with-link {
