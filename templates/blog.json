@@ -18,7 +18,7 @@
         "image_height": "large",
         "show_date": false,
         "show_author": false,
-        "padding_top": 20,
+        "padding_top": 60,
         "padding_bottom": 100
       }
     }
