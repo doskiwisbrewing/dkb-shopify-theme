@@ -3528,13 +3528,14 @@ details-disclosure > details {
     --border-offset: 0px; /* Prevent the border from growing on buttons when this effect is on. */
   }
 
-  
+
 }
 
 @font-face {
   font-family: "Droulers";
-  src: url("{{ 'Droulers.woff2' | asset_url }}") format("woff2");
+  src: url("/assets/Droulers.woff2") format("woff2");
   font-style: normal;
+  font-display: swap;
 }
 
  /* Body text → Courier New */
