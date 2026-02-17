@@ -56,21 +56,20 @@
 
 .article-card .card__heading a:hover {
   opacity: 0.7;
-  transition: opacity 0.125s ease;
+  transition: opacity 0.15s ease-in;
   text-decoration: none !important;
 }
 
 .blog-articles .article-card .card__information,
 .blog__posts .article-card .card__information {
-  padding-left: 2rem;
-  padding-right: 2rem;
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
+  display: inline;
 }
 
 .article-card__info {
-  padding-top: 0.4rem;
+  float: left;
+  width: 120px;
+  padding-right: 20px;
+  padding-top: 0.6rem;
 }
 
 .article-card__footer {
@@ -89,13 +88,7 @@
 .article-card__excerpt {
   width: 100%;
   margin-top: 1.2rem;
-}
-
-.line-clamp{
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
+  line-height: 1.5;
 }
 
 .article-card__link:not(:only-child) {
@@ -144,7 +137,7 @@
   }
 
   .article-card__image--large .ratio::before {
-    padding-bottom: 40.7rem;
+    padding-bottom: 55.7rem;
   }
 }
 
