@@ -52,9 +52,8 @@
                 style="padding-bottom: {{ 1 | divided_by: article.image.aspect_ratio | times: 100 }}%;"
               {% endif %}
             >
-              {% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
               <img
-                srcset="
+                {% comment %} srcset="
                   {%- if article.image.src.width >= 165 -%}{{ article.image.src | image_url: width: 165 }} 165w,{%- endif -%}
                   {%- if article.image.src.width >= 360 -%}{{ article.image.src | image_url: width: 360 }} 360w,{%- endif -%}
                   {%- if article.image.src.width >= 533 -%}{{ article.image.src | image_url: width: 533 }} 533w,{%- endif -%}
@@ -63,7 +62,8 @@
                   {%- if article.image.src.width >= 1500 -%}{{ article.image.src | image_url: width: 1500 }} 1500w,{%- endif -%}
                   {{ article.image.src | image_url }} {{ article.image.src.width }}w
                 "
-                src="{{ article.image.src | image_url: width: 533 }}"
+                src="{{ article.image.src | image_url: width: 533 }}" {% endcomment %}
+                src="https://cdn.shopify.com/s/files/1/0779/8118/8435/files/9_999ffc4f-8efd-43f6-90eb-c0af073eaeb9.jpg?v=1769709646"
                 sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                 alt="{{ article.image.src.alt | escape }}"
                 class="motion-reduce"
@@ -72,8 +72,8 @@
                 {% endunless %}
                 width="{{ article.image.width }}"
                 height="{{ article.image.height }}"
-              >
-              {% comment %}theme-check-enable ImgLazyLoading{% endcomment %}
+                {% comment %}theme-check-enable ImgLazyLoading{% endcomment %}
+                >
             </div>
           </div>
         {%- endif -%}
@@ -93,7 +93,7 @@
               <span>{{ article.author }}</span>
             {%- endif -%}
           </div>
-          {%- if show_excerpt -%}
+          {% comment %} {%- if show_excerpt -%}
             {%- if article.excerpt.size > 0 or article.content.size > 0 -%}
               <p class="article-card__excerpt rte-width line-clamp">
                 {%- if article.excerpt.size > 0 -%}
@@ -108,7 +108,7 @@
                 <span>{{ 'blogs.article.comments' | t: count: article.comments_count }}</span>
               {%- endif -%}
             </div>
-          {%- endif -%}
+          {%- endif -%} {% endcomment %}
         </div>
         {%- if show_badge -%}
           <div class="card__badge {{ settings.badge_position }}">

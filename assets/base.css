@@ -101,6 +101,8 @@ html.no-js .no-js-hidden {
 
 .page-width-wide {
   max-width: var(--page-width-wide);
+  width: 100%;
+  padding: 0 1rem;
 }
 
 body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
@@ -124,6 +126,10 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
 @media screen and (min-width: 750px) {
   .page-width {
     padding: 0 5rem;
+  }
+
+  .page-width-wide {
+    padding: 0 1rem;
   }
 
   .header.page-width,
