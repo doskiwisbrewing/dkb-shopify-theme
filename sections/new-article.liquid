@@ -86,6 +86,11 @@
             >
               {{ article.title | escape }}
             </h1>
+            {%- if block.settings.custom_description != blank -%}
+              <div class="article-template__description">
+                {{ block.settings.custom_description }}
+              </div>
+            {%- endif -%}
             {%- if block.settings.blog_show_date -%}
               <span class="circle-divider caption-with-letter-spacing" itemprop="dateCreated pubdate datePublished">
                 {{- article.published_at | time_tag: format: 'date' -}}
@@ -399,6 +404,12 @@
           "id": "blog_show_author",
           "default": false,
           "label": "t:sections.main-article.blocks.title.settings.blog_show_author.label"
+        },
+        {
+          "type": "textarea",
+          "id": "custom_description",
+          "label": "Custom description",
+          "info": "HTML is supported."
         }
       ]
     },
