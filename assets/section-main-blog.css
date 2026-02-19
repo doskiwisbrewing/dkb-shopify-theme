@@ -13,7 +13,7 @@
   .blog-articles {
     grid-template-columns: 1fr 1fr;
     column-gap: 1rem;
-    row-gap: 1rem;
+    row-gap: 3rem;
   }
 
   .blog-articles--collage > *:nth-child(3n + 1),
@@ -47,7 +47,7 @@
   .blog-articles {
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 1rem;
-    row-gap: 1rem;
+    row-gap: 4rem;
   }
 
   .blog-articles--collage > *:nth-child(3n + 1) .article-card__image--small .ratio .ratio::before,
