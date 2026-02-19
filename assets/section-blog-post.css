@@ -57,7 +57,13 @@
 .article-template header {
   margin-top: 4.4rem;
   margin-bottom: 2rem;
-  line-height: calc(0.8 / var(--font-body-scale));
+}
+
+.article-template__description {
+  font-size: 1.33333rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+  max-width: 40ch;
 }
 
 .article-template-block-quote p {
