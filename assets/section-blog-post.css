@@ -128,7 +128,6 @@
 }
 
 .article-template-header__content{
-  padding-top: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
