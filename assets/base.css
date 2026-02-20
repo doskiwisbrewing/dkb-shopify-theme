@@ -103,6 +103,7 @@ html.no-js .no-js-hidden {
   max-width: var(--page-width-wide);
   width: 100%;
   padding: 0 1rem;
+  margin: 0 auto;
 }
 
 body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
