@@ -98,6 +98,7 @@ You can use:
   <p><img src="IMAGE-2.jpg" alt=""></p>
 </div>
 ```
+<img width="1582" height="1035" alt="Screenshot 2026-02-23 at 19 16 39" src="https://github.com/user-attachments/assets/e7b9e86d-47b6-4840-b2c6-f0e1530d4445" />
 
 ## Text Left -- Image Right
 
@@ -111,6 +112,9 @@ You can use:
 </div>
 ```
 
+<img width="1582" height="1035" alt="Screenshot 2026-02-23 at 19 15 03" src="https://github.com/user-attachments/assets/280594ea-972b-4eb9-b266-ed3301f6177c" />
+
+
 ## Image Left -- Text Right
 
 ``` html
@@ -122,6 +126,7 @@ You can use:
   </div>
 </div>
 ```
+<img width="1582" height="1035" alt="Screenshot 2026-02-23 at 19 17 07" src="https://github.com/user-attachments/assets/24d08dbc-c406-4909-87db-1371a4f802f9" />
 
 ------------------------------------------------------------------------
 
@@ -141,6 +146,9 @@ Use this for:
   <p><img src="IMAGE-3.jpg" alt=""></p>
 </div>
 ```
+
+<img width="1582" height="1035" alt="Screenshot 2026-02-23 at 19 17 38" src="https://github.com/user-attachments/assets/df66d198-bbdd-413a-ad17-5e7dbe85eed3" />
+
 
 ## Three Text Blocks Example
 
@@ -173,6 +181,9 @@ Use this to keep text readable and centered.
   <p>Your paragraph text goes here.</p>
 </div>
 ```
+<img width="1582" height="1035" alt="Screenshot 2026-02-23 at 19 16 04" src="https://github.com/user-attachments/assets/570862f9-f599-4d0d-a98a-61d2b48f5a48" />
+
+
 
 ------------------------------------------------------------------------
 
@@ -185,6 +196,9 @@ Use this to highlight important paragraphs.
   <p>Your highlighted text goes here.</p>
 </div>
 ```
+
+<img width="1582" height="1035" alt="Screenshot 2026-02-23 at 19 15 50" src="https://github.com/user-attachments/assets/8b66fc40-1f98-4ecf-b6f3-a1061c5e2a5f" />
+
 
 ------------------------------------------------------------------------
 
