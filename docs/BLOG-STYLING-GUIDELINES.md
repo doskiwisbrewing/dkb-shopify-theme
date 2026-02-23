@@ -40,7 +40,11 @@ Replace `IMAGE-URL-HERE.jpg` with your image URL.
 
 Use this to create content in two vertical columns.
 
-You can use: - Text + Image - Image + Text - Image + Image - Text + Text
+You can use: 
+- Text + Image
+- Image + Text
+- Image + Image
+- Text + Text
 
 ## Two Images Side by Side
 
@@ -79,7 +83,10 @@ You can use: - Text + Image - Image + Text - Image + Image - Text + Text
 
 # 4. Three Column Grid
 
-Use this for: - 3 images in a row - 3 content blocks - Gallery sections
+Use this for: 
+- 3 images in a row
+- 3 content blocks
+- Gallery sections
 
 ## Three Images Example
 
