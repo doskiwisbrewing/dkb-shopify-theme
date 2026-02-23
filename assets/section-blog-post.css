@@ -231,6 +231,16 @@
 }
 
 @media screen and (min-width: 750px) {
+  .article-template__content p,
+  .article-template__content ul,
+  .article-template__content h2,
+  .article-template__content h3,
+  .article-template__content h4,
+  .article-template__content h5,
+  .article-template__content h6 {
+    padding-right: 3rem;
+    padding-left: 3rem;
+  }
   .article-template__comments {
     margin-bottom: 7rem;
   }
