@@ -53,6 +53,17 @@
     "multirow_BayEpx": {
       "type": "multirow",
       "blocks": {
+        "row_DzW6gt": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Bestiola4.jpg",
+            "caption": "",
+            "heading": "Bestiola Hazy IPA",
+            "text": "<p>Una petita bèstia de Hazy IPA amb EXP666</p>",
+            "button_label": "Llegeix la història completa",
+            "button_link": "shopify://blogs/press/bestiola-una-petita-bestia-de-hazy-ipa-amb-exp666"
+          }
+        },
         "row_dVftqe": {
           "type": "row",
           "settings": {
@@ -113,6 +124,7 @@
         }
       },
       "block_order": [
+        "row_DzW6gt",
         "row_dVftqe",
         "row_b7UraJ",
         "row_rRUTJr",
