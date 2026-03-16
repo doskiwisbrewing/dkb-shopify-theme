@@ -77,6 +77,7 @@
         },
         "row_b7UraJ": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/7_f7856e72-f150-459b-a228-34595bd37ef3.jpg",
             "caption": "",
@@ -131,6 +132,7 @@
         "row_YGkdRC",
         "row_GmgmkX"
       ],
+      "disabled": true,
       "name": "t:sections.multirow.presets.name",
       "settings": {
         "image_height": "adapt",
@@ -146,6 +148,25 @@
         "mobile_content_alignment": "left",
         "padding_top": 52,
         "padding_bottom": 52
+      }
+    },
+    "featured_blog_bPKJBD": {
+      "type": "featured-blog",
+      "custom_css": [],
+      "name": "t:sections.featured-blog.presets.name",
+      "settings": {
+        "heading": "Notes de Camp",
+        "heading_size": "h1",
+        "blog": "press",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 100
       }
     },
     "image_with_text_NMYQiC": {
@@ -366,27 +387,9 @@
         "padding_bottom": 52
       }
     },
-    "featured_blog_bPKJBD": {
-      "type": "featured-blog",
-      "custom_css": [],
-      "name": "t:sections.featured-blog.presets.name",
-      "settings": {
-        "heading": "Notes de Camp",
-        "heading_size": "h1",
-        "blog": "press",
-        "post_limit": 3,
-        "columns_desktop": 3,
-        "color_scheme": "",
-        "show_image": true,
-        "show_date": true,
-        "show_author": false,
-        "show_view_all": true,
-        "padding_top": 36,
-        "padding_bottom": 0
-      }
-    },
     "image_banner_R8JC6j": {
       "type": "image-banner",
+      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/2_b8859fbf-979d-45c3-907e-dab884bbf641.png",
@@ -407,13 +410,13 @@
     "c227bd9b-4cf2-481c-b9a6-4bfcb6a8f075",
     "rich_text_nhQDcB",
     "multirow_BayEpx",
+    "featured_blog_bPKJBD",
     "image_with_text_NMYQiC",
     "featured_collection_3riWdx",
     "featured_collection_JAARz7",
     "multirow_9NUBrV",
     "image_banner_Fnbk8G",
     "multirow_YFCrtm",
-    "featured_blog_bPKJBD",
     "image_banner_R8JC6j"
   ]
 }
