@@ -1,6 +1,6 @@
-{{ 'component-article-card.css' | asset_url | stylesheet_tag }}
-{{ 'component-card.css' | asset_url | stylesheet_tag }}
-{{ 'section-main-blog.css' | asset_url | stylesheet_tag }}
+{{ "component-article-card.css" | asset_url | stylesheet_tag }}
+{{ "component-card.css" | asset_url | stylesheet_tag }}
+{{ "section-main-blog.css" | asset_url | stylesheet_tag }}
 
 {%- style -%}
   .section-{{ section.id }}-padding {
@@ -16,9 +16,12 @@
   }
 {%- endstyle -%}
 
-{%- paginate blog.articles by 6 -%}
-  <div class="main-blog page-width section-{{ section.id }}-padding">
-    <h1 id="test" class="title--primary{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
+{%- paginate blog.articles by 30 -%}
+  <div class="main-blog page-width page-width-wide section-{{ section.id }}-padding">
+    <h1
+      id="test"
+      class="title--primary title--primary-wide{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+    >
       {{ blog.title | escape }}
     </h1>
 
@@ -31,7 +34,7 @@
             style="--animation-order: {{ forloop.index }};"
           {% endif %}
         >
-          {%- render 'article-card',
+          {%- render "article-card",
             article: article,
             media_height: section.settings.image_height,
             media_aspect_ratio: article.image.aspect_ratio,
@@ -45,7 +48,7 @@
     </div>
 
     {%- if paginate.pages > 1 -%}
-      {%- render 'pagination', paginate: paginate -%}
+      {%- render "pagination", paginate: paginate -%}
     {%- endif -%}
   </div>
 {%- endpaginate -%}

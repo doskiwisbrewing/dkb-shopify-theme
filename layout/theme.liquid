@@ -29,7 +29,7 @@
       content="https://opengraph.b-cdn.net/production/documents/cc90f963-cbed-4217-aac7-0afa97192acb.png?token=gYJMurHF3HC0f-O5kQEOUyC9TeBy_iTrnp2k8tjXqxo&height=583&width=1110&expires=33240710963"
     >
 
-    
+
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -149,6 +149,7 @@
         --media-shadow-visible: {% if settings.media_shadow_opacity > 0 %}1{% else %}0{% endif %};
 
         --page-width: {{ settings.page_width | divided_by: 10 }}rem;
+        --page-width-wide: 1800px;
         --page-width-margin: {% if settings.page_width == '1600' %}2{% else %}0{% endif %}rem;
 
         --product-card-image-padding: {{ settings.card_image_padding | divided_by: 10.0 }}rem;

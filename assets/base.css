@@ -99,6 +99,13 @@ html.no-js .no-js-hidden {
   padding: 0 1.5rem;
 }
 
+.page-width-wide {
+  max-width: var(--page-width-wide);
+  width: 100%;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
 body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
   max-width: 100%;
 }
@@ -120,6 +127,10 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
 @media screen and (min-width: 750px) {
   .page-width {
     padding: 0 5rem;
+  }
+
+  .page-width-wide {
+    padding: 0 2rem;
   }
 
   .header.page-width,
@@ -808,6 +819,12 @@ summary::-webkit-details-marker {
   margin: 4rem 0;
 }
 
+.title--primary-wide {
+  max-width: var(--page-width);
+  margin: 4rem auto 6rem;
+  padding: 0 5rem;
+}
+
 .title-wrapper--self-padded-tablet-down,
 .title-wrapper--self-padded-mobile {
   padding-left: 1.5rem;
@@ -829,6 +846,12 @@ summary::-webkit-details-marker {
 
   .title--primary {
     margin: 2rem 0;
+  }
+
+  .title--primary-wide {
+    max-width: var(--page-width);
+    margin: 2rem auto 6rem;
+    padding: 0 5rem;
   }
 
   .title-wrapper-with-link {
@@ -3477,7 +3500,7 @@ details-disclosure > details {
 
   .animate--hover-vertical-lift .card-wrapper:hover .card--card,
   .animate--hover-vertical-lift .card-wrapper:hover .card--standard .card__inner {
-    transform: translateY(-0.75rem);
+    /* transform: translateY(-0.75rem); */
   }
 
   .animate--hover-vertical-lift .card-wrapper:active .card--card,
@@ -3512,13 +3535,14 @@ details-disclosure > details {
     --border-offset: 0px; /* Prevent the border from growing on buttons when this effect is on. */
   }
 
-  
+
 }
 
 @font-face {
   font-family: "Droulers";
-  src: url("{{ 'Droulers.woff2' | asset_url }}") format("woff2");
+  src: url("/assets/Droulers.woff2") format("woff2");
   font-style: normal;
+  font-display: swap;
 }
 
  /* Body text → Courier New */
