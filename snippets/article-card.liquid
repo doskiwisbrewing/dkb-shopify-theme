@@ -22,11 +22,6 @@
     if media_aspect_ratio != null
       assign ratio = media_aspect_ratio
     endif
-    assign random_images = "https://cdn.shopify.com/s/files/1/0779/8118/8435/files/6_2687020b-67fa-46b9-8756-1f944c79986d.png?v=1763468359|https://cdn.shopify.com/s/files/1/0779/8118/8435/files/DSC01949.jpg?v=1763410404|https://cdn.shopify.com/s/files/1/0779/8118/8435/files/6_7e46bba5-c488-4fb3-b6ac-a334b29a4b53.png?v=1763468278|https://cdn.shopify.com/s/files/1/0779/8118/8435/files/1_22.jpg?v=1767180185|https://cdn.shopify.com/s/files/1/0779/8118/8435/files/9_999ffc4f-8efd-43f6-90eb-c0af073eaeb9.jpg?v=1769709646"
-    assign image_array = random_images | split: "|"
-    assign image_count = image_array.size
-    assign random_index = article.id | modulo: image_count
-    assign selected_image = image_array[random_index]
   -%}
   <div class="article-card-wrapper card-wrapper underline-links-hover">
     {% comment %} <article aria-labelledby="Article-{{ article.id }}"> {% endcomment %}
@@ -54,19 +49,16 @@
               {% endif %}
             >
               <img
-                {% comment %}
-                  srcset="
-                    {%- if article.image.src.width >= 165 -%}{{ article.image.src | image_url: width: 165 }} 165w,{%- endif -%}
-                    {%- if article.image.src.width >= 360 -%}{{ article.image.src | image_url: width: 360 }} 360w,{%- endif -%}
-                    {%- if article.image.src.width >= 533 -%}{{ article.image.src | image_url: width: 533 }} 533w,{%- endif -%}
-                    {%- if article.image.src.width >= 720 -%}{{ article.image.src | image_url: width: 720 }} 720w,{%- endif -%}
-                    {%- if article.image.src.width >= 1000 -%}{{ article.image.src | image_url: width: 1000 }} 1000w,{%- endif -%}
-                    {%- if article.image.src.width >= 1500 -%}{{ article.image.src | image_url: width: 1500 }} 1500w,{%- endif -%}
-                    {{ article.image.src | image_url }} {{ article.image.src.width }}w
-                  "
-                  src="{{ article.image.src | image_url: width: 533 }}"
-                {% endcomment %}
-                src="{{ selected_image }}"
+                srcset="
+                  {%- if article.image.src.width >= 165 -%}{{ article.image.src | image_url: width: 165 }} 165w,{%- endif -%}
+                  {%- if article.image.src.width >= 360 -%}{{ article.image.src | image_url: width: 360 }} 360w,{%- endif -%}
+                  {%- if article.image.src.width >= 533 -%}{{ article.image.src | image_url: width: 533 }} 533w,{%- endif -%}
+                  {%- if article.image.src.width >= 720 -%}{{ article.image.src | image_url: width: 720 }} 720w,{%- endif -%}
+                  {%- if article.image.src.width >= 1000 -%}{{ article.image.src | image_url: width: 1000 }} 1000w,{%- endif -%}
+                  {%- if article.image.src.width >= 1500 -%}{{ article.image.src | image_url: width: 1500 }} 1500w,{%- endif -%}
+                  {{ article.image.src | image_url }} {{ article.image.src.width }}w
+                "
+                src="{{ article.image.src | image_url: width: 533 }}"
                 sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                 alt="{{ article.image.src.alt | escape }}"
                 class="motion-reduce"
