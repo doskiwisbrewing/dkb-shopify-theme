@@ -11,64 +11,173 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "image_banner_KitMHg": {
-      "type": "image-banner",
-      "name": "t:sections.image-banner.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/6_f657dfc1-bc4f-42f3-b69e-e6e1d71649a0.png",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "rich_text_NWazRJ": {
+    "rich_text_q3Kp9L": {
       "type": "rich-text",
       "blocks": {
-        "heading_fcJtih": {
+        "heading_CnEAQM": {
           "type": "heading",
           "settings": {
-            "heading": "Contacta amb nosaltres",
-            "heading_size": "h1"
+            "heading": "Preguntes freqüents",
+            "heading_size": "h2"
           }
         },
-        "text_gMfXJa": {
+        "text_rBVWX8": {
           "type": "text",
           "settings": {
-            "text": "<p>Consultes generals:</p><ul><li>Correu: doskiwis@doskiwisbrewing.com</li><li>Telèfon: +34 623 192 815</li></ul><p>Adreça del Brewery & Taproom:</p><p>DosKiwis Brewing, Carretera de Parlavà, GI-642, 22, 17131 Rupià, Girona</p><p>El Taproom està obert tot l’any, amb horaris que varien segons la temporada.</p><p>Consulta la pàgina del <a href=\"/pages/taproom-25\" target=\"_blank\" title=\"Taproom 25\">Taproom</a> o <a href=\"https://maps.app.goo.gl/ZxwVNeF9yjxsegwV7?g_st=ipc\" target=\"_blank\" title=\"https://maps.app.goo.gl/ZxwVNeF9yjxsegwV7?g_st=ipc\">Google Maps</a> per més informació.</p>"
+            "text": "<p>Abans de posar-te en contacte amb nosaltres, et recomanem consultar la nostra pàgina de preguntes freqüents; potser hi trobaràs una resposta ràpida.</p><ul><li><a href=\"/pages/faq\" target=\"_blank\" title=\"FAQ\">FAQs</a></li></ul>"
           }
         }
       },
       "block_order": [
-        "heading_fcJtih",
-        "text_gMfXJa"
+        "heading_CnEAQM",
+        "text_rBVWX8"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "desktop_content_position": "center",
+        "desktop_content_position": "left",
         "content_alignment": "left",
         "color_scheme": "",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 100
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_WyyjcH": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_n9ERmV": {
+          "type": "heading",
+          "settings": {
+            "heading": "Taproom i tasts",
+            "heading_size": "h2"
+          }
+        },
+        "text_nqbUWi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Per a informació sobre visitar el Taproom o reservar experiències de tast, consulta:</p><ul><li><a href=\"/pages/taproom\" target=\"_blank\" title=\"Taproom\">Taproom</a></li><li><a href=\"/pages/tasting\" target=\"_blank\" title=\"Tasting\">Experiències de tast</a></li></ul><p>Adreça de la fàbrica i Taproom:</p><p>DosKiwis Brewing, Carretera de Parlavà, GI-642, 22, 17131 Rupià, Girona</p><p>Horari:</p><p>El nostre taproom està obert tot l’any, amb horaris que varien segons la temporada.</p><p>Consulta la pàgina del Taproom o Google Maps per obtenir la informació més actualitzada.</p><ul><li><a href=\"https://maps.app.goo.gl/9HLnhMH6Gywf1GaYA\" target=\"_blank\" title=\"https://maps.app.goo.gl/9HLnhMH6Gywf1GaYA\">Google Maps</a></li></ul><p>Per a consultes sobre el Taproom o tastos, contacta amb:</p><p>taproom@doskiwisbrewing.com</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_n9ERmV",
+        "text_nqbUWi"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_EzKgVY": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_RbFNEX": {
+          "type": "heading",
+          "settings": {
+            "heading": "Comandes online",
+            "heading_size": "h2"
+          }
+        },
+        "text_kpwWCf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Per a qualsevol dubte sobre comandes de la botiga online, contacta amb:</p><p>online@doskiwisbrewing.com</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_RbFNEX",
+        "text_kpwWCf"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_n7y8Wm": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_zYJqAT": {
+          "type": "heading",
+          "settings": {
+            "heading": "Professionals i Distribuïdors",
+            "heading_size": "h2"
+          }
+        },
+        "text_XAAHHh": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Si ja ets un client professional i/ o distribuïdor de DosKiwis, o t’agradaria ser-ho, contacta amb:</p><p>orders@doskiwisbrewing.com</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_zYJqAT",
+        "text_XAAHHh"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_LTziTc": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_VBat9X": {
+          "type": "heading",
+          "settings": {
+            "heading": "Consultes generals",
+            "heading_size": "h2"
+          }
+        },
+        "text_P3rBVE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Per a qualsevol altra consulta, no dubtis a escriure’ns:</p><p>doskiwis@doskiwisbrewing.com</p><p>+34 623 192 815</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_VBat9X",
+        "text_P3rBVE"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
   "order": [
     "main",
-    "image_banner_KitMHg",
-    "rich_text_NWazRJ"
+    "rich_text_q3Kp9L",
+    "rich_text_WyyjcH",
+    "rich_text_EzKgVY",
+    "rich_text_n7y8Wm",
+    "rich_text_LTziTc"
   ]
 }

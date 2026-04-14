@@ -11,6 +11,7 @@
   "sections": {
     "c227bd9b-4cf2-481c-b9a6-4bfcb6a8f075": {
       "type": "image-banner",
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "image": "shopify://shop_images/LANDING_compressed.jpg",
