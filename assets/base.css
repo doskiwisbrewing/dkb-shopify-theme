@@ -2436,7 +2436,7 @@ product-info .loading__spinner:not(.hidden) ~ *,
 
   .header--middle-left {
     grid-template-areas: 'heading navigation icons';
-    grid-template-columns: auto auto 1fr;
+    grid-template-columns: max-content auto max-content;
     column-gap: 2rem;
   }
 
@@ -2490,6 +2490,7 @@ product-info .loading__spinner:not(.hidden) ~ *,
   padding: 0.75rem;
   text-decoration: none;
   word-break: break-word;
+  min-width: max-content;
 }
 
 .header__heading-link:hover .h2 {
@@ -2507,9 +2508,11 @@ product-info .loading__spinner:not(.hidden) ~ *,
 }
 
 .header__heading-logo-wrapper {
-  width: 100%;
+  width: 150px;
   display: inline-block;
   transition: width 0.3s cubic-bezier(0.52, 0, 0.61, 0.99);
+  position: relative;
+  top: 0.6rem;
 }
 
 @media screen and (max-width: 989px) {
@@ -2801,6 +2804,7 @@ details[open] > .header__submenu {
   margin-left: -1.2rem;
   grid-area: navigation;
   display: none;
+  justify-self: center;
 }
 
 .header--top-center .header__inline-menu,
