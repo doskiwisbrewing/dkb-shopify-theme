@@ -329,6 +329,13 @@ fieldset.product-form__input .form__label {
   margin-bottom: 0;
 }
 
+.product__text.inline-richtext.subtitle{
+  font-family: "Droulers" !important;
+  margin: 0;
+  font-size: 1.5rem;
+  line-height: 1.1;
+}
+
 a.product__text {
   display: block;
   text-decoration: none;
@@ -361,10 +368,6 @@ a.product__text {
 }
 
 .product .price .badge {
-  margin-bottom: 0.5rem;
-}
-
-.product .price__container {
   margin-bottom: 0.5rem;
 }
 
