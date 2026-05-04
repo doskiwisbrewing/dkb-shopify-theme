@@ -31,7 +31,7 @@
           "name": "Volume",
           "settings": {
             "text": "Pack 6 llaunes de {{ product.metafields.custom.can_size.value }}",
-            "text_style": "body"
+            "text_style": "subtitle"
           }
         },
         "variant_picker": {
