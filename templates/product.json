@@ -15,7 +15,8 @@
         "text_3QzamX": {
           "type": "text",
           "settings": {
-            "text": "{{ product.metafields.shopify[\"beer-variety\"] | metafield_text: field: 'label' }}"
+            "text": "{{ product.metafields.custom.gluten_free.value }}{{ product.metafields.custom.style.value }}  {{ product.metafields.custom.hops | metafield_text }}{{ product.metafields.custom.abv.value }}",
+            "text_style": "body"
           }
         },
         "title": {
