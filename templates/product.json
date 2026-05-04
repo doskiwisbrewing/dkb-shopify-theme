@@ -69,14 +69,6 @@
             "heading_3": ""
           }
         },
-        "6e8070ef-addf-4915-ae25-3f4979c715b7": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<strong>PACK DE 6 LLAUNES </strong>",
-            "text_style": "body"
-          }
-        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {}
@@ -95,6 +87,7 @@
         "custom_liquid_dFUVbK": {
           "type": "custom_liquid",
           "name": "Bird pov announcement",
+          "disabled": true,
           "settings": {
             "custom_liquid": "{%- if product.metafields.custom.core_range == false -%}\n\n<style>\n.anouncement {\npadding-right: 1em;\ndisplay: inline-block}\n\nb {\ntext-transform: uppercase;\ncolor: #F3F3F3;\nfont-size: 1.5em;}\n\n.candate {\ncolor: #white;\nmargin: 0px;\nfont-size: 0.8em;\n}\n</style>\n\n\n<div class=\"anouncement\">\n<p class=\"candate\">{{ 'products.product.limited_info' | t}} </p>\n</div>\n\n{%- endif -%}"
           }
@@ -108,7 +101,6 @@
         "variant_picker",
         "cdb9b624-ec7b-475a-a023-78a502e36c3c",
         "icon_with_text_8C7mRR",
-        "6e8070ef-addf-4915-ae25-3f4979c715b7",
         "quantity_selector",
         "buy_buttons",
         "description",
