@@ -909,6 +909,40 @@ summary::-webkit-details-marker {
   letter-spacing: 0.08rem;
 }
 
+/* new product grid */
+.new-product-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+.new-product-grid .grid-item {
+  max-width: 100%;
+    width: 100%;
+}
+
+
+@media screen and (min-width: 750px) {
+  .new-product-grid {
+    grid-template-columns: repeat(12, 1fr);
+  }
+  .new-product-grid .grid-item--left {
+    grid-column-start: 1;
+    grid-column-end: 5;
+  }
+
+  .new-product-grid .grid-item--center {
+    grid-column-start: 5;
+    grid-column-end: 9;
+  }
+
+  .new-product-grid .grid-item--right {
+    grid-column-start: 9;
+    grid-column-end: 13;
+  }
+
+}
+
 /* component-grid */
 .grid {
   display: flex;
@@ -1271,6 +1305,7 @@ button.shopify-payment-button__button--unbranded {
   -webkit-appearance: none;
   appearance: none;
   background-color: rgba(var(--color-button), var(--alpha-button-background));
+  border-radius: var(--inputs-radius-outset);
 }
 
 .button:before,
@@ -1286,9 +1321,9 @@ button.shopify-payment-button__button--unbranded {
   bottom: 0;
   left: 0;
   z-index: -1;
-  border-radius: var(--buttons-radius-outset);
+  /* border-radius: var(--buttons-radius-outset);
   box-shadow: var(--shadow-horizontal-offset) var(--shadow-vertical-offset) var(--shadow-blur-radius)
-    rgba(var(--color-shadow), var(--shadow-opacity));
+    rgba(var(--color-shadow), var(--shadow-opacity)); */
 }
 
 .button:after,
@@ -1303,10 +1338,10 @@ button.shopify-payment-button__button--unbranded {
   left: var(--buttons-border-width);
   z-index: 1;
   border-radius: var(--buttons-radius);
-  box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset))
+  /* box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset))
       rgba(var(--color-button-text), var(--border-opacity)),
     0 0 0 var(--buttons-border-width) rgba(var(--color-button), var(--alpha-button-background));
-  transition: box-shadow var(--duration-short) ease;
+  transition: box-shadow var(--duration-short) ease; */
 }
 
 .button:not([disabled]):hover::after,
@@ -1314,9 +1349,9 @@ button.shopify-payment-button__button--unbranded {
 .customer button:hover::after,
 .shopify-payment-button__button--unbranded:hover::after {
   --border-offset: 1.3px;
-  box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset))
+  /* box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset))
       rgba(var(--color-button-text), var(--border-opacity)),
-    0 0 0 calc(var(--buttons-border-width) + 1px) rgba(var(--color-button), var(--alpha-button-background));
+    0 0 0 calc(var(--buttons-border-width) + 1px) rgba(var(--color-button), var(--alpha-button-background)); */
 }
 
 .button--secondary:after {
@@ -1913,7 +1948,7 @@ input[type='checkbox'] {
   width: calc(14rem / var(--font-body-scale) + var(--inputs-border-width) * 2);
   display: flex;
   border-radius: var(--inputs-radius);
-  min-height: calc((var(--inputs-border-width) * 2) + 4.5rem);
+  min-height: 4.5rem;
 }
 
 .quantity:after {
@@ -1959,6 +1994,7 @@ input[type='checkbox'] {
   flex-grow: 1;
   -webkit-appearance: none;
   appearance: none;
+  font-family: inherit;
 }
 
 .quantity__button {
@@ -3516,7 +3552,7 @@ details-disclosure > details {
   .animate--hover-vertical-lift .shopify-challenge__button:not([disabled]):hover,
   .animate--hover-vertical-lift .customer button:not([disabled]):hover,
   .animate--hover-vertical-lift .shopify-payment-button__button:hover {
-    transform: translateY(-0.25rem);
+    /* transform: translateY(-0.25rem); */
   }
 
   .animate--hover-vertical-lift .button:not(.button--tertiary):not([disabled]):active,
@@ -3530,9 +3566,9 @@ details-disclosure > details {
   .animate--hover-vertical-lift .customer button:not([disabled]):hover:after,
   .animate--hover-vertical-lift .shopify-payment-button__button:not([disabled]):hover:after {
     --border-offset: 0.3px; /* Default is 1.3px as defined above in this file. This removes 1px to prevent the border from growing on buttons when this effect is on.  */
-    box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset))
+    /* box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset))
         rgba(var(--color-button-text), var(--border-opacity)),
-      0 0 0 var(--buttons-border-width) rgba(var(--color-button), var(--alpha-button-background));
+      0 0 0 var(--buttons-border-width) rgba(var(--color-button), var(--alpha-button-background)); */
   }
 
   .animate--hover-vertical-lift .button:not([disabled]).button--secondary:hover:after {
