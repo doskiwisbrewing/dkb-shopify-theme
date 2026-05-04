@@ -329,6 +329,10 @@ fieldset.product-form__input .form__label {
   text-align: center;
 }
 
+.product__info-container > *:nth-last-child(3) strong:not(:empty):last-of-type::after {
+  content: "%";
+}
+
 .product__info-container iframe {
   max-width: 100%;
 }
