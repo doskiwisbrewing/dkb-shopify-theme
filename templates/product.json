@@ -12,10 +12,10 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "custom_liquid_hNtBTP": {
-          "type": "custom_liquid",
+        "text_3QzamX": {
+          "type": "text",
           "settings": {
-            "custom_liquid": "<style>\n.anouncement {\nbackground-color: black;\npadding-left: 1em;\npadding-right: 1em;\ndisplay: inline-block}\n\nb {\ntext-transform: uppercase;\ncolor: white;\nfont-size: 1.5em;}\n\n.candate {\ncolor: white;\nmargin: 0px;\nfont-size: 0.9em;\n}\n</style>\n\n{% assign today_date = 'now' | date: '%s' %}\n{% assign pre_date = product.metafields.custom.preorder_date | date: '%s' %}\n\n{% if today_date < pre_date %}\n\n<div class=\"anouncement\">\n<b>{{ 'products.product.preorder' | t }}</b>\n<p class=\"candate\">{{ 'products.product.preorder_date' | t}} \n{{pre_date  | date: \"%d - %m - %Y\"}}</p>\n</div>\n\n{% endif %}"
+            "text": "{{ product.metafields.shopify[\"beer-variety\"] | metafield_text: field: 'label' }}"
           }
         },
         "title": {
@@ -40,9 +40,31 @@
             "picker_type": "button"
           }
         },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "icon_with_text_8C7mRR": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "vertical",
+            "icon_1": "gluten_free",
+            "heading_1": "{{ product.metafields.custom.gluten_free.value }}",
+            "icon_2": "none",
+            "heading_2": "",
+            "icon_3": "none",
+            "heading_3": ""
+          }
+        },
         "cdb9b624-ec7b-475a-a023-78a502e36c3c": {
           "type": "icon-with-text",
-          "disabled": true,
           "settings": {
             "layout": "horizontal",
             "icon_1": "heart",
@@ -56,55 +78,22 @@
             "heading_3": "{{ product.metafields.custom.abv.value }}%"
           }
         },
-        "icon_with_text_8C7mRR": {
-          "type": "icon-with-text",
-          "disabled": true,
-          "settings": {
-            "layout": "vertical",
-            "icon_1": "gluten_free",
-            "heading_1": "{{ product.metafields.custom.gluten_free.value }}",
-            "icon_2": "none",
-            "heading_2": "",
-            "icon_3": "none",
-            "heading_3": ""
-          }
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": false,
-            "show_gift_card_recipient": false
-          }
-        },
         "description": {
           "type": "description",
           "settings": {}
-        },
-        "custom_liquid_dFUVbK": {
-          "type": "custom_liquid",
-          "name": "Bird pov announcement",
-          "disabled": true,
-          "settings": {
-            "custom_liquid": "{%- if product.metafields.custom.core_range == false -%}\n\n<style>\n.anouncement {\npadding-right: 1em;\ndisplay: inline-block}\n\nb {\ntext-transform: uppercase;\ncolor: #F3F3F3;\nfont-size: 1.5em;}\n\n.candate {\ncolor: #white;\nmargin: 0px;\nfont-size: 0.8em;\n}\n</style>\n\n\n<div class=\"anouncement\">\n<p class=\"candate\">{{ 'products.product.limited_info' | t}} </p>\n</div>\n\n{%- endif -%}"
-          }
         }
       },
       "block_order": [
-        "custom_liquid_hNtBTP",
+        "text_3QzamX",
         "title",
         "price",
         "13252fe7-cfc8-4902-8a79-ee74f7d66b67",
         "variant_picker",
-        "cdb9b624-ec7b-475a-a023-78a502e36c3c",
-        "icon_with_text_8C7mRR",
         "quantity_selector",
         "buy_buttons",
-        "description",
-        "custom_liquid_dFUVbK"
+        "icon_with_text_8C7mRR",
+        "cdb9b624-ec7b-475a-a023-78a502e36c3c",
+        "description"
       ],
       "custom_css": [
         ".no-js-hidden {margin-top: 0rem;}"
