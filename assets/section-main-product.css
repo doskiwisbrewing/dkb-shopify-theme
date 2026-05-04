@@ -367,10 +367,6 @@ a.product__text {
   padding: 0 1rem;
 }
 
-.product .price .badge {
-  margin-bottom: 0.5rem;
-}
-
 .product .price dl {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
