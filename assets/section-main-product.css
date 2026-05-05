@@ -319,7 +319,7 @@ fieldset.product-form__input .form__label {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  font-family: "Droulers" !important;
+  font-family: var(--custom-font-family-heading);
 }
 
 .product__info-container > *:nth-last-child(3) strong:not(:empty) {
@@ -348,7 +348,7 @@ fieldset.product-form__input .form__label {
 }
 
 .product__text.inline-richtext.subtitle{
-  font-family: "Droulers" !important;
+  font-family: var(--custom-font-family-heading);
   margin: 0;
   font-size: 1.5rem;
   line-height: 1.1;

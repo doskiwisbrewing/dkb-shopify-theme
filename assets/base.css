@@ -3,6 +3,8 @@
   --alpha-button-border: 1;
   --alpha-link: 0.85;
   --alpha-badge-border: 0.1;
+  --custom-font-family-body: "Courier Prime", Courier, monospace;
+  --custom-font-family-heading: "Droulers", Courier, monospace;
 }
 
 .product-card-wrapper .card,
@@ -3601,10 +3603,10 @@ details-disclosure > details {
 
  /* Body text → Courier New */
 body, body p, body li, body span, body a {
-  font-family: "Courier Prime", Courier, monospace;
+  font-family: var(--custom-font-family-body);
 }
 
 /* Headings keep Droulers */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Droulers";
+  font-family: var(--custom-font-family-heading);
 }
