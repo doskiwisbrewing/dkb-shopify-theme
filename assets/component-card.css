@@ -9,6 +9,7 @@
   height: 100%;
   position: relative;
   text-decoration: none;
+  margin-bottom: 2rem;
 }
 
 .card {
@@ -106,7 +107,7 @@
 }
 
 .card-information {
-  text-align: right;
+  /* text-align: right; */
 }
 
 .card__media,
@@ -121,12 +122,12 @@
 }
 
 .card__media {
-  margin: var(--image-padding);
+  margin-bottom: var(--image-padding);
   width: calc(100% - 2 * var(--image-padding));
 }
 
 .card--standard .card__media {
-  margin: var(--image-padding);
+  margin-bottom: var(--image-padding);
 }
 
 .card__inner {
@@ -152,10 +153,10 @@
 }
 
 .card__information {
-  display: flex;
+  /* display: flex;
   justify-content: space-between;
   grid-row-start: 2;
-  padding: 1.3rem 1rem;
+  padding: 1.3rem 1rem; */
 }
 
 .card:not(.ratio)>.card__content {
@@ -170,8 +171,8 @@
 
 @media screen and (min-width: 750px) {
   .card__information {
-    padding-bottom: 1.7rem;
-    padding-top: 1.7rem;
+    /* padding-bottom: 1.7rem;
+    padding-top: 1.7rem; */
   }
 }
 
@@ -208,6 +209,33 @@
 .card__heading {
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.card__heading a {
+  font-family: var(--custom-font-family-heading);
+  font-size: calc(var(--font-heading-scale) * 2rem);
+}
+
+.card__information--price {
+  display: inline-flex;
+  column-gap: 0.5rem;
+  font-family: var(--custom-font-family-heading);
+  flex-wrap: wrap;
+}
+
+.card__information--metafield {
+  font-family: var(--custom-font-family-heading);
+  font-size: calc(var(--font-heading-scale) * 1.2rem);
+  line-height: 1;
+  opacity: 0.7;
+ }
+
+.card__information--price .price {
+  display: inline-flex;
+}
+
+.card__heading a:hover {
+  text-decoration: none !important;
 }
 
 .card__heading:last-child {
@@ -332,8 +360,8 @@
 }
 
 .card--standard>.card__content .card__information {
-  padding-left: 0;
-  padding-right: 0;
+  /* padding-left: 0;
+  padding-right: 0; */
 }
 
 .card--card.card--media .card__inner .card__information,
@@ -370,20 +398,20 @@
 }
 
 .card-information>*+* {
-  margin-top: 0.5rem;
+  /* margin-top: 0.5rem; */
 }
 
 .card-information {
-  width: 120px;
+  /* width: 120px; */
 }
 
 .card-information>* {
-  line-height: calc(1 + 0.4 / var(--font-body-scale));
-  color: rgb(var(--color-foreground));
+  /* line-height: calc(1 + 0.4 / var(--font-body-scale));
+  color: rgb(var(--color-foreground)); */
 }
 
 .card-information>.price {
-  color: rgb(var(--color-foreground));
+  /* color: rgb(var(--color-foreground)); */
 }
 
 .card--horizontal .card-information>.price {
@@ -395,7 +423,7 @@
 }
 
 .card-information>*:not(.visually-hidden:first-child)+*:not(.rating):not(.card__information-volume-pricing-note) {
-  margin-top: 0.7rem;
+  /* margin-top: 0.7rem; */
 }
 
 .card-information .caption {

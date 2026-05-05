@@ -51,7 +51,7 @@
 }
 
 .article-card .card__heading a {
-  font-family: 'Droulers', sans-serif !important;
+  font-family: var(--custom-font-family-heading);
 }
 
 .article-card .card__heading a:hover {

@@ -20,15 +20,15 @@
   {% render 'card-product', show_vendor: section.settings.show_vendor %}
 {% endcomment %}
 
-{{ 'component-rating.css' | asset_url | stylesheet_tag }}
-{{ 'component-volume-pricing.css' | asset_url | stylesheet_tag }}
+{{ "component-rating.css" | asset_url | stylesheet_tag }}
+{{ "component-volume-pricing.css" | asset_url | stylesheet_tag }}
 
 {%- if card_product and card_product != empty -%}
   {%- liquid
     assign ratio = 1
-    if card_product.featured_media and media_aspect_ratio == 'portrait'
+    if card_product.featured_media and media_aspect_ratio == "portrait"
       assign ratio = 0.8
-    elsif card_product.featured_media and media_aspect_ratio == 'adapt'
+    elsif card_product.featured_media and media_aspect_ratio == "adapt"
       assign ratio = card_product.featured_media.aspect_ratio
     endif
     if ratio == 0 or ratio == null
@@ -105,7 +105,7 @@
           <div class="card__information">
             <h3
               class="card__heading"
-              {% if card_product.featured_media == null and settings.card_style == 'standard' %}
+              {% if card_product.featured_media == null and settings.card_style == "standard" %}
                 id="title-{{ section_id }}-{{ card_product.id }}"
               {% endif %}
             >
@@ -125,14 +125,14 @@
                 id="NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}"
                 class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}"
               >
-                {{- 'products.product.sold_out' | t -}}
+                {{- "products.product.sold_out" | t -}}
               </span>
             {%- elsif card_product.compare_at_price > card_product.price and card_product.available -%}
               <span
                 id="NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}"
                 class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}"
               >
-                {{- 'products.product.on_sale' | t -}}
+                {{- "products.product.on_sale" | t -}}
               </span>
             {%- endif -%}
           </div>
@@ -140,37 +140,36 @@
       </div>
       <div class="card__content">
         <div class="card__information">
-          <div class="spacer">
-            <h3
-              class="card__heading{% if card_product.featured_media or settings.card_style == 'standard' %} h5{% endif %}"
-              {% if card_product.featured_media or settings.card_style == 'card' %}
-                id="title-{{ section_id }}-{{ card_product.id }}"
-              {% endif %}
+          <h3
+            class="card__heading{% if card_product.featured_media or settings.card_style == 'standard' %} h5{% endif %}"
+            {% if card_product.featured_media or settings.card_style == "card" %}
+              id="title-{{ section_id }}-{{ card_product.id }}"
+            {% endif %}
+          >
+            <a
+              href="{{ card_product.url }}"
+              id="CardLink-{{ section_id }}-{{ card_product.id }}"
+              class="full-unstyled-link"
+              aria-labelledby="CardLink-{{ section_id }}-{{ card_product.id }} Badge-{{ section_id }}-{{ card_product.id }}"
             >
-              <a
-                href="{{ card_product.url }}"
-                id="CardLink-{{ section_id }}-{{ card_product.id }}"
-                class="full-unstyled-link"
-                aria-labelledby="CardLink-{{ section_id }}-{{ card_product.id }} Badge-{{ section_id }}-{{ card_product.id }}"
-              >
-                {{ card_product.title | escape }}
-              </a>
-            </h3>
-            {% render 'price', product: card_product, price_class: '', show_compare_at_price: true %}
+              {{ card_product.title | escape }}
+            </a>
+          </h3>
+          <div class="card__information--price">
+            {% render "price", product: card_product, price_class: "", show_compare_at_price: true %}
+            ({{ card_product.metafields.custom.product_type.value }})
           </div>
           <div class="card-information side">
             {%- if show_vendor -%}
-              <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
+              <span class="visually-hidden">{{ "accessibility.vendor" | t }}</span>
               {% comment %}
-
                 <div class="caption-with-letter-spacing light">{{ card_product.vendor }}</div>
               {% endcomment %}
-              <div class="caption-with-letter-spacing">{{ card_product.metafields.custom.style.value }}</div>
-              {% if card_product.metafields.custom.abv.value %}
-                <div class="caption-with-letter-spacing light">{{ card_product.metafields.custom.abv.value }}% Alc</div>
-              {% endif %}
-              <div class="caption-with-letter-spacing light">
-                {{ card_product.metafields.custom.product_type.value }}
+              <div class="card__information--metafield">
+                {{ card_product.metafields.custom.style.value }}
+                {% if card_product.metafields.custom.abv.value %}
+                  &#183; {{ card_product.metafields.custom.abv.value }}%
+                {% endif %}
               </div>
               {% if card_product.metafields.custom.new_release.value == 1 %}
                 <div class="caption-with-letter-spacing light">New Release!</div>
@@ -210,14 +209,14 @@
                 <span aria-hidden="true">({{ card_product.metafields.reviews.rating_count }})</span>
                 <span class="visually-hidden">
                   {{- card_product.metafields.reviews.rating_count }}
-                  {{ 'accessibility.total_reviews' | t -}}
+                  {{ "accessibility.total_reviews" | t -}}
                 </span>
               </p>
             {%- endif -%}
 
             {%- if card_product.quantity_price_breaks_configured? -%}
               <div class="card__information-volume-pricing-note">
-                <span class="caption">{{ 'products.product.volume_pricing.note' | t }}</span>
+                <span class="caption">{{ "products.product.volume_pricing.note" | t }}</span>
               </div>
             {%- endif -%}
           </div>
@@ -225,7 +224,7 @@
         {%- if show_quick_add -%}
           <div class="quick-add no-js-hidden">
             {%- liquid
-              assign product_form_id = 'quick-add-' | append: section_id | append: card_product.id
+              assign product_form_id = "quick-add-" | append: section_id | append: card_product.id
               assign qty_rules = false
               if card_product.selected_or_first_available_variant.quantity_rule.min > 1 or card_product.selected_or_first_available_variant.quantity_rule.max != null or card_product.selected_or_first_available_variant.quantity_rule.increment > 1
                 assign qty_rules = true
@@ -242,11 +241,11 @@
                   aria-labelledby="{{ product_form_id }}-submit title-{{ section_id }}-{{ card_product.id }}"
                   data-product-url="{{ card_product.url }}"
                 >
-                  {{ 'products.product.choose_options' | t }}
+                  {{ "products.product.choose_options" | t }}
                   {%- if horizontal_quick_add -%}
-                    <span class="icon-wrap">{% render 'icon-arrow' %}</span>
+                    <span class="icon-wrap">{% render "icon-arrow" %}</span>
                   {%- endif -%}
-                  {%- render 'loading-spinner' -%}
+                  {%- render "loading-spinner" -%}
                 </button>
               </modal-opener>
               <quick-add-modal id="QuickAdd-{{ card_product.id }}" class="quick-add-modal">
@@ -263,19 +262,19 @@
                     class="quick-add-modal__toggle"
                     aria-label="{{ 'accessibility.close' | t }}"
                   >
-                    {% render 'icon-close' %}
+                    {% render "icon-close" %}
                   </button>
                   <div id="QuickAddInfo-{{ card_product.id }}" class="quick-add-modal__content-info"></div>
                 </div>
               </quick-add-modal>
             {%- else -%}
               <product-form data-section-id="{{ section.id }}">
-                {%- form 'product',
+                {%- form "product",
                   card_product,
                   id: product_form_id,
-                  class: 'form',
-                  novalidate: 'novalidate',
-                  data-type: 'add-to-cart-form'
+                  class: "form",
+                  novalidate: "novalidate",
+                  data-type: "add-to-cart-form"
                 -%}
                   <input
                     type="hidden"
@@ -301,18 +300,18 @@
                   >
                     <span>
                       {%- if card_product.selected_or_first_available_variant.available -%}
-                        {{ 'products.product.add_to_cart' | t }}
+                        {{ "products.product.add_to_cart" | t }}
                       {%- else -%}
-                        {{ 'products.product.sold_out' | t }}
+                        {{ "products.product.sold_out" | t }}
                       {%- endif -%}
                     </span>
                     <span class="sold-out-message hidden">
-                      {{ 'products.product.sold_out' | t }}
+                      {{ "products.product.sold_out" | t }}
                     </span>
                     {%- if horizontal_quick_add -%}
-                      <span class="icon-wrap">{% render 'icon-plus' %}</span>
+                      <span class="icon-wrap">{% render "icon-plus" %}</span>
                     {%- endif -%}
-                    {%- render 'loading-spinner' -%}
+                    {%- render "loading-spinner" -%}
                   </button>
                 {%- endform -%}
               </product-form>
@@ -325,14 +324,14 @@
               id="Badge-{{ section_id }}-{{ card_product.id }}"
               class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}"
             >
-              {{- 'products.product.sold_out' | t -}}
+              {{- "products.product.sold_out" | t -}}
             </span>
           {%- elsif card_product.compare_at_price > card_product.price and card_product.available -%}
             <span
               id="Badge-{{ section_id }}-{{ card_product.id }}"
               class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}"
             >
-              {{- 'products.product.on_sale' | t -}}
+              {{- "products.product.on_sale" | t -}}
             </span>
           {%- endif -%}
         </div>
@@ -356,9 +355,9 @@
         <div class="card__media">
           <div class="media media--transparent">
             {%- if placeholder_image -%}
-              {{ placeholder_image | placeholder_svg_tag: 'placeholder-svg' }}
+              {{ placeholder_image | placeholder_svg_tag: "placeholder-svg" }}
             {%- else -%}
-              {{ 'product-apparel-2' | placeholder_svg_tag: 'placeholder-svg' }}
+              {{ "product-apparel-2" | placeholder_svg_tag: "placeholder-svg" }}
             {% endif %}
           </div>
         </div>
@@ -367,16 +366,16 @@
         <div class="card__information">
           <h3 class="card__heading card__heading--placeholder{% if settings.card_style == 'standard' %} h5{% endif %}">
             <a role="link" aria-disabled="true" class="full-unstyled-link">
-              {{ 'onboarding.product_title' | t }}
+              {{ "onboarding.product_title" | t }}
             </a>
           </h3>
           <div class="card-information">
             {%- if show_vendor -%}
-              <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
+              <span class="visually-hidden">{{ "accessibility.vendor" | t }}</span>
               <div class="caption-with-letter-spacing light">Test</div>
-              <div class="caption-with-letter-spacing light">{{ 'products.product.vendor' | t }}</div>
+              <div class="caption-with-letter-spacing light">{{ "products.product.vendor" | t }}</div>
             {%- endif -%}
-            {% render 'price', show_compare_at_price: true %}
+            {% render "price", show_compare_at_price: true %}
           </div>
         </div>
       </div>
