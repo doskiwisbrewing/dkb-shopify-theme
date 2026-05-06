@@ -47,7 +47,7 @@
         "custom_liquid_nR9fcE": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<style>\n.but{ background-color: rgb(35,35,35); padding: 0.3em;}\n\na { text-transform: uppercase; color: white; font-size: 1em;}\n\n</style>\n\n<div>\n<div class=\"but rte\"></div>\n\n<div class=\"but rte\"><a style=\"color: white;\" href=\"https://wa.me/34613058064?text=Hola%21%20m%27agradaria%20reservar%20un%20barril%20de%2030l%20de%20Black%20Swan\">Reservar barril de 30l</a></div>\n</div>"
+            "custom_liquid": "<a href=\"https://wa.me/34613058064?text=Hola%21%20m%27agradaria%20reservar%20un%20barril%20de%2030l%20de%20Black%20Swan\">Reservar barril de 30l</a>"
           }
         }
       },
