@@ -315,21 +315,21 @@ fieldset.product-form__input .form__label {
   /* margin: 1.5rem 0; */
 }
 
-.product__info-container > *:nth-last-child(3) {
+.product__info-container .product__text.inline-richtext:has(> strong + strong) {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
   font-family: var(--custom-font-family-heading);
 }
 
-.product__info-container > *:nth-last-child(3) strong:not(:empty) {
+.product__info-container .product__text.inline-richtext:has(> strong + strong) > strong:not(:empty):not(:first-of-type) {
   padding: 1rem 0;
   font-size: 1.2rem;
   border-top: 1px solid rgba(var(--color-foreground), 0.1);
   text-align: center;
 }
 
-.product__info-container > *:nth-last-child(3) strong:not(:empty):last-of-type::after {
+.product__info-container .product__text.inline-richtext:has(> strong + strong) > strong:last-of-type:not(:empty)::after {
   content: "%";
 }
 
