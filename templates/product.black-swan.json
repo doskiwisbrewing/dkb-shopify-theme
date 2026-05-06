@@ -20,8 +20,17 @@
           "type": "description",
           "settings": {}
         },
+        "text_pwJqCC": {
+          "type": "text",
+          "name": "Features",
+          "settings": {
+            "text": "<strong>{{ product.metafields.custom.gluten_free.value }}</strong><strong>{{ product.metafields.custom.style.value }}</strong><strong>{{ product.metafields.custom.hops | metafield_text }}</strong><strong>{{ product.metafields.custom.abv.value }}</strong>",
+            "text_style": "body"
+          }
+        },
         "cdb9b624-ec7b-475a-a023-78a502e36c3c": {
           "type": "icon-with-text",
+          "disabled": true,
           "settings": {
             "layout": "horizontal",
             "icon_1": "heart",
@@ -38,13 +47,14 @@
         "custom_liquid_nR9fcE": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<style>\n.but{\nbackground-color: rgb(35,35,35);\npadding: 0.3em;}\n\na {\ntext-transform: uppercase;\ncolor: white;\nfont-size: 1em;}\n\n</style>\n\n<div style=\"display: flex; justify-content: space-between\n;\n\">\n<div class=\"but rte\"></div>\n\n<div class=\"but rte\"><a style=\"color: white;\" href=\"https://wa.me/34613058064?text=Hola%21%20m%27agradaria%20reservar%20un%20barril%20de%2030l%20de%20Black%20Swan\">Reservar barril de 30l</a></div>\n</div>"
+            "custom_liquid": "<style>\n.but{ background-color: rgb(35,35,35); padding: 0.3em;}\n\na { text-transform: uppercase; color: white; font-size: 1em;}\n\n</style>\n\n<div>\n<div class=\"but rte\"></div>\n\n<div class=\"but rte\"><a style=\"color: white;\" href=\"https://wa.me/34613058064?text=Hola%21%20m%27agradaria%20reservar%20un%20barril%20de%2030l%20de%20Black%20Swan\">Reservar barril de 30l</a></div>\n</div>"
           }
         }
       },
       "block_order": [
         "title",
         "description",
+        "text_pwJqCC",
         "cdb9b624-ec7b-475a-a023-78a502e36c3c",
         "custom_liquid_nR9fcE"
       ],
@@ -54,17 +64,17 @@
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "",
-        "media_size": "small",
-        "constrain_to_viewport": true,
+        "media_size": "large",
+        "constrain_to_viewport": false,
         "media_fit": "contain",
-        "gallery_layout": "stacked",
+        "gallery_layout": "columns",
         "media_position": "right",
-        "image_zoom": "hover",
+        "image_zoom": "none",
         "mobile_thumbnails": "hide",
         "hide_variants": false,
         "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 44
+        "padding_top": 40,
+        "padding_bottom": 100
       }
     },
     "related-products": {
