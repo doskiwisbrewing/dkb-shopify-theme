@@ -47,7 +47,7 @@
         "custom_liquid_nR9fcE": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<a href=\"https://wa.me/34613058064?text=Hola%21%20m%27agradaria%20reservar%20un%20barril%20de%2030l%20de%20Black%20Swan\">Reservar barril de 30l</a>"
+            "custom_liquid": "<a class=\"product-order-link\" href=\"https://wa.me/34613058064?text=Hola%21%20m%27agradaria%20reservar%20un%20barril%20de%2030l%20de%20Black%20Swan\">Reservar barril de 30l</a>"
           }
         }
       },
