@@ -155,10 +155,6 @@
               {{ card_product.title | escape }}
             </a>
           </h3>
-          <div class="card__information--price">
-            {% render "price", product: card_product, price_class: "", show_compare_at_price: true %}
-            ({{ card_product.metafields.custom.product_type.value }})
-          </div>
           <div class="card-information side">
             {%- if show_vendor -%}
               <span class="visually-hidden">{{ "accessibility.vendor" | t }}</span>
@@ -219,6 +215,10 @@
                 <span class="caption">{{ "products.product.volume_pricing.note" | t }}</span>
               </div>
             {%- endif -%}
+          </div>
+          <div class="card__information--price">
+            {% render "price", product: card_product, price_class: "", show_compare_at_price: true %}
+            ({{ card_product.metafields.custom.product_type.value }})
           </div>
         </div>
         {%- if show_quick_add -%}

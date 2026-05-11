@@ -214,7 +214,7 @@
 
 .card__heading a {
   font-family: var(--custom-font-family-heading);
-  font-size: calc(var(--font-heading-scale) * 2rem);
+  font-size: calc(var(--font-heading-scale) * 2.2rem);
 }
 
 .card__information--price {
@@ -222,13 +222,12 @@
   column-gap: 0.5rem;
   font-family: var(--custom-font-family-heading);
   flex-wrap: wrap;
+  opacity: 0.65;
 }
 
 .card__information--metafield {
   font-family: var(--custom-font-family-heading);
-  font-size: calc(var(--font-heading-scale) * 1.2rem);
   line-height: 1;
-  opacity: 0.7;
  }
 
 .card__information--price .price {
@@ -399,7 +398,7 @@
 }
 
 .card-information>*+* {
-  /* margin-top: 0.5rem; */
+    margin-top: 0.5rem;
 }
 
 .card-information {
