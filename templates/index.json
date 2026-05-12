@@ -292,19 +292,21 @@
         "column_9qejKi": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
+            "image": "shopify://shop_images/1_7_e71a5b9b-fc45-4d95-8ed2-32afe702d86d.jpg",
+            "title": "Experiències de tast",
+            "text": "<p>Deixa que un membre del nostre equip t’acompanyi en un tast divertit i relaxat de les nostres cerveses.</p>",
+            "link_label": "Més informació",
+            "link": "shopify://pages/tasting"
           }
         },
         "column_kDadMj": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
+            "image": "shopify://shop_images/DSC06872_fdfb64cb-adc1-4ec9-92e7-7726208c43fa.jpg",
+            "title": "Esdeveniments especials",
+            "text": "<p>Consulta els propers esdeveniments, tant al nostre Taproom de Rupià com fora d’ell.</p>",
+            "link_label": "Veure esdeveniments",
+            "link": "shopify://pages/events"
           }
         }
       },
@@ -313,16 +315,17 @@
         "column_9qejKi",
         "column_kDadMj"
       ],
+      "custom_css": [],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
-        "title": "Multicolumn",
+        "title": "",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "none",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "color_scheme": "",
         "columns_mobile": "1",
