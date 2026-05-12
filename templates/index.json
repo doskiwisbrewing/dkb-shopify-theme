@@ -276,6 +276,61 @@
         "padding_bottom": 52
       }
     },
+    "multicolumn_dPyRCT": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_cyqt4c": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/DSC06886_01bcfff0-3c30-4b4a-a023-d3692c63ad49.jpg",
+            "title": "Visita el nostre Taproom",
+            "text": "<p>Gaudeix de les nostres cerveses de tirador al seu lloc d’origen, juntament amb cafè d’especialitat d’Ambient, kombutxa, vi natural i una carta de cuina informal de temporada.</p>",
+            "link_label": "Més informació",
+            "link": "shopify://pages/taproom"
+          }
+        },
+        "column_9qejKi": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_kDadMj": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_cyqt4c",
+        "column_9qejKi",
+        "column_kDadMj"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "multirow_9NUBrV": {
       "type": "multirow",
       "blocks": {
@@ -327,7 +382,7 @@
         "button_style": "primary",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
+        "image_layout": "align-left",
         "section_color_scheme": "background-1",
         "row_color_scheme": "",
         "mobile_content_alignment": "left",
@@ -414,6 +469,7 @@
     "image_with_text_NMYQiC",
     "featured_collection_3riWdx",
     "featured_collection_JAARz7",
+    "multicolumn_dPyRCT",
     "multirow_9NUBrV",
     "image_banner_Fnbk8G",
     "multirow_YFCrtm",
