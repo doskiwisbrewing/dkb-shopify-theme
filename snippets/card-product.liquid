@@ -218,7 +218,9 @@
           </div>
           <div class="card__information--price">
             {% render "price", product: card_product, price_class: "", show_compare_at_price: true %}
-            ({{ card_product.metafields.custom.product_type.value }})
+            {%- if card_product.metafields.custom.product_type.value != blank -%}
+              ({{ card_product.metafields.custom.product_type.value }})
+            {%- endif %}
           </div>
         </div>
         {%- if show_quick_add -%}
