@@ -16,6 +16,14 @@
           "type": "title",
           "settings": {}
         },
+        "text_3QzamX": {
+          "type": "text",
+          "name": "Features",
+          "settings": {
+            "text": "<strong>{{ product.metafields.custom.gluten_free.value }}</strong><strong>{{ product.metafields.custom.style.value }}</strong><strong>{{ product.metafields.custom.hops | metafield_text }}</strong><strong>{{ product.metafields.custom.abv.value }}</strong>",
+            "text_style": "body"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {}
@@ -43,14 +51,6 @@
           "settings": {
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": false
-          }
-        },
-        "text_3QzamX": {
-          "type": "text",
-          "name": "Features",
-          "settings": {
-            "text": "<strong>{{ product.metafields.custom.gluten_free.value }}</strong><strong>{{ product.metafields.custom.style.value }}</strong><strong>{{ product.metafields.custom.hops | metafield_text }}</strong><strong>{{ product.metafields.custom.abv.value }}</strong>",
-            "text_style": "body"
           }
         },
         "icon_with_text_8C7mRR": {
@@ -89,12 +89,12 @@
       },
       "block_order": [
         "title",
+        "text_3QzamX",
         "price",
         "13252fe7-cfc8-4902-8a79-ee74f7d66b67",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "text_3QzamX",
         "icon_with_text_8C7mRR",
         "cdb9b624-ec7b-475a-a023-78a502e36c3c",
         "description"
