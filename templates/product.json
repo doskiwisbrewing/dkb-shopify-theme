@@ -16,6 +16,14 @@
           "type": "title",
           "settings": {}
         },
+        "text_bRRYfA": {
+          "type": "text",
+          "name": "Features",
+          "settings": {
+            "text": "<strong>{{ product.metafields.custom.gluten_free.value }}</strong><strong>{{ product.metafields.custom.style.value }}</strong><strong>{{ product.metafields.custom.hops | metafield_text }}</strong><strong>{{ product.metafields.custom.abv.value }}</strong>",
+            "text_style": "body"
+          }
+        },
         "text_mRTU9f": {
           "type": "text",
           "name": "Small description",
@@ -27,6 +35,7 @@
         "text_3QzamX": {
           "type": "text",
           "name": "Features",
+          "disabled": true,
           "settings": {
             "text": "<strong>{{ product.metafields.custom.gluten_free.value }}</strong><strong>{{ product.metafields.custom.style.value }}</strong><strong>{{ product.metafields.custom.hops | metafield_text }}</strong><strong>{{ product.metafields.custom.abv.value }}</strong>",
             "text_style": "body"
@@ -97,6 +106,7 @@
       },
       "block_order": [
         "title",
+        "text_bRRYfA",
         "text_mRTU9f",
         "text_3QzamX",
         "price",
