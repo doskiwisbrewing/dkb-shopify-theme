@@ -23,7 +23,7 @@
 .price .price-item {
   display: inline-block;
   margin: 0 1rem 0 0;
-  font-family: "Droulers" !important;
+  font-family: var(--custom-font-family-heading);
 }
 
 .price__regular .price-item--regular {
