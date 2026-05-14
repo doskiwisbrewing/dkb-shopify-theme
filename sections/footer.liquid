@@ -20,14 +20,22 @@
       margin-top: {{ section.settings.margin_top }}px;
     }
 
+    .footer .footer-block:first-child {
+      padding-right: 11vw;
+    }
+
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
 
     .footer-block--menu {
-      padding-left: 15rem;
+      /* padding-left: 15rem; */
+      width: 22% !important;
+      max-width: 22% !important;
     }
+
+    .footer-block--newsletter {
   }
 {%- endstyle -%}
 
