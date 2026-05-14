@@ -329,7 +329,7 @@ fieldset.product-form__input .form__label {
   font-weight: normal;
 }
 
-.product__info-container .product__text.inline-richtext:has(> strong + strong) > strong:last-of-type:not(:empty)::after {
+.product__info-container .product__text.inline-richtext:has(> strong + strong) > strong:not(:empty)::before {
   content: "\00b7";
 }
 
