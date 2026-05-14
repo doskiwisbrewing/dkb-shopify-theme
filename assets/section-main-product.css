@@ -412,6 +412,13 @@ a.product__text {
   line-height: 150%;
   margin-top: 5rem;
   margin-bottom: 3rem;
+  word-break: break-word;
+  text-wrap: balance;
+}
+
+.product__description ul {
+  list-style: square;
+  padding-left: 1rem;
 }
 
 .product__description-title {
