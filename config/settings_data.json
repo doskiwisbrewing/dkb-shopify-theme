@@ -148,11 +148,6 @@
     },
     "content_for_index": [],
     "blocks": {
-      "4015264832934714879": {
-        "type": "shopify://apps/ecomsend-popups/blocks/app/a5670cf8-5705-4b01-ad9e-447033feae26",
-        "disabled": false,
-        "settings": {}
-      },
       "9696655121035291526": {
         "type": "shopify://apps/rapi/blocks/app-embed/99617c17-a32b-4e70-a883-7a155610d032",
         "disabled": false,
@@ -171,6 +166,11 @@
       "11723975244080033176": {
         "type": "shopify://apps/agex-age-verification-popup/blocks/app-embed/ccc19dcf-a0b2-4621-954b-f8c47e714e91",
         "disabled": false,
+        "settings": {}
+      },
+      "4015264832934714879": {
+        "type": "shopify://apps/sendwill-email-popups/blocks/app/a5670cf8-5705-4b01-ad9e-447033feae26",
+        "disabled": true,
         "settings": {}
       }
     },
