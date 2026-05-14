@@ -376,6 +376,7 @@
         "row_Kfp4AD",
         "row_bkKgFp"
       ],
+      "disabled": true,
       "name": "t:sections.multirow.presets.name",
       "settings": {
         "image_height": "adapt",
