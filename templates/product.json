@@ -16,19 +16,19 @@
           "type": "title",
           "settings": {}
         },
-        "text_bRRYfA": {
-          "type": "text",
-          "name": "Features",
-          "settings": {
-            "text": "<strong>{{ product.metafields.custom.style.value }}</strong><strong>{{ product.metafields.custom.hops | metafield_text }}</strong><strong>{{ product.metafields.custom.gluten_free.value }}</strong><strong>{{ product.metafields.custom.abv.value }}</strong>%",
-            "text_style": "body"
-          }
-        },
         "text_mRTU9f": {
           "type": "text",
           "name": "Small description",
           "settings": {
             "text": "A smooth, juicy IPA with notes of tropical fruit and grapefruit. Inspired by the familiar barn swallow.",
+            "text_style": "body"
+          }
+        },
+        "text_bRRYfA": {
+          "type": "text",
+          "name": "Features",
+          "settings": {
+            "text": "<strong>{{ product.metafields.custom.style.value }}</strong><strong>{{ product.metafields.custom.hops | metafield_text }}</strong><strong>{{ product.metafields.custom.gluten_free.value }}</strong><strong>{{ product.metafields.custom.abv.value }}</strong>%",
             "text_style": "body"
           }
         },
@@ -106,8 +106,8 @@
       },
       "block_order": [
         "title",
-        "text_bRRYfA",
         "text_mRTU9f",
+        "text_bRRYfA",
         "text_3QzamX",
         "price",
         "13252fe7-cfc8-4902-8a79-ee74f7d66b67",
