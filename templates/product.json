@@ -20,7 +20,7 @@
           "type": "text",
           "name": "Features",
           "settings": {
-            "text": "<strong>{{ product.metafields.custom.style.value }}</strong><strong>{{ product.metafields.custom.hops | metafield_text }}</strong><strong>{{ product.metafields.custom.abv.value }}</strong>%<strong>{{ product.metafields.custom.gluten_free.value }}</strong>",
+            "text": "<strong>{{ product.metafields.custom.style.value }}</strong><strong>{{ product.metafields.custom.hops | metafield_text }}</strong><strong>{{ product.metafields.custom.gluten_free.value }}</strong><strong>{{ product.metafields.custom.abv.value }}</strong>%",
             "text_style": "body"
           }
         },
