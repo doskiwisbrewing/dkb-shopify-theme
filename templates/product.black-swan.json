@@ -40,23 +40,23 @@
             "heading_3": "{{ product.metafields.custom.abv.value }}%"
           }
         },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
         "custom_liquid_nR9fcE": {
           "type": "custom_liquid",
           "settings": {
             "custom_liquid": "<a class=\"title--primary-wide button button--full-width\" href=\"https://wa.me/34613058064?text=Hola%21%20m%27agradaria%20reservar%20un%20barril%20de%2030l%20de%20Black%20Swan\">Reservar barril de 30l</a>"
           }
-        },
-        "description": {
-          "type": "description",
-          "settings": {}
         }
       },
       "block_order": [
         "title",
         "text_pwJqCC",
         "cdb9b624-ec7b-475a-a023-78a502e36c3c",
-        "custom_liquid_nR9fcE",
-        "description"
+        "description",
+        "custom_liquid_nR9fcE"
       ],
       "custom_css": [
         ".no-js-hidden {margin-top: 0rem;}"
