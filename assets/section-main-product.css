@@ -312,25 +312,25 @@ fieldset.product-form__input .form__label {
 /* Product info */
 
 .product__info-container .product__text.inline-richtext:has(> strong + strong) {
-  display: inline-flex;
-  flex-wrap: wrap;
-  line-height: 150%;
-  margin-bottom: 3.5rem;
-  margin-top: 0.5rem;
+  font-size: 2.125rem;
+  line-height: 120%;
   font-family: var(--custom-font-family-heading);
+  margin-top: 0;
+}
+
+.product__info-container .product__text.inline-richtext:has(> strong + strong) + .product__text.inline-richtext {
+  margin-bottom: 5rem;
+  font-family: var(--custom-font-family-heading);
+  line-height: 150%;
 }
 
 .product__info-container .product__text.inline-richtext:has(> strong + strong) > strong:not(:empty) {
-  /* font-family: var(--custom-font-family-heading);
-  font-size: 1.2rem;
-  padding: 1rem 0;
-  border-top: 1px solid rgba(var(--color-foreground), 0.1);
-  text-align: center; */
   font-weight: normal;
 }
 
-.product__info-container .product__text.inline-richtext:has(> strong + strong) > strong:last-of-type:not(:empty)::after {
-  content: "\00b7";
+.product__info-container .product__text.inline-richtext:has(> strong + strong) > strong:not(:empty):not(:last-of-type)::after {
+  content: "\2014";
+  margin: 0 0.5rem;
 }
 
 .product__info-container iframe {
@@ -338,7 +338,6 @@ fieldset.product-form__input .form__label {
 }
 
 .product__info-container .product-form,
-.product__info-container .product__description,
 .product__info-container .icon-with-text {
   margin: 3rem 0;
 }
@@ -409,6 +408,7 @@ a.product__text {
 
 .product__description {
   line-height: 150%;
+  margin-top: 5rem;
 }
 
 .product__description-title {
