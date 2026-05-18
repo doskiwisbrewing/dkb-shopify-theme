@@ -156,8 +156,9 @@
 .card__information {
   /* display: flex;
   justify-content: space-between;
-  grid-row-start: 2;
-  padding: 1.3rem 1rem; */
+  grid-row-start: 2; */
+  padding-top: 1.3rem;
+  padding-bottom: 1.3rem;
 }
 
 .card:not(.ratio)>.card__content {
