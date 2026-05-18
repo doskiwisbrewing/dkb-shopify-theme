@@ -123,12 +123,12 @@
 }
 
 .card__media {
-  margin-bottom: var(--image-padding);
+  /* margin-bottom: var(--image-padding); */
   width: calc(100% - 2 * var(--image-padding));
 }
 
 .card--standard .card__media {
-  margin-bottom: var(--image-padding);
+  /* margin-bottom: var(--image-padding); */
 }
 
 .card__inner {
@@ -172,8 +172,8 @@
 
 @media screen and (min-width: 750px) {
   .card__information {
-    /* padding-bottom: 1.7rem;
-    padding-top: 1.7rem; */
+    padding-bottom: 1.7rem;
+    padding-top: 1.7rem;
   }
 }
 

@@ -127,7 +127,7 @@
                 {%- endif -%}
                 {%- if block.settings.link_label != blank -%}
                   <a
-                    class="link button button--small"
+                    class="link"
                     {% if block.settings.link == blank %}
                       role="link" aria-disabled="true"
                     {% else %}
@@ -135,7 +135,7 @@
                     {% endif %}
                   >
                     {{- block.settings.link_label | escape -}}
-                    {% comment %} <span class="icon-wrap">&nbsp;{% render "icon-arrow" %}</span> {% endcomment %}
+                    <span class="icon-wrap">&nbsp;{% render "icon-arrow" %}</span>
                   </a>
                 {%- endif -%}
               </div>
