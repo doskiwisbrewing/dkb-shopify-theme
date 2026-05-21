@@ -20,7 +20,7 @@
           "type": "text",
           "name": "Small description",
           "settings": {
-            "text": "A smooth, juicy IPA with notes of tropical fruit and grapefruit. Inspired by the familiar barn swallow.",
+            "text": "",
             "text_style": "body"
           }
         },
