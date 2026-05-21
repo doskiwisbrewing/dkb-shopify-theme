@@ -50,10 +50,6 @@
   margin-bottom: 0.6rem;
 }
 
-.article-card .card__heading a {
-  font-family: 'Droulers', sans-serif !important;
-}
-
 .article-card .card__heading a:hover {
   opacity: 0.7;
   transition: opacity 0.15s ease-in;

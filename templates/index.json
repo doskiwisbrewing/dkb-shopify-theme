@@ -276,6 +276,64 @@
         "padding_bottom": 52
       }
     },
+    "multicolumn_dPyRCT": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_cyqt4c": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/DSC06886_01bcfff0-3c30-4b4a-a023-d3692c63ad49.jpg",
+            "title": "Visita el nostre Taproom",
+            "text": "<p>Gaudeix de les nostres cerveses de tirador al seu lloc d’origen, juntament amb cafè d’especialitat d’Ambient, kombutxa, vi natural i una carta de cuina informal de temporada.</p>",
+            "link_label": "Més informació",
+            "link": "shopify://pages/taproom"
+          }
+        },
+        "column_9qejKi": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1_7_e71a5b9b-fc45-4d95-8ed2-32afe702d86d.jpg",
+            "title": "Experiències de tast",
+            "text": "<p>Deixa que un membre del nostre equip t’acompanyi en un tast divertit i relaxat de les nostres cerveses.</p>",
+            "link_label": "Més informació",
+            "link": "shopify://pages/tasting"
+          }
+        },
+        "column_kDadMj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/DSC06872_fdfb64cb-adc1-4ec9-92e7-7726208c43fa.jpg",
+            "title": "Esdeveniments especials",
+            "text": "<p>Consulta els propers esdeveniments, tant al nostre Taproom de Rupià com fora d’ell.</p>",
+            "link_label": "Veure esdeveniments",
+            "link": "shopify://pages/events"
+          }
+        }
+      },
+      "block_order": [
+        "column_cyqt4c",
+        "column_9qejKi",
+        "column_kDadMj"
+      ],
+      "custom_css": [],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
     "multirow_9NUBrV": {
       "type": "multirow",
       "blocks": {
@@ -318,6 +376,7 @@
         "row_Kfp4AD",
         "row_bkKgFp"
       ],
+      "disabled": true,
       "name": "t:sections.multirow.presets.name",
       "settings": {
         "image_height": "adapt",
@@ -327,7 +386,7 @@
         "button_style": "primary",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
+        "image_layout": "align-left",
         "section_color_scheme": "background-1",
         "row_color_scheme": "",
         "mobile_content_alignment": "left",
@@ -414,6 +473,7 @@
     "image_with_text_NMYQiC",
     "featured_collection_3riWdx",
     "featured_collection_JAARz7",
+    "multicolumn_dPyRCT",
     "multirow_9NUBrV",
     "image_banner_Fnbk8G",
     "multirow_YFCrtm",

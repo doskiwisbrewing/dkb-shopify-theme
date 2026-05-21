@@ -40,7 +40,7 @@
       "type": "header",
       "custom_css": [],
       "settings": {
-        "logo_position": "top-left",
+        "logo_position": "middle-left",
         "menu": "main-menu",
         "menu_type_desktop": "mega",
         "sticky_header_type": "on-scroll-up",

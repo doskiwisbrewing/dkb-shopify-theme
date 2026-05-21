@@ -16,9 +16,16 @@
           "type": "title",
           "settings": {}
         },
-        "description": {
-          "type": "description",
+        "price": {
+          "type": "price",
           "settings": {}
+        },
+        "bf426db2-e478-4dd7-98d4-650a98e88564": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>IMPORTANT: </strong>Aquest producte només es pot fer servir a la nostra pàgina web. Article no vàlid al Taproom.",
+            "text_style": "subtitle"
+          }
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -26,37 +33,30 @@
             "picker_type": "button"
           }
         },
-        "price": {
-          "type": "price",
-          "settings": {}
-        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {}
         },
-        "bf426db2-e478-4dd7-98d4-650a98e88564": {
-          "type": "text",
-          "settings": {
-            "text": "<strong>IMPORTANT: </strong>Aquest producte només es pot fer servir a la nostra pàgina web. Article no vàlid al Taproom.",
-            "text_style": "uppercase"
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true,
+            "show_dynamic_checkout": false,
             "show_gift_card_recipient": true
           }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
         }
       },
       "block_order": [
         "title",
-        "description",
-        "variant_picker",
         "price",
-        "quantity_selector",
         "bf426db2-e478-4dd7-98d4-650a98e88564",
-        "buy_buttons"
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "description"
       ],
       "custom_css": [
         ".thumbnail-slider {display: none;}"
@@ -66,8 +66,8 @@
         "color_scheme": "background-1",
         "media_size": "medium",
         "constrain_to_viewport": true,
-        "media_fit": "contain",
-        "gallery_layout": "thumbnail",
+        "media_fit": "cover",
+        "gallery_layout": "stacked",
         "media_position": "right",
         "image_zoom": "none",
         "mobile_thumbnails": "hide",
