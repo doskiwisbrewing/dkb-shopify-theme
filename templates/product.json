@@ -18,9 +18,10 @@
         },
         "text_mRTU9f": {
           "type": "text",
-          "name": "Small description",
+          "name": "Short description",
           "settings": {
-            "text": "{{ product.metafields.custom.short_description_2.value }}"
+            "text": "{{ product.metafields.custom.short_description_2.value }}",
+            "text_style": "body"
           }
         },
         "text_bRRYfA": {
