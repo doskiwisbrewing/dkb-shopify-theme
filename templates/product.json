@@ -20,8 +20,7 @@
           "type": "text",
           "name": "Small description",
           "settings": {
-            "text": "",
-            "text_style": "body"
+            "text": "{{ product.metafields.custom.short_description_2.value }}"
           }
         },
         "text_bRRYfA": {
