@@ -18,10 +18,12 @@
         },
         "price": {
           "type": "price",
+          "disabled": true,
           "settings": {}
         },
         "bf426db2-e478-4dd7-98d4-650a98e88564": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<strong>IMPORTANT: </strong>Aquest producte només es pot fer servir a la nostra pàgina web. Article no vàlid al Taproom.",
             "text_style": "subtitle"
