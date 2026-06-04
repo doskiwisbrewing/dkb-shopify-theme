@@ -85,7 +85,7 @@
             "image": "shopify://shop_images/Taproom_-_1_4da6dab5-9bcd-4dbb-8f8c-9d94e0cb9bc6.jpg",
             "caption": "",
             "heading": "🌞 Horari d’estiu del Taproom",
-            "text": "<p>Atenció que fem el canvi a l’horari d’estiu: Aquest dissabte serà l’últim servei de dia abans de finals d’estiu. A partir del cap de setmana vinent, obrirem exclusivament els vespres.<br/><br/>Aquest cap de setmana<br/>Divendres 5 de juny: 18h–23h<br/>Dissabte 6 de juny: 12h–23h<br/>Diumenge 7 de juny: 12h–18h<br/><br/>Cap de setmana vinent<br/>Divendres 12 de juny: 18h–23h<br/>Dissabte 13 de juny: 18h–23h<br/>Diumenge 14 de juny: 18h–23h</p>",
+            "text": "<p>Atenció que fem el canvi a l’horari d’estiu: Aquest dissabte serà l’últim servei de dia abans de finals d’estiu. A partir del cap de setmana vinent, obrirem exclusivament els vespres.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -118,9 +118,8 @@
         "column_hVXwJq": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/EN_4_25d9eee6-477e-475c-b972-2554ec73612b.png",
             "title": "",
-            "text": "",
+            "text": "<p>Aquest cap de setmana<br/>Divendres 5 de juny: 18h–23h<br/>Dissabte 6 de juny: 12h–23h<br/>Diumenge 7 de juny: 12h–18h<br/><br/>Cap de setmana vinent<br/>Divendres 12 de juny: 18h–23h<br/>Dissabte 13 de juny: 18h–23h<br/>Diumenge 14 de juny: 18h–23h<br/><br/>Divendres 19 de juny: 18h–23h<br/>Dissabte 20 de juny: 18h–23h<br/>Diumenge 21 de juny: 18h–23h<br/><br/>Dilluns 22 de juny: 18h–23h<br/>Dijous 25 de juny: 18h–23h<br/>Divendres 26 de juny: 18h–23h<br/>Dissabte 27 de juny: 18h–23h<br/>Diumenge 28 de juny: 18h–23h<br/><br/>Dilluns 29 de juny: 18h–23h<br/>Dijous 2 de juliol: 18h–23h<br/>Divendres 3 de juliol: 18h–23h<br/>Dissabte 4 de juliol: 18h–23h<br/>Diumenge 5 de juliol: 18h–23h<br/><br/>Horari d’estiu<br/>A partir del dilluns 6 de juliol i fins a finals d’agost, obrim cada vespre de 18h a 23h.<br/></p>",
             "link_label": "",
             "link": ""
           }
@@ -128,7 +127,6 @@
         "column_E44Urc": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/EN_6.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -164,7 +162,7 @@
         "text_zU9tRV": {
           "type": "text",
           "settings": {
-            "text": "<p>Si us plau, tingues en compte:Els horaris canvien segons la temporada i s’actualitzen mensualment.<br/>Les nostres cerveses estan disponibles per emportar en llaunes de 440 ml i ampolles reutilitzables de 946 ml.<br/>La botiga està oberta de dilluns a divendres, de 10:00 a 18:00, així com durant els horaris del Taproom.</p>"
+            "text": "<p>Si us plau, tingues en compte: Els horaris canvien segons la temporada i s’actualitzen mensualment.<br/>Les nostres cerveses estan disponibles per emportar en llaunes de 440 ml i ampolles reutilitzables de 946 ml.<br/>La botiga està oberta de dilluns a divendres, de 10:00 a 18:00, així com durant els horaris del Taproom.</p>"
           }
         }
       },
