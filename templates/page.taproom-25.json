@@ -82,10 +82,10 @@
         "row_rGEM6j": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/Mix_Packs_-_15.jpg",
+            "image": "shopify://shop_images/Taproom_-_1_4da6dab5-9bcd-4dbb-8f8c-9d94e0cb9bc6.jpg",
             "caption": "",
-            "heading": "🌸 Horaris del Taproom de maig",
-            "text": "<p>Acompanya’ns aquest cap de setmana per gaudir d’una nova selecció de 10 cerveses a l’aixeta, servides allà on han estat elaborades, mentre el nostre equip de cuina prepara hamburgueses, dolços, cafè d’especialitat i molt més.<br/><br/>Divendres 18h-23h, dissabte 12h-23h, diumenge 12h-18h</p>",
+            "heading": "🌞 Horari d’estiu del Taproom",
+            "text": "<p>Atenció que fem el canvi a l’horari d’estiu: Aquest dissabte serà l’últim servei de dia abans de finals d’estiu. A partir del cap de setmana vinent, obrirem exclusivament els vespres.<br/><br/>Aquest cap de setmana<br/>Divendres 5 de juny: 18h–23h<br/>Dissabte 6 de juny: 12h–23h<br/>Diumenge 7 de juny: 12h–18h<br/><br/>Cap de setmana vinent<br/>Divendres 12 de juny: 18h–23h<br/>Dissabte 13 de juny: 18h–23h<br/>Diumenge 14 de juny: 18h–23h</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -108,6 +108,52 @@
         "section_color_scheme": "",
         "row_color_scheme": "",
         "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_cRHi7k": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_hVXwJq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/EN_4_25d9eee6-477e-475c-b972-2554ec73612b.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_E44Urc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/EN_6.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_hVXwJq",
+        "column_E44Urc"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -205,23 +251,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "image_banner_pgNnQJ": {
-      "type": "image-banner",
-      "name": "t:sections.image-banner.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/5_716b94d9-6eed-4fa4-b5e8-dd9a18b0a595.png",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
     }
   },
   "order": [
@@ -229,8 +258,8 @@
     "image_banner_KitMHg",
     "rich_text_gPVYjh",
     "multirow_8q39wH",
+    "multicolumn_cRHi7k",
     "rich_text_GKYPBd",
-    "multirow_MLxAWR",
-    "image_banner_pgNnQJ"
+    "multirow_MLxAWR"
   ]
 }
