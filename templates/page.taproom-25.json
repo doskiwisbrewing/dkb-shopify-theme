@@ -21,7 +21,7 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/Doskiwis_GiRODEO-7.png",
+        "image": "shopify://shop_images/Taproom_-_1_3894de04-43a4-47a2-b3b9-456edc08584b.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -115,28 +115,29 @@
     "multicolumn_cRHi7k": {
       "type": "multicolumn",
       "blocks": {
-        "column_hVXwJq": {
+        "column_E44Urc": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Summer_hours_-_3.jpg",
             "title": "",
-            "text": "<p>Aquest cap de setmana<br/>Divendres 5 de juny: 18h–23h<br/>Dissabte 6 de juny: 12h–23h<br/>Diumenge 7 de juny: 12h–18h<br/><br/>Cap de setmana vinent<br/>Divendres 12 de juny: 18h–23h<br/>Dissabte 13 de juny: 18h–23h<br/>Diumenge 14 de juny: 18h–23h<br/><br/>Divendres 19 de juny: 18h–23h<br/>Dissabte 20 de juny: 18h–23h<br/>Diumenge 21 de juny: 18h–23h<br/><br/>Dilluns 22 de juny: 18h–23h<br/>Dijous 25 de juny: 18h–23h<br/>Divendres 26 de juny: 18h–23h<br/>Dissabte 27 de juny: 18h–23h<br/>Diumenge 28 de juny: 18h–23h<br/><br/>Dilluns 29 de juny: 18h–23h<br/>Dijous 2 de juliol: 18h–23h<br/>Divendres 3 de juliol: 18h–23h<br/>Dissabte 4 de juliol: 18h–23h<br/>Diumenge 5 de juliol: 18h–23h<br/><br/>Horari d’estiu<br/>A partir del dilluns 6 de juliol i fins a finals d’agost, obrim cada vespre de 18h a 23h.<br/></p>",
+            "text": "",
             "link_label": "",
             "link": ""
           }
         },
-        "column_E44Urc": {
+        "column_hVXwJq": {
           "type": "column",
           "settings": {
             "title": "",
-            "text": "",
+            "text": "<p>Aquest cap de setmana<br/>Divendres 5 de juny: 18h–23h<br/>Dissabte 6 de juny: 12h–23h<br/>Diumenge 7 de juny: 12h–18h<br/><br/>Cap de setmana vinent<br/>Divendres 12 de juny: 18h–23h<br/>Dissabte 13 de juny: 18h–23h<br/>Diumenge 14 de juny: 18h–23h<br/><br/>Divendres 19 de juny: 18h–23h<br/>Dissabte 20 de juny: 18h–23h<br/>Diumenge 21 de juny: 18h–23h<br/><br/>Dilluns 22 de juny: 18h–23h<br/>Dijous 25 de juny: 18h–23h<br/>Divendres 26 de juny: 18h–23h<br/>Dissabte 27 de juny: 18h–23h<br/>Diumenge 28 de juny: 18h–23h<br/><br/>Dilluns 29 de juny: 18h–23h<br/>Dijous 2 de juliol: 18h–23h<br/>Divendres 3 de juliol: 18h–23h<br/>Dissabte 4 de juliol: 18h–23h<br/>Diumenge 5 de juliol: 18h–23h<br/><br/>A partir del dilluns 6 de juliol i fins a finals d’agost, obrim cada vespre de 18h a 23h.</p>",
             "link_label": "",
             "link": ""
           }
         }
       },
       "block_order": [
-        "column_hVXwJq",
-        "column_E44Urc"
+        "column_E44Urc",
+        "column_hVXwJq"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
@@ -145,7 +146,7 @@
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 2,
-        "column_alignment": "left",
+        "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
         "button_link": "",
@@ -196,7 +197,7 @@
         "row_frFmhK": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/DSC06123_26de5972-d938-441c-8257-5a5e5473cd57.jpg",
+            "image": "shopify://shop_images/1_7_e71a5b9b-fc45-4d95-8ed2-32afe702d86d.jpg",
             "caption": "",
             "heading": "Reserva taula",
             "text": "<p>Recomanem reservar amb antelació per assegurar una taula, especialment en festius o nits d’estiu amb molta afluència.</p>",
@@ -207,7 +208,7 @@
         "row_YE6kXk": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/1_7_2da85aa4-699a-4fb8-98ec-66da6a793632.jpg",
+            "image": "shopify://shop_images/Merchfinal-50.jpg",
             "caption": "",
             "heading": "Experiències de tast",
             "text": "<p>Deixa que un membre del nostre equip t’acompanyi en un tast divertit i relaxat de tota la gamma de cerveses Doskiwis.</p>",
