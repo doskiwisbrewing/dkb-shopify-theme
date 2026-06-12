@@ -20,13 +20,13 @@
             "form_id": "1028048",
             "text_color": "#000000",
             "button_background_color": "#000000",
-            "button_label_color": "#FFFFFF",
+            "button_label_color": "#ffffff",
             "links_color": "#000000",
-            "errors_color": "#E02229",
+            "errors_color": "#e02229",
             "text_alignment": "left",
             "form_alignment": "flex-start",
             "padding_top": 40,
-            "padding_bottom": 40,
+            "padding_bottom": 64,
             "padding_right": 0,
             "padding_left": 0
           }
