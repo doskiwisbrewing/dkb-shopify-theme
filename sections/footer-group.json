@@ -11,40 +11,32 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
-    "newsletter_kBUH6P": {
-      "type": "newsletter",
+    "1781252699807dcddd": {
+      "type": "apps",
       "blocks": {
-        "heading_BrGnqw": {
-          "type": "heading",
+        "forms_inline_DyaWBN": {
+          "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
           "settings": {
-            "heading": "Newsletter DosKiwis",
-            "heading_size": "h2"
+            "form_id": "1028048",
+            "text_color": "#000000",
+            "button_background_color": "#000000",
+            "button_label_color": "#FFFFFF",
+            "links_color": "#000000",
+            "errors_color": "#E02229",
+            "text_alignment": "left",
+            "form_alignment": "flex-start",
+            "padding_top": 40,
+            "padding_bottom": 40,
+            "padding_right": 0,
+            "padding_left": 0
           }
-        },
-        "paragraph_X3XxPU": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Subscriu-te per aconseguir un 10% de descompte en la teva primera comanda.</p>"
-          }
-        },
-        "email_form_Q8xckD": {
-          "type": "email_form",
-          "disabled": true,
-          "settings": {}
         }
       },
       "block_order": [
-        "heading_BrGnqw",
-        "paragraph_X3XxPU",
-        "email_form_Q8xckD"
+        "forms_inline_DyaWBN"
       ],
-      "disabled": true,
-      "name": "t:sections.newsletter.presets.name",
       "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "include_margins": true
       }
     },
     "custom_liquid_kkBq9r": {
@@ -108,7 +100,7 @@
     }
   },
   "order": [
-    "newsletter_kBUH6P",
+    "1781252699807dcddd",
     "custom_liquid_kkBq9r",
     "footer"
   ]
