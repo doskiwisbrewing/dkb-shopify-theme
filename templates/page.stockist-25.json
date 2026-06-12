@@ -19,6 +19,7 @@
     },
     "image_banner_KitMHg": {
       "type": "image-banner",
+      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/7_68f3e796-b306-4770-bf98-c41ae2111096.png",
