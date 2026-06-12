@@ -264,6 +264,7 @@
     },
     "image_banner_g3ePRA": {
       "type": "image-banner",
+      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/1_2c591e2c-d18a-4375-8cf6-0c8a55b9b4a9.png",
