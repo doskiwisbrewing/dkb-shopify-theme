@@ -71,7 +71,7 @@
         "row_JVyVyn": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/DSC01788.jpg",
+            "image": "shopify://shop_images/EN_7.png",
             "caption": "",
             "heading": "Adreça del Taproom",
             "text": "<p>Doskiwis Brewing, Carretera Parlavà 22, 17131 Rupià, Girona</p>",
@@ -82,10 +82,10 @@
         "row_rGEM6j": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/Taproom_-_1_4da6dab5-9bcd-4dbb-8f8c-9d94e0cb9bc6.jpg",
+            "image": "shopify://shop_images/bbq_-_1_1.jpg",
             "caption": "",
-            "heading": "🌞 Horari d’estiu del Taproom",
-            "text": "<p>Obrim exclusivament als vespres fins a finals d’agost, servint cervesa freda i fresca al jardí del Taproom.</p>",
+            "heading": "🌞 L’horari d’estiu s’acaba",
+            "text": "<p>Aquesta setmana encara obrim cada vespre, de 18:00 a 23:30, amb la Nit de Barbacoa aquest dijous.</p><p>A partir de dilluns 31 d’agost, passarem al nostre nou horari, amb la Nit de Barbacoa que passa als divendres:<br/></p><p><strong>Divendres, 18:00-23:00 · Nit BBQ 🔥🔥</strong></p><p><strong>Dissabte, 18:00-23:00</strong></p><p><strong>Diumenge, 18:00-23:00</strong></p><p>Tancat de dilluns a dijous.</p><p>Ens veiem al Taproom 🍻</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -117,6 +117,7 @@
       "blocks": {
         "column_E44Urc": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Summer_hours_-_3.jpg",
             "title": "",
@@ -127,6 +128,7 @@
         },
         "column_hVXwJq": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "title": "",
             "text": "<p>Dilluns 29 de juny: 18h–23h<br/>Dijous 2 de juliol: 18h–23h<br/>Divendres 3 de juliol: 18h–23h<br/>Dissabte 4 de juliol: 18h–23h<br/>Diumenge 5 de juliol: 18h–23h<br/><br/>A partir del dilluns 6 de juliol i fins a finals d’agost, obrim cada vespre de 18h a 23h.</p>",
