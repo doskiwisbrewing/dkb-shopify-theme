@@ -17,24 +17,6 @@
         "padding_bottom": 36
       }
     },
-    "image_banner_KitMHg": {
-      "type": "image-banner",
-      "disabled": true,
-      "name": "t:sections.image-banner.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/8_8e382aaa-7b1b-4fd2-8ae9-81d9cdff427b.png",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "rich_text_n3Pahk": {
       "type": "rich-text",
       "blocks": {
@@ -66,33 +48,43 @@
         "padding_bottom": 52
       }
     },
-    "image_with_text_8y9prC": {
+    "image_with_text_UGYM3H": {
       "type": "image-with-text",
       "blocks": {
-        "heading_wpeTT7": {
+        "heading_YqJdgg": {
           "type": "heading",
           "settings": {
-            "heading": "Personal per al Taproom",
+            "heading": "Warehouse, Logistics & Packaging",
             "heading_size": "h1"
           }
         },
-        "text_WfpnYF": {
+        "text_grrNqr": {
           "type": "text",
           "settings": {
-            "text": "<p>La posició comença a temps parcial, amb possibilitat de passar a jornada completa durant els mesos d’estiu. No cal experiència prèvia, però és imprescindible parlar anglès. Aplica ara: <a href=\"mailto:doskiwis@doskiwisbrewing.com\"><span style=\"text-decoration:underline\">doskiwis@doskiwisbrewing.com</span></a></p>",
+            "text": "<p>We’re looking for a full-time Warehouse, Logistics & Packaging person to join us in Rupià from January 2027. You’ll look after our beer from the moment it’s packaged until it reaches the customer: cold storage, stock, packaging support, orders and deliveries. If you’re organised, hands-on, hold a B licence and love beer, we’d like to hear from you.</p>",
             "text_style": "body"
+          }
+        },
+        "button_LBYejm": {
+          "type": "button",
+          "settings": {
+            "button_label": "Find out more",
+            "button_link": "",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "heading_wpeTT7",
-        "text_WfpnYF"
+        "heading_YqJdgg",
+        "text_grrNqr",
+        "button_LBYejm"
       ],
+      "disabled": true,
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/1_2_5de9dd68-f36f-4238-b198-d7677ca06c87.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
+        "image": "shopify://shop_images/upward_spiral_-_2.jpg",
+        "height": "small",
+        "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
@@ -102,63 +94,57 @@
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
-        "padding_bottom": 100
+        "padding_bottom": 36
       }
     },
-    "image_with_text_ikXPAN": {
-      "type": "image-with-text",
+    "rich_text_Fhq9xd": {
+      "type": "rich-text",
       "blocks": {
-        "heading_id6DYN": {
+        "heading_q3wan3": {
           "type": "heading",
           "settings": {
-            "heading": "Cuiner/a Jornada completa",
+            "heading": "Warehouse, Logistics & Packaging",
             "heading_size": "h1"
           }
         },
-        "text_Ywxhwt": {
+        "text_mVyVrC": {
           "type": "text",
           "settings": {
-            "text": "",
-            "text_style": "body"
+            "text": "<p>We’re looking for a full-time Warehouse, Logistics & Packaging person to join us in Rupià from January 2027. You’ll look after our beer from the moment it’s packaged until it reaches the customer: cold storage, stock, packaging support, orders and deliveries. If you’re organised, hands-on, hold a B licence and love beer, we’d like to hear from you.</p>"
           }
         },
-        "button_GwNP4d": {
+        "button_DR6jLH": {
           "type": "button",
           "settings": {
-            "button_label": "Més informació",
-            "button_link": "shopify://pages/cuinera",
-            "button_style_secondary": false
+            "button_label": "Find out more",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "heading_id6DYN",
-        "text_Ywxhwt",
-        "button_GwNP4d"
+        "heading_q3wan3",
+        "text_mVyVrC",
+        "button_DR6jLH"
       ],
-      "name": "t:sections.image-with-text.presets.name",
+      "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/DSC07027.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
+        "desktop_content_position": "center",
+        "content_alignment": "left",
         "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 100
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
   "order": [
     "main",
-    "image_banner_KitMHg",
     "rich_text_n3Pahk",
-    "image_with_text_8y9prC",
-    "image_with_text_ikXPAN"
+    "image_with_text_UGYM3H",
+    "rich_text_Fhq9xd"
   ]
 }
