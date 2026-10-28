@@ -103,32 +103,20 @@
         "heading_q3wan3": {
           "type": "heading",
           "settings": {
-            "heading": "Warehouse, Logistics & Packaging",
+            "heading": "Magatzem, Logística i Envasat",
             "heading_size": "h1"
           }
         },
         "text_mVyVrC": {
           "type": "text",
           "settings": {
-            "text": "<p>We’re looking for a full-time Warehouse, Logistics & Packaging person to join us in Rupià from January 2027. You’ll look after our beer from the moment it’s packaged until it reaches the customer: cold storage, stock, packaging support, orders and deliveries. If you’re organised, hands-on, hold a B licence and love beer, we’d like to hear from you.</p>"
-          }
-        },
-        "button_DR6jLH": {
-          "type": "button",
-          "settings": {
-            "button_label": "Find out more",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "text": "<p>Descripció del lloc · Rupià, Baix Empordà · Jornada completa, 40 hores · Incorporació gener 2027</p><p><strong>El lloc de treball</strong></p><p>Busquem una persona organitzada i resolutiva per cuidar la nostra cervesa des de l’envasat fins al lliurament.</p><p>T’encarregaràs de l’organització del magatzem, la cambra freda, la gestió d’estoc, el suport a l’envasat, la preparació de comandes i els lliuraments a clients. És una feina variada i pràctica que combina tres dies a la fàbrica amb dos dies a la carretera cada setmana.</p><p>Treballant en estreta col·laboració amb els equips de producció i operacions, ajudaràs a mantenir l’estoc al dia, les comandes en marxa i la cervesa arribant als clients en les millors condicions.</p><p><strong>Què faràs</strong></p><ul><li>Magatzem i estoc: Mantenir el magatzem i la cambra freda nets, ordenats i ben gestionats. Portar registres d’estoc precisos i garantir la rotació correcta i la traçabilitat per lots.</li><li>Envasat: Donar suport a les sessions d’enllaunat preparant materials, empaquetant llaunes, revisant la producció i organitzant el producte acabat.</li><li>Comandes i expedició: Preparar comandes de clients i online, muntar palets per a distribuïdors, organitzar recollides i mantenir actualitzats els sistemes d’estoc.</li><li>Lliuraments: Conduir la furgoneta de repartiment dos dies a la setmana, lliurant comandes per Barcelona, Girona i l’Empordà.</li><li>Treball en equip: Coordinar-te amb els equips de producció, operacions, vendes i taproom per mantenir tothom informat i assegurar que la cervesa adequada estigui disponible quan calgui.</li></ul><p><strong>La persona</strong></p><p>Busquem algú pràctic, fiable i que s’enorgulleixi de fer les coses ben fetes.</p><p>Imprescindible:</p><ul><li>Actitud positiva i proactiva, i interès per la cervesa.</li><li>Carnet de conduir B en vigor i confiança conduint una furgoneta.</li><li>Bona organització, atenció al detall i habilitats numèriques bàsiques.</li><li>Comoditat treballant de manera autònoma, portant registres precisos i utilitzant fulls de càlcul.</li><li>Comunicació clara i capacitat per resoldre problemes amb calma.</li><li>Capacitat per aixecar fins a 30 kg de manera repetida i treballar en cambres fredes.</li><li>Capacitat per fer servir transpalets manuals i elèctrics amb seguretat.</li><li>Català i/o castellà, i un bon nivell d’anglès.</li></ul><p>Es valorarà experiència en magatzem, logística o producció, així com experiència pràctica amb maquinària o resolució d’incidències. T’ajudarem a aprendre els sistemes que utilitzem, com Holded i Shopify.</p><p><strong>T’interessa?</strong></p><p>Si ets una persona organitzada, pràctica i t’agrada assumir responsabilitats, ens encantarà conèixer-te.</p><p>Envia’ns el teu CV i una breu presentació a cv@doskiwisbrewing.com.</p>"
           }
         }
       },
       "block_order": [
         "heading_q3wan3",
-        "text_mVyVrC",
-        "button_DR6jLH"
+        "text_mVyVrC"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
